@@ -6,7 +6,7 @@ export default {
     "about me",
     "My Name is David Villegas, and I have many talents.  ",
     
-    "\ FUCKING TEXT LINE 3"    
+    " FUCKING TEXT LINE 3"    
     ]
 } 
 

@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import './About.css';
-import { Container } from 'react-bootstrap';
 import data from './Biography';
-import Navbar from "../../components/Navbar";
 
 class About extends Component {
     render(){
