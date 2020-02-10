@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './About.css';
-import data from './Biography';
+import data from './AboutData';
 
 class About extends Component {
     render(){
@@ -10,7 +10,7 @@ class About extends Component {
                     <h1 className="aboutHeader"> about </h1>
                 </div>
                 {/* <div className="aboutText"> */}
-                <h3>{data.biography[1]}</h3>
+                <h3>{data.aboutData[1]}</h3>
                 {/* </div> */}
             </div>
             
