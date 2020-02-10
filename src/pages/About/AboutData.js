@@ -1,7 +1,7 @@
 
 export default {
 
-    biography: 
+    aboutData: 
     [
     "about me",
     "My Name is David Villegas,  ",

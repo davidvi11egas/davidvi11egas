@@ -37,7 +37,7 @@ const Navbar = props => (
                 : "nav-link"
             }
           >
-            Creativ
+            Creative
           </Link>
         </li>
 
