@@ -6,14 +6,16 @@ class Home extends Component{
     return(
       <div>
         <div className="bioPicBox">
-        <img id="bioPic" src={require("../../images/davidFullBody.jpg")} alt="landingPic" /> 
-        </div>
+          <img id="bioPic" src={require("../../images/davidFullBody.jpg")} alt="landingPic" /> 
+            </div>
+                <span>
+                  <h3 id="construction">!site currently under construction!</h3>
+                </span>
         <div id="textBox">
-          <p className="tagLine"> digital marketing </p>
-          <p className="tagLine"> creative design </p>
-          <p className="tagLine"> web development  </p>
-
-        </div>
+                <p className="tagLine"> digital marketing </p>
+                <p className="tagLine"> creative design </p>
+                <p className="tagLine"> web development  </p>
+                </div>
       </div>
     );
   }

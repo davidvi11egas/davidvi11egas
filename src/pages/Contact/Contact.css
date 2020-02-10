@@ -1,5 +1,21 @@
 .contactHeader {
     font-family: 'Bebas Neue';
-    font-size: 900%;
+    font-size: 9vw;
     color: #343A40;
+}
+
+#contactBox {
+    font-family: 'Bebas Neue';
+    list-style-type:none;
+    color: #343A40;
+}
+
+a{
+    color: #2F72FF;
+
+    /* text-decoration: none; */
+}
+a:hover {
+    color: rgba(216, 97, 28, 0.835);
+    text-decoration: none;
 }

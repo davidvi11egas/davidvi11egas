@@ -5,18 +5,18 @@ import './Contact.css';
 class Contact extends Component {
     render() {
         return (
-
-            <div>
+            <div id="contactBox">
                 <h1 className="contactHeader"> Contact </h1>
                 <h1>
                     Reach out and lets see what we can do together!<br></br>
-                    </h1>
-                <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
-                {/* <ul>
+                    <a href={`mailto:${data.contactEmail}`} className='email'>Send me an Email</a>
                     {data.social.map((link, index) => (
                         <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
                     ))}
-                </ul> */}
+                    </h1>
+                
+
+                
             </div>
 
 
