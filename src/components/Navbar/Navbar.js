@@ -10,6 +10,8 @@ const Navbar = props => (
     </Link>
     <div>
       <ul className="navbar-nav">
+
+
         {/* <li className="nav-item">
           <Link
             to="/about"
@@ -22,10 +24,11 @@ const Navbar = props => (
             About
           </Link>
         </li> */}
-        <li className="nav-item">
+
 
           {/* **Remove this section from the link below (|| window.location.pathname ==="/creative") to active the current color selection when you active the about link above */}
 
+        <li className="nav-item">
           <Link
             to="/creative"
             className={
@@ -37,6 +40,8 @@ const Navbar = props => (
             Creativ
           </Link>
         </li>
+
+
         <li className="nav-item">
           <Link
             to="/marketing"
@@ -44,11 +49,13 @@ const Navbar = props => (
               window.location.pathname === "/marketing"
                 ? "nav-link active"
                 : "nav-link"
-            }
-          >
+              }
+            >
             Marketing
           </Link>
         </li>
+
+
         <li className="nav-item">
           <Link
             to="/contact"
@@ -61,6 +68,8 @@ const Navbar = props => (
             Contact
           </Link>
         </li>
+
+
       </ul>
     </div>
   </nav>
