@@ -4,7 +4,7 @@ export default {
     biography: 
     [
     "about me",
-    "My Name is David Villegas, and I have many talents.  ",
+    "My Name is David Villegas,  ",
     
     " FUCKING TEXT LINE 3"    
     ]

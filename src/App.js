@@ -7,6 +7,7 @@ import { Route, BrowserRouter as Router } from 'react-router-dom';
 //component imports
 import Container from '../src/components/Container';
 import Navbar from '../src/components/Navbar';
+import Footer from '../src/components/Footer';
 // page imports
 import Home from './pages/Home';
 import About from './pages/About';
@@ -26,7 +27,9 @@ const App = () => (
       <Route exact path="/creative" component={Creative} />
       <Route exact path='/webDev' component={Webdev} />
       <Route exact path='/marketing' component={Marketing} />
+      
     </Container>
+    
   </Router>
 );
 export default App;

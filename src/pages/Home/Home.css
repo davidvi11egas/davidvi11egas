@@ -3,12 +3,13 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
 
-#bioBox {
+.bioPicBox {
     float: left;
     text-align: center;
 }
 #bioPic {
-    width: 43%;
+    width: 23vw;
+    /* padding-right: 30%; */
 }
 #nameBox{
     text-align: center;
@@ -21,6 +22,11 @@
 }
 .tagLine {
     font-family: 'Bebas Neue';
-    font-size: 150px;
+    font-size: 9vw;
     color: #343A40;
+    /* margin-bottom: 0; */
+}
+#textBox {
+    /* text-align: center; */
+    /* float: left; */
 }

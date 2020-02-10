@@ -4,24 +4,9 @@ import './Marketing.css';
 class Marketing extends Component {
     render() {
         return (
-     
-                <div id="textBox">
-                <h1>PUT YOUR MARKETING BULLSHIT HERE</h1>
-                <h1>PUT YOUR MARKETING BULLSHIT HERE</h1>
-                <h1>PUT YOUR MARKETING BULLSHIT HERE</h1>
-                <h1>PUT YOUR MARKETING BULLSHIT HERE</h1>
-                <h1>PUT YOUR MARKETING BULLSHIT HERE</h1>
-                    <h1>PUT YOUR MARKETING BULLSHIT HERE</h1>
-                    <h1>PUT YOUR MARKETING BULLSHIT HERE</h1>
-                    <h1>PUT YOUR MARKETING BULLSHIT HERE</h1>
-                    <h1>PUT YOUR MARKETING BULLSHIT HERE</h1>
-                    <h1>PUT YOUR MARKETING BULLSHIT HERE</h1>
-
-                
-                
-
-                </div>
-
+            <div>
+                <h1 className="aboutHeader"> marketing </h1>               
+            </div>
         );
     }
 }

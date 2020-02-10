@@ -1,6 +1,6 @@
-a.nav-link {
-    color: white;
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+
+.navbar-brand {
+    font-family: 'Satisfy',cursive;
 }
-a.nav-link:hover {
-    color: #2F72FF;
-}
+

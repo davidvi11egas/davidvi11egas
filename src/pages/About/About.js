@@ -6,16 +6,12 @@ class About extends Component {
     render(){
         return(
             <div>
-                <div id="bioBox">
-                    <p id="myName"> David Villegas </p>
-                    <img id="bioPic" src={require("../../images/davidFullBody.jpg")} alt="landingPic" />
+                    <div>
+                    <h1 className="aboutHeader"> about </h1>
                 </div>
-                <div>
-                    <p id="bioHeader">About Me</p>
-                </div>
-                <div className="bioText">
+                {/* <div className="aboutText"> */}
                 <h3>{data.biography[1]}</h3>
-                </div>
+                {/* </div> */}
             </div>
             
         );

@@ -6,7 +6,7 @@ class Creative extends Component {
         return (
             
                 <div>
-                    <h1 className="creativeText">creative</h1>
+                    <h1 className="creativeHeader">creative</h1>
                 </div>
       
 
