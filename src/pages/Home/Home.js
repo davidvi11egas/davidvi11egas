@@ -9,9 +9,10 @@ class Home extends Component{
         <img id="bioPic" src={require("../../images/davidFullBody.jpg")} alt="landingPic" /> 
         </div>
         <div id="textBox">
-          <p className="tagLine"> digital marketing </p>
+          {/* <p className="tagLine"> digital marketing </p>
           <p className="tagLine"> creative design </p>
-          <p className="tagLine"> web development  </p>
+          <p className="tagLine"> web development  </p> */}
+          <p className="constructionText"> Page is currently under construction! </p>
         </div>
       </div>
     );

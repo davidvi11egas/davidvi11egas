@@ -8,8 +8,8 @@
     text-align: center;
 }
 #bioPic {
-    width: 23vw;
-    /* padding-right: 30%; */
+    width: 16vw;
+    margin: 20px;
 }
 #nameBox{
     text-align: center;
@@ -24,8 +24,13 @@
     font-family: 'Bebas Neue';
     font-size: 9vw;
     color: #343A40;
-    /* margin-bottom: 0; */
 }
+.constructionText {
+    font-family: 'Bebas Neue';
+    font-size: 6vw;
+    color: #343A40;
+}
+
 #textBox {
     /* text-align: center; */
     /* float: left; */

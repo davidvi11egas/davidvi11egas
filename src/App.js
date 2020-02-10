@@ -13,8 +13,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Webdev from './pages/Webdev';
 import Marketing from './pages/Marketing';
-import Creative from './pages/Creative/Creative';
-
+import Creative from './pages/Creative';
+import Contact from './pages/Contact';
 
 
 const App = () => (
@@ -27,7 +27,7 @@ const App = () => (
       <Route exact path="/creative" component={Creative} />
       <Route exact path='/webDev' component={Webdev} />
       <Route exact path='/marketing' component={Marketing} />
-      
+      <Route exact path='/contact' component={Contact}/>
     </Container>
     
   </Router>
