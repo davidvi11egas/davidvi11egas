@@ -1,1 +1,1 @@
-This Website was created by David Villegas
+This Website was created by David Villegas using React & AWS Amplify
