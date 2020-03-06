@@ -1,36 +1,27 @@
-@import url("https://fonts.googleapis.com/css?family=Kodchasan");
 @import url("https://fonts.googleapis.com/css?family=Satisfy");
-@import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
 
 .bioPicBox {
-    float: left;
-    text-align: center;
-}
-#bioPic {
-    width: 15vw;
-    margin: 20px;
-}
-#nameBox{
     text-align: center;
 }
 
-#myName{
-    font-family: 'Satisfy', cursive;
-    font-size: 50px;
-    color: #2F72FF;
-}
-.tagLine {
-    font-family: 'Bebas Neue';
-    font-size: 5vw;
-    color: #343A40;
-}
-#construction {
-    font-family: 'Bebas Neue';
-    font-size: 4vw;
-    color: rgba(216, 97, 28, 0.835);
+#bioPic {
+    width: 15vw;
+    margin-top: 20px;
 }
 
 #textBox {
-    /* margin: 30px; */
+    text-align: left;
+}
+
+.nameLine{
+    font-family: 'Bebas Neue';
+    font-size: 7vw;
+    color: #2F72FF;
+}
+
+.tagLine {
+    font-family: 'Bebas Neue';
+    font-size: 7vw;
+    color: #343A40;
 }

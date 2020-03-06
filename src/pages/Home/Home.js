@@ -1,21 +1,26 @@
 import React,{Component} from "react";
 import "./Home.css";
+import { Row, Col } from 'react-bootstrap';
 
 class Home extends Component{
   render(){
     return(
       <div>
-        <div className="bioPicBox">
-          <img id="bioPic" src={require("../../images/davidFullBody.jpg")} alt="landingPic" /> 
+        <Row>
+          <Col>
+            <div className="bioPicBox">
+              <img id="bioPic" src={require("../../images/davidFullBody.jpg")} alt="landingPic" />
             </div>
-                <span>
-                  <h3 id="construction">david villegas</h3>
-                </span>
-        <div id="textBox">
-                <p className="tagLine"> digital marketing </p>
-                <p className="tagLine"> creative design </p>
-                <p className="tagLine"> web development  </p>
-                </div>
+          </Col>
+          <Col xs="7">
+            <div id="textBox">
+              <p className="nameLine"> david villegas </p>
+              <p className="tagLine"> web developer </p>
+              <p className="tagLine"> marketing pro </p>
+              <p className="tagLine"> graphic designer  </p>
+            </div>
+          </Col>
+        </Row>
       </div>
     );
   }
