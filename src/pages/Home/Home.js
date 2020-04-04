@@ -36,12 +36,14 @@ class Home extends Component {
   render() {
     return (
       <div className="pageContent">
-        <h1 className="pageHeader"> David Villegas </h1>
-        <ul class="list-group list-group tagLine">
-          <li class="list-group-item"> web development </li>
-          <li class="list-group-item"> marketing </li>
-          <li class="list-group-item"> graphic design </li>
-        </ul>
+        <span className="pageHeader"> David Villegas </span>
+       
+        <div className="card tagLine">
+          <p> web development</p>
+          <p> marketing </p>
+          <p> graphic design </p>
+        </div>
+     
       </div>
     );
   }
