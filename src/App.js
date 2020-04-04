@@ -3,11 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 //package imports
 import { Route, BrowserRouter as Router } from 'react-router-dom';
-// import { Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 //component imports
-import Container from '../src/components/Container';
+// import Container from '../src/components/Container';
 import Navbar from '../src/components/Navbar';
-import Footer from '../src/components/Footer';
 // page imports
 import Home from './pages/Home';
 import About from './pages/About';
@@ -20,8 +19,10 @@ import Contact from './pages/Contact';
 const App = () => (
 
   <Router>
+    
+   
     <Container>
-      <Navbar/>
+      <Navbar />
       <Route exact path='/' component={Home} />
       <Route exact path='/about' component={About} />
       <Route exact path="/creative" component={Creative} />

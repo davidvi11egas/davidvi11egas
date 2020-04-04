@@ -10,18 +10,10 @@
     margin-top: 20px;
 }
 
-#textBox {
-    text-align: left;
-}
 
-.nameLine{
-    font-family: 'Bebas Neue';
-    font-size: 7vw;
-    color: #2F72FF;
-}
 
 .tagLine {
-    font-family: 'Bebas Neue';
-    font-size: 7vw;
+    font-family: 'Swanky and Moo Moo';
+    font-size: 2vw;
     color: #343A40;
 }

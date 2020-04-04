@@ -1,13 +1,3 @@
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
 @import url("https://fonts.googleapis.com/css?family=Bevan");
 @import url("https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo");
-.creativeHeader {
-    font-family: 'Bevan';
-    font-size: 5vw;
-    color: #343A40;
-}
-.pageDescription {
-    font-family: 'Bevan';
-    font-size: medium;
-    /* text-align: center; */
-}

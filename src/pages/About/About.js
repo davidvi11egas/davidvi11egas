@@ -2,18 +2,15 @@ import React, {Component} from 'react';
 import './About.css';
 import data from './AboutData';
 
+
+
 class About extends Component {
-    render(){
-        return(
-            <div>
-                    <div>
-                    <h1 className="aboutHeader"> about </h1>
-                </div>
-                {/* <div className="aboutText"> */}
+    render() {
+        return (
+            <div className="pageContent">
+                <h1 className="pageHeader"> About Me </h1>
                 <h3>{data.aboutData[1]}</h3>
-                {/* </div> */}
             </div>
-            
         );
     }
 }

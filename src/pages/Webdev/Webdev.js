@@ -4,20 +4,10 @@ import './Webdev.css';
 class Webdev extends Component {
     render() {
         return (
-  
-                <div>
-                <h1>THIS IS WHERE ALL YOUR FUCKING WEB DEV SHIT GOES!</h1>
-                    <h1>THIS IS WHERE ALL YOUR FUCKING WEB DEV SHIT GOES!</h1>
-                    <h1>THIS IS WHERE ALL YOUR FUCKING WEB DEV SHIT GOES!</h1>
-                    <h1>THIS IS WHERE ALL YOUR FUCKING WEB DEV SHIT GOES!</h1>
-                    <h1>THIS IS WHERE ALL YOUR FUCKING WEB DEV SHIT GOES!</h1>
-                    <h1>THIS IS WHERE ALL YOUR FUCKING WEB DEV SHIT GOES!</h1>
-                    <h1>THIS IS WHERE ALL YOUR FUCKING WEB DEV SHIT GOES!</h1>
-                    <h1>THIS IS WHERE ALL YOUR FUCKING WEB DEV SHIT GOES!</h1>
-                    <h1>THIS IS WHERE ALL YOUR FUCKING WEB DEV SHIT GOES!</h1>
-                    <h1>THIS IS WHERE ALL YOUR FUCKING WEB DEV SHIT GOES!</h1>
-
-                </div>
+            <div className="pageContent">
+                <h1 className="pageHeader">Web Dev </h1>
+                <h3>Code</h3>
+            </div>
         );
     }
 }
