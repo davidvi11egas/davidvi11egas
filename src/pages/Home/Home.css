@@ -13,7 +13,8 @@
 
 
 .tagLine {
-    font-family: 'Bebas Neue';
-    font-size: 8vh;
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 9vh;
     color: #343A40;
 }

@@ -36,12 +36,12 @@ class Home extends Component {
   render() {
     return (
       <div className="pageContent">
-        <span className="pageHeader"> David Villegas </span>
+        {/* <span className="pageHeader">David Villegas</span> */}
        
         <div className="card tagLine">
-          <p> web development</p>
-          <p> marketing </p>
-          <p> graphic design </p>
+          <p>WEB DEVELOPMENT</p>
+          <p>DIGITAL MARKETING</p>
+          <p>CREATIVE DESIGN</p>
         </div>
      
       </div>

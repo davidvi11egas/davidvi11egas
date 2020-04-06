@@ -5,8 +5,9 @@ import './Contact.css';
 class Contact extends Component {
     render() {
         return (
+           <div className="pageContent">
+                <span className="pageHeader"> Contact </span>
             <div id="contactBox">
-                <h1 className="contactHeader"> Contact </h1>
                 <p>
                     Reach out and lets see what we can do together!<br></br>
                     <a href={`mailto:${data.contactEmail}`} className='email'>Send me an Email</a>
@@ -16,7 +17,7 @@ class Contact extends Component {
                     </p>
                 
 
-                
+               </div> 
             </div>
 
 
