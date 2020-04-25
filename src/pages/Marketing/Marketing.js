@@ -5,7 +5,9 @@ class Marketing extends Component {
     render() {
         return (
             <div className="pageContent">
-                <h1 className="pageHeader">marketing</h1>               
+             
+                    <header className="pageHeader">marketing</header>              
+             
             </div>
         );
     }

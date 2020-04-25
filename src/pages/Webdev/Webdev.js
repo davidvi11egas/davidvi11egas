@@ -6,12 +6,12 @@ class Webdev extends Component {
     return (
       <div className="pageContent">
         <header className="pageHeader">WebDev</header>
-        <div className="card">
+        <div className="card siteCard">
           <div className="card-header">
             <h1>CODE</h1>
           </div>
           <div className="card-body">
-                    <img width="100" src="https://www.xmple.com/wallpaper/checkered-blue-squares-white-1920x1080-c2-00bfff-ffffff-l-240-a-60-f-2.svg" alt="sampleWebsite"/>
+            <img width="100" src="https://www.xmple.com/wallpaper/checkered-blue-squares-white-1920x1080-c2-00bfff-ffffff-l-240-a-60-f-2.svg" alt="sampleWebsite" />
             <hr></hr>
             <p>
               Making your way in the world today takes everything you've got.
@@ -23,7 +23,7 @@ class Webdev extends Component {
               people know, people are all the same, you wanna go where everybody
               knows your name.
             </p>
-                    {/*
+            {/*
             <p>
               Man lives in the sunlit world of what he believes to be reality.
               But, there is, unseen by most, an underworld, a place that is just

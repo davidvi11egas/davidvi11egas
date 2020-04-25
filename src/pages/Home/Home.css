@@ -5,15 +5,18 @@
     text-align: center;
 }
 
-#bioPic {
-    width: 15vw;
-    margin-top: 20px;
+.bioPic {
+    width: 25%;
+   
 }
 
 
 
-.tagLine {
+.tagLineBox {
+    
+    padding: 50px;
     font-family: 'Bebas Neue';
-    font-size: 8vh;
-    color: #343A40;
+    font-size: 6vw;
+    color: lightgray;
+    text-shadow: -2px 3px 4px rgb(29, 118, 150);
 }

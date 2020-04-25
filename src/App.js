@@ -3,9 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 //package imports
 import { Route, BrowserRouter as Router } from "react-router-dom";
-// import { Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 //component imports
-import Container from '../src/components/Container';
+// import Container from '../src/components/Container';
 import Navbar from "../src/components/Navbar";
 // page imports
 import Home from "./pages/Home";

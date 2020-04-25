@@ -6,10 +6,10 @@ class Creative extends Component {
   render() {
     return (
       <div className="pageContent">
-        <h1 className="pageHeader"> Creative </h1>
+        <header className="pageHeader">Creative </header>
         <Container style={{ backgroundColor: "mediumseagreen" }}>
           <CardColumns>
-            <Card style={{ width: "18rem", padding: "3px" }} border="dark">
+            <Card style={{ width: "100%", padding: "3px" }} border="dark">
               <Card.Img
                 variant="top"
                 src={require("../../images/oishiSushiLogo.png")}
@@ -18,7 +18,7 @@ class Creative extends Component {
                 Sushi Restaraunt - "Oishi Sushi"
               </Card.Footer>
             </Card>
-            <Card style={{ width: "18rem", padding: "3px" }} border="dark">
+            <Card style={{ width: "100%", padding: "3px" }} border="dark">
               <Card.Img
                 variant="top"
                 src={require("../../images/parseroCafe.jpg")}
@@ -27,7 +27,7 @@ class Creative extends Component {
                 Coffee Brand - "Parsero Cafe"
               </Card.Footer>
             </Card>
-            <Card style={{ width: "18rem", padding: "3px" }} border="dark">
+            <Card style={{ width: "100%", padding: "3px" }} border="dark">
               <Card.Img
                 variant="top"
                 src={require("../../images/skullAndBones.jpg")}
@@ -36,7 +36,7 @@ class Creative extends Component {
                 Clothing Brand - "Skull & Roses"
               </Card.Footer>
             </Card>
-            <Card style={{ width: "18rem", padding: "3px" }} border="dark">
+            <Card style={{ width: "100%", padding: "3px" }} border="dark">
               <Card.Img
                 variant="top"
                 src={require("../../images/codeNasty.png")}

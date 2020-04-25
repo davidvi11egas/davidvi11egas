@@ -1,49 +1,25 @@
-import React,{Component} from "react";
+import React, { Component } from "react";
 import "./Home.css";
 import { Row, Col } from 'react-bootstrap';
-
-// class Home extends Component{
-//   render(){
-//     return(
-//       <div>
-//         <Row>
-//           {/* <Col className="bioPicBox">
-//               <img id="bioPic" src={require("../../images/davidFullBody.jpg")} alt="david_villegas_photo" />  
-//           </Col> */}
-//           <Col className="textBox">
-//             <div>
-//               <p className="nameLine"> david villegas </p>
-//               <p className="tagLine"> web developer </p>
-//               <p className="tagLine"> marketing pro </p>
-//               <p className="tagLine"> graphic designer  </p>
-//             </div>
-//             <ul class="list-group list-group-flush tagLine">
-//               <li class="list-group-item">david villegas</li>
-//               <li class="list-group-item">Dapibus ac facilisis in</li>
-//               <li class="list-group-item">Morbi leo risus</li>
-//               <li class="list-group-item">Porta ac consectetur ac</li>
-//               <li class="list-group-item">Vestibulum at eros</li>
-//             </ul>
-//           </Col>
-//         </Row>
-//       </div>
-//     );
-//   }
-// }
 
 
 class Home extends Component {
   render() {
     return (
       <div className="pageContent">
-        <span className="pageHeader"> David Villegas </span>
-       
-        <div className="card tagLine">
-          <p> web development</p>
-          <p> marketing </p>
-          <p> graphic design </p>
-        </div>
-     
+        <Row>
+ 
+          <img className="bioPic" src={require("../../images/davidFullBody.jpg")} alt="david_villegas_photo" />
+
+          <div className= "tagLineBox">
+            <p className="tagLineText"> david villegas </p>
+            <p className="tagLineText"> web development</p>
+            <p className="tagLineText"> marketing </p>
+            <p className="tagLineText"> graphic design </p>
+          </div>
+
+
+        </Row>
       </div>
     );
   }
