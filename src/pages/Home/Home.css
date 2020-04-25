@@ -12,7 +12,6 @@
 
 
 
-<<<<<<< HEAD
 .tagLineBox {
     
     padding: 50px;
@@ -20,11 +19,4 @@
     font-size: 6vw;
     color: lightgray;
     text-shadow: -2px 3px 4px rgb(29, 118, 150);
-=======
-.tagLine {
-    text-align: center;
-    font-family: 'Anton';
-    font-size: 9vh;
-    color: #343A40;
->>>>>>> d658cd0a62fc1e257ad96256873e2f35d6fb13d8
 }
