@@ -9,7 +9,7 @@ class Contact extends Component {
                 <header className="pageHeader"> Contact </header>
                 <div id="contactBox" >
                     <p>
-                        {/* <h1> </h1> */}
+                 
                         
                         <a href={`mailto:${data.contactEmail}`} className='email'>Send me an Email</a>
                         {data.social.map((link, index) => (

@@ -1,6 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Satisfy");
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
 @import url("https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo");
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+.pageContent {
+  margin-top: 8vh;
+  height: 100%;
+}
+
+.pageHeader {
+  font-family: 'Bebas Neue';
+  font-size: 70px;
+  color: #343A40;
+}
+>>>>>>> d658cd0a62fc1e257ad96256873e2f35d6fb13d8
 
 body {
   margin: 0;
