@@ -8,8 +8,9 @@ import { Container } from "react-bootstrap";
 // import Container from '../src/components/Container';
 import Navbar from "../src/components/Navbar";
 // page imports
-import Home from "./pages/Home";
-import About from "./pages/About";
+// import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
 import Webdev from "./pages/Webdev";
 import Marketing from "./pages/Marketing";
 import Creative from "./pages/Creative";
@@ -22,11 +23,11 @@ const App = () => (
     
    
       <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/creative" component={Creative} />
-      <Route path="/webDev" component={Webdev} />
-      <Route path="/marketing" component={Marketing} />
-      <Route path="/contact" component={Contact} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/creative" component={Creative} />
+      <Route exact path="/webDev" component={Webdev} />
+      <Route exact path="/marketing" component={Marketing} />
+      <Route exact path="/contact" component={Contact} />
   
     </Container>
 
