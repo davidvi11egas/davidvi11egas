@@ -17,9 +17,9 @@ import Contact from "./pages/Contact";
 
 const App = () => (
   <Router>
-  
-    <Navbar />
     <Container>
+    <Navbar />
+    
    
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />

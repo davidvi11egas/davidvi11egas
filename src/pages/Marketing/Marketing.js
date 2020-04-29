@@ -6,7 +6,13 @@ class Marketing extends Component {
         return (
             <div className="pageContent">
              
-                    <header className="pageHeader">marketing</header>              
+                    <header className="pageHeader">marketing</header>       
+                    <h1>MARKETING</h1>
+                <h1>MARKETING</h1> 
+                <h1>MARKETING</h1> 
+                <h1>MARKETING</h1> 
+                <h1>MARKETING</h1> 
+                <h1>MARKETING</h1>       
              
             </div>
         );
