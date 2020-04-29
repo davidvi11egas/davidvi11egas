@@ -13,7 +13,7 @@ class About extends Component {
                 <header className="pageHeader"> About Me </header>
 
                 <h3>{data.aboutData[1]}</h3>
-                <h2> TEST <h2>
+                <h2> TEST </h2>
             </div>
         );
     }
