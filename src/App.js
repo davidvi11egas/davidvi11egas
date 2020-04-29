@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 //package imports
-import { Route, BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Container } from "react-bootstrap";
 //component imports
 // import Container from '../src/components/Container';
@@ -16,18 +16,16 @@ import Creative from "./pages/Creative";
 import Contact from "./pages/Contact";
 
 const App = () => (
-  <div>
+  <Router>
     <Navbar />
-    <Router>
-      <Container>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/creative" component={Creative} />
-        <Route exact path="/webDev" component={Webdev} />
-        <Route exact path="/marketing" component={Marketing} />
-        <Route exact path="/contact" component={Contact} />
-      </Container>
-    </Router>
-  </div>
+    <Container>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/creative" component={Creative} />
+      <Route exact path="/webDev" component={Webdev} />
+      <Route exact path="/marketing" component={Marketing} />
+      <Route exact path="/contact" component={Contact} />
+    </Container>
+  </Router>
 );
 export default App;
