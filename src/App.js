@@ -18,8 +18,8 @@ import Contact from "./pages/Contact";
 
 const App = () => (
   <Router>
-    <Container>
-    <Navbar />
+    {/* <Container> */}
+    {/* <Navbar /> */}
     
    
       <Route exact path="/" component={Home} />
@@ -29,7 +29,7 @@ const App = () => (
       <Route exact path="/marketing" component={Marketing} />
       <Route exact path="/contact" component={Contact} />
   
-    </Container>
+    {/* </Container> */}
 
   </Router>
 );
