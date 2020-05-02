@@ -4,6 +4,7 @@ import "./App.css";
 import { Route, BrowserRouter as Router } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import Navbar from "../src/components/Navbar";
+// import Footer from "../src/components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Webdev from "./pages/Webdev";
@@ -12,16 +13,17 @@ import Creative from "./pages/Creative";
 import Contact from "./pages/Contact";
 
 const App = () => (
-  <Router>
-    <Container>
-    <Navbar />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/creative" component={Creative} />
-      <Route exact path="/webDev" component={Webdev} />
-      <Route exact path="/marketing" component={Marketing} />
-      <Route exact path="/contact" component={Contact} />
-    </Container>
+  <Router>   
+    <Navbar/>
+      <Container>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/creative" component={Creative} />
+        <Route path="/webDev" component={Webdev} />
+        <Route path="/marketing" component={Marketing} />
+        <Route path="/contact" component={Contact} />
+      </Container>
+    {/* <Footer/> */}
   </Router>
 );
 export default App;

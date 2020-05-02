@@ -7,7 +7,8 @@ class Creative extends Component {
     return (
       <div className="pageContent">
         <header className="pageHeader">Creative </header>
-        <Container style={{ backgroundColor: "mediumseagreen" }}>
+        {/* <Container style={{ backgroundColor: "mediumseagreen" }}> */}
+          <Container>
           <CardColumns>
             <Card style={{ width: "100%", padding: "3px" }} border="dark">
               <Card.Img
