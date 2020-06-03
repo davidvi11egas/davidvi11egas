@@ -1,1 +1,1 @@
-export {default} from "./Webdev.js";
+export { default } from "./Webdev.js";

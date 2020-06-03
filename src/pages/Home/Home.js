@@ -1,28 +1,26 @@
-import React,{Component} from "react";
+import React, { Component } from "react";
 import "./Home.css";
 import { Row, Col } from 'react-bootstrap';
 
-class Home extends Component{
-  render(){
-    return(
-      <div>
-        <Row>
-          <Col>
-            <div className="bioPicBox">
-              <img id="bioPic" src={require("../../images/davidFullBody.jpg")} alt="landingPic" />
+
+class Home extends Component {
+  render() {
+    return (
+      <div className="container pageContent">
+        <div id="homePage">
+          <Row className="row justify-content-md-center">
+            <img className="bioPic" src={require("../../images/davidFullBody.jpg")} alt="david_villegas_photo" />
+            <div className="tagLineBox">
+              <p className="tagLineText" id="name"> david villegas </p>
+              <p className="tagLineText"> digital marketing</p>
+              <p className="tagLineText"> web developer </p>
+              <p className="tagLineText"> graphic designer </p>
             </div>
-          </Col>
-          <Col xs="7">
-            <div id="textBox">
-              <p className="nameLine"> david villegas </p>
-              <p className="tagLine"> web developer </p>
-              <p className="tagLine"> marketing pro </p>
-              <p className="tagLine"> graphic designer  </p>
-            </div>
-          </Col>
-        </Row>
+          </Row>
+        </div>
       </div>
     );
   }
 }
+
 export default Home;
