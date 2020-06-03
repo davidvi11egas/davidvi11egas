@@ -6,18 +6,16 @@
 }
 
 .bioPic {
-    height: 50rem;
-   
+    height: 40rem;
 }
 
-
-
 .tagLineBox {
-    
     padding: 50px;
     font-family: 'Bebas Neue';
-    font-size: 5vw;
+    font-size: 6vw;
     color: rgb(121, 121, 121);
-    /* text-shadow: -2px 3px 4px rgb(29, 118, 150); */
-    /* text-shadow: -1px 3px 3px rgb(157, 87, 87); */
+}
+
+#name {
+    color: rgba(31, 31, 85, 0.781);
 }

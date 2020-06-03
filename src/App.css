@@ -12,6 +12,7 @@ body {
 .pageContent {
   margin-top: 8vh;
   height: 100%;
+  display: inline-block;
 }
 
 .pageHeader {

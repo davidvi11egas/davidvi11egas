@@ -23,7 +23,6 @@ const App = () => (
         <Route path="/marketing" component={Marketing} />
         <Route path="/contact" component={Contact} />
       </Container>
-    {/* <Footer/> */}
   </Router>
 );
 export default App;

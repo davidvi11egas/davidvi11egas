@@ -10,12 +10,11 @@ class About extends Component {
                 <header className="pageHeader"> About Me </header>
                 {/* <h3>{data.aboutData[1]}</h3> */}
                 <Row>
-                <img className="bioPic" src={require("../../images/davidFullBody.jpg")} alt="david_villegas_photo" />
-
                 <div className="aboutMeText">
                     <p>
-                    With an eye for captivating design, and a passion for creation - David Villegas is a professional digital marketer, web developer, audio engineer and creative content producer.
-                    From
+                    With an eye for captivating design, and a passion for innovation, David Villegas has over a decade of experience in digital marketing and creative production.
+                    In addition to digital marketing, David has talents spread across photography, cinematography, and musical production.
+                    Or, to put it frankly - David Villegas is a production house all in one. 
                     
                     </p>
                 </div>
