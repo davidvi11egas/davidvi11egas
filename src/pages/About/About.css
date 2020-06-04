@@ -1,5 +1,11 @@
 
+.bioPicBox {
+    text-align: center;
+}
 
+.bioPic {
+    height: 77vh;
+}
 
 .aboutMeText{
     float: right;

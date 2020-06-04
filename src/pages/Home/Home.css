@@ -1,21 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Satisfy");
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
 
-.bioPicBox {
-    text-align: center;
-}
-
-.bioPic {
-    height: 40rem;
+#homePage {
+        background-image: url("../../images/lakeDroneShot.jpg");
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        display: block;
 }
 
 .tagLineBox {
+    height: 100%;
+    width: 100%;
     padding: 50px;
-    font-family: 'Bebas Neue';
-    font-size: 6vw;
-    color: rgb(121, 121, 121);
+    padding-top: 90px;
 }
 
-#name {
-    color: rgba(31, 31, 85, 0.781);
+.tagLineText {
+    font-family: 'Bebas Neue';
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000;
 }
