@@ -14,14 +14,17 @@ const Navbar = props => (
           <li className="nav-item">
             <a className="nav-link active" href="About">About</a>
           </li>
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <a className="nav-link" href="Webdev">Web Development</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="Marketing">Digital Marketing</a>
-          </li> */}
+          </li>
           <li className="nav-item">
             <a className="nav-link" href="Creative">Creative Production</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="Photography">Photography</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="Contact">Contact Me</a>

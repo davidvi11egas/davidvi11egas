@@ -11,6 +11,7 @@ import Webdev from "./pages/Webdev";
 import Marketing from "./pages/Marketing";
 import Creative from "./pages/Creative";
 import Contact from "./pages/Contact";
+import Photography from "./pages/Photography";
 
 const App = () => (
   <Router>   
@@ -19,6 +20,7 @@ const App = () => (
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/creative" component={Creative} />
+        <Route path="/photography" component={Photography} />
         <Route path="/webDev" component={Webdev} />
         <Route path="/marketing" component={Marketing} />
         <Route path="/contact" component={Contact} />

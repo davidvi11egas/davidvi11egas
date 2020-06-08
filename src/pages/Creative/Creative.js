@@ -5,7 +5,7 @@ import { Container, Card, Row, Col, CardColumns } from "react-bootstrap";
 class Creative extends Component {
   render() {
     return (
-      <div className="pageContent">
+      <div className="pageContent photographyPage">
         <header className="pageHeader">Creative </header>
         {/* <Container style={{ backgroundColor: "mediumseagreen" }}> */}
           <Container>

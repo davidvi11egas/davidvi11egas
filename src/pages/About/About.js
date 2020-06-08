@@ -5,7 +5,7 @@ import {Row} from 'react-bootstrap';
 class About extends Component {
     render() {
         return (
-            <div className="pageContent">
+            <div className="pageContent aboutMe">
                 <header className="pageHeader"> About Me </header>
                 <Row>
                     <img className="bioPic" src={require("../../images/davidFullBody.jpg")} alt="david_villegas_photo" />
