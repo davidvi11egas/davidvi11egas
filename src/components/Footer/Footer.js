@@ -1,18 +1,19 @@
-import React from 'react';
-import "./Footer.css";
-import {Card, Button, Image} from 'react-bootstrap'
+// import React from 'react';
+// import "./Footer.css";
+// import {Card, Button, Image} from 'react-bootstrap'
 
-const Footer = props => (
+// const Footer = props => (
   
-    <div className="footer"> 
+//     <div className="footer"> 
      
       
   
-    <Image src="../../images/parseroCafe.jpg" alt="linkedin"></Image>
+//     <Image src="../../images/parseroCafe.jpg" alt="linkedin"></Image>
 
 
-    </div>
+//     </div>
 
-)
+// )
 
-export default Footer;
+// export default Footer;
+
