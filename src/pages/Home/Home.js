@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Home.css";
 import { Row, Col } from 'react-bootstrap';
+import Footer from '../../components/Footer';
 
 
 class Home extends Component {
@@ -17,6 +18,7 @@ class Home extends Component {
             </div>
           </Row>
         </div>
+        <Footer/>
       </div>
     );
   }
