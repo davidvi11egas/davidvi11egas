@@ -18,7 +18,7 @@ class Home extends Component {
             </div>
           </Row>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     );
   }

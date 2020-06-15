@@ -1,11 +1,16 @@
 import React from 'react';
 import "./Footer.css";
-import {Card, Button} from 'react-bootstrap'
+import {Card, Button, Image} from 'react-bootstrap'
 
 const Footer = props => (
   
     <div className="footer"> 
-      <Button variant="primary">Go somewhere</Button>
+     
+      
+  
+    <Image src="../../images/parseroCafe.jpg" alt="linkedin"></Image>
+
+
     </div>
 
 )
