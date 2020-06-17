@@ -1,7 +1,16 @@
 footer{
+      width: 100%;
       position: absolute;
       margin-bottom: 0px;
-      width: 100%;
-      background-color: grey;
-      
+      border-radius: 0 !important;
+      border-bottom: 0;
+      margin: 20px 0 0;
+      background-color: grey;  
 }
+      .navbar
+      .navbar-default{
+      border-radius: 0 !important;
+      
+      
+      }
+
