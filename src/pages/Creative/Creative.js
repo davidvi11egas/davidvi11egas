@@ -2,6 +2,14 @@ import React, { Component } from "react";
 import "./Creative.css";
 import { Container, Card, Row, Col, CardColumns } from "react-bootstrap";
 
+// image imports
+import parseroCafe from '../../images/parseroCafe.jpg';
+import oishiSushi from '../../images/oishiSushiLogo.jpg';
+import skullAndBones from '../../images/skullAndBones.jpg';
+import codeNasty from '../../images/codeNasty.jpg';
+import sapphireLogo from '../../images/sapphireLogo.jpg';
+import dagoBong from '../../images/dagoBong.jpg';
+
 class Creative extends Component {
   render() {
     return (
@@ -13,38 +21,38 @@ class Creative extends Component {
             <Card style={{ width: "100%", padding: "3px" }} border="dark">
               <Card.Img
                 variant="top"
-                src={require("../../images/oishiSushiLogo.png")}
+                src={oishiSushi}
               />
-              <Card.Footer style={{ textAlign: "center" }}>
-                Sushi Restaraunt - "Oishi Sushi"
-              </Card.Footer>
             </Card>
             <Card style={{ width: "100%", padding: "3px" }} border="dark">
               <Card.Img
                 variant="top"
-                src={require("../../images/parseroCafe.jpg")}
+                src={parseroCafe}
               />
-              <Card.Footer style={{ textAlign: "center" }}>
-                Coffee Brand - "Parsero Cafe"
-              </Card.Footer>
             </Card>
             <Card style={{ width: "100%", padding: "3px" }} border="dark">
               <Card.Img
                 variant="top"
-                src={require("../../images/skullAndBones.jpg")}
+                src={skullAndBones}
               />
-              <Card.Footer style={{ textAlign: "center" }}>
-                Clothing Brand - "Skull & Roses"
-              </Card.Footer>
             </Card>
             <Card style={{ width: "100%", padding: "3px" }} border="dark">
               <Card.Img
                 variant="top"
-                src={require("../../images/codeNasty.png")}
+                src={codeNasty}
               />
-              <Card.Footer style={{ textAlign: "center" }}>
-                Musical Artist Logo - "CodeNasty"
-              </Card.Footer>
+            </Card>
+            <Card style={{ width: "100%", padding: "3px" }} border="dark">
+              <Card.Img
+                variant="top"
+                src={sapphireLogo}
+              />
+            </Card>
+            <Card style={{ width: "100%", padding: "3px" }} border="dark">
+              <Card.Img
+                variant="top"
+                src={dagoBong}
+              />
             </Card>
           </CardColumns>
           <br />

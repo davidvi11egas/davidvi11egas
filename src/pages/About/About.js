@@ -4,9 +4,9 @@ import { Row, Col } from 'react-bootstrap';
 
 
 // icon & photo imports
-import googleAnalytics from '../../images/googleAnalytics.png';
+// import googleAnalytics from '../../images/googleAnalytics.png';
 import aboutMePic from '../../images/headShot.jpg';
-import SEOicon from '../../images/SEOicon.png';
+// import SEOicon from '../../images/SEOicon.png';
 
 class About extends Component {
     render() {
@@ -14,9 +14,9 @@ class About extends Component {
             <div className="pageContent aboutMe">
                 <header className="pageHeader">
                     About Me
-                    <hr />
+                   
                 </header>
-
+                <hr />
                 <Row className="justify-content-md-center">
                     <Col md="auto">
                         <img src={aboutMePic} width="80%" className="profilePhoto" alt="davidBioPhoto" />
@@ -30,37 +30,33 @@ class About extends Component {
                             <p>
                                 With an eye for captivating design and a passion for innovation, David Villegas has over a decade of experience in digital marketing and creative production.
                                 In addition to digital marketing, David has talents spread across photography, cinematography, and musical production.
-                                Or, to put it frankly - David Villegas is a production house all in one. David Villegas has over a decade of experience in digital marketing and creative production.
-                            </p>
+                                Or, to put it frankly - David Villegas is a production house all in one. </p>
                         </section>
                     </Col>
                 </Row>
 
 
                 <br /><br />
-                <section className="talentsAndSkills">
-                    <span className="pageHeader"> Talent & Skill </span>
-                    <hr />
-                    <div className="mainContent">
-                        <br />
-                        <article>
-                            <h2 className="sectionContentTitle"> Digital Marketing </h2>
-                            <aside class="socialNetworkNavBar">
-                                <div class="socialNetworkNav">
-                                    <img src={googleAnalytics} width="200" alt="google_analytics_logo" /> </div>
-                                <div class="socialNetworkNav">
-                                    <img src={SEOicon} width="150" alt="seo_icon" /> </div>
-
-                            </aside>
-
-                        </article>
-                        <br />
-
-
-67
-
-                    </div>
-                </section>
+{/* 
+                <Row className="justify-content-md-left">
+                    <section className="talentsAndSkills">
+                        <h1> Talent & Skill </h1>
+                        <hr />
+                        <div className="mainContent">
+                            <br/>
+                            <article>
+                                <h2 className="sectionContentTitle"> Digital Marketing </h2>
+                                <aside class="socialNetworkNavBar">
+                                    <div class="socialNetworkNav">
+                                        <img src={googleAnalytics} width="200" alt="google_analytics_logo" /> </div>
+                                    <div class="socialNetworkNav">
+                                        <img src={SEOicon} width="150" alt="seo_icon" /> </div>
+                                </aside>
+                            </article>
+                            <br/>
+                        </div>
+                    </section>
+                </Row> */}
 
                 <section className="previousExperience">
                     <span className="pageHeader"> Experience </span>

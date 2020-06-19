@@ -10,12 +10,12 @@ function Footer() {
         <footer>
             <Nav justified>
                 <NavItem>
-                    <Button variant="light">
+                    <Button variant="light" href={`mailto:${"davidvillegas627@gmail.com"}`}>
                         <img src={email} width='20px' alt='emailIcon' />
                     </Button>
                 </NavItem>
                 <NavItem>
-                    <Button variant='light'>
+                    <Button variant='light' href="https://www.linkedin.com/in/davidvi11egas/">
                         <img src={linkedin} width='20px' alt='linkedInIcon' />
                     </Button>      
                 </NavItem>
