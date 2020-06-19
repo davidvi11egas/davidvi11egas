@@ -1,15 +1,30 @@
 
-.bioPicBox {
-    text-align: center;
+.profileHeader {
+    float: left;
 }
 
-.bioPic {
-    height: 77vh;
+.profileHeader p {
+    text-align: justify;
 }
 
-.aboutMeText{
-    float: right;
-    width: 49rem;
-    padding: 50px;
-    font-size: larger;
+.socialNetworkNavBar {
+	text-align: center;
+	/* display: block; */
+	margin-top: 60px;
+	clear: both;
+}
+
+
+.sectionContentTitle {
+	font-family: sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.sectionContentSubTitle {
+	/* font-family: sans-serif; */
+	color: rgb(170, 49, 49);
+	font-size: 16px;
+	font-weight: 400;
 }

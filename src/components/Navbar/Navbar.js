@@ -12,7 +12,7 @@ const Navbar = props => (
       <div className="collapse navbar-collapse" id="navbar1">
         <ul className="navbar-nav nav nav-fill w-100">
           <li className="nav-item">
-            <a className="nav-link active" href="About">About</a>
+            <a className="nav-link active" href="About">About Me</a>
           </li>
           {/* <li className="nav-item">
             <a className="nav-link" href="Webdev">Web Development</a>
