@@ -1,16 +1,19 @@
-footer{
+footer {
       width: 100%;
-      position: absolute;
       margin-bottom: 0px;
       border-radius: 0 !important;
       border-bottom: 0;
-      margin: 20px 0 0;
-      background-color: grey;  
+      /* background-color: rgb(247, 247, 247); */
 }
-      .navbar
-      .navbar-default{
-      border-radius: 0 !important;
-      
-      
-      }
 
+.navbar .navbar-default {
+      border-radius: 0 !important;
+}
+
+.copyright {
+      color: black;
+}
+
+.button {
+      padding: 1px 1px 1px 1px;
+}

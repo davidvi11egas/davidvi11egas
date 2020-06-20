@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import "./Photography.css";
+// component imports
 import { Container, Card, CardColumns } from "react-bootstrap";
+import Footer from "../../components/Footer";
 
+// photo imports
 import apartmentsInCuba from '../../images/apartmentsInCuba.jpg';
 import cubanChurch from '../../images/cubanChurch.jpg';
 import puertoRicanBeach from '../../images/puertoRicanBeach.jpg';
@@ -43,6 +46,7 @@ class Creative extends Component {
          
       
         </Container>
+        <Footer/>
       </div>
     );
   }

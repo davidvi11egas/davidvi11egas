@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './About.css';
 import { Row, Col } from 'react-bootstrap';
-
+import Footer from "../../components/Footer";
 
 // icon & photo imports
 // import googleAnalytics from '../../images/googleAnalytics.png';
@@ -88,14 +88,19 @@ class About extends Component {
                          </p>
                         </article>
 
-
-
                     </div>
                 </section>
+                
+                <hr></hr>
+                    <br></br>
+                    <br></br>
+                    <br></br>
 
 
+                    <Footer/>
 
             </div>
+            
         )
     }
 }

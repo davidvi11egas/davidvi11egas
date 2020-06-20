@@ -8,7 +8,8 @@ import oishiSushi from '../../images/oishiSushiLogo.jpg';
 import skullAndBones from '../../images/skullAndBones.jpg';
 import codeNasty from '../../images/codeNasty.jpg';
 import sapphireLogo from '../../images/sapphireLogo.jpg';
-import dagoBong from '../../images/dagoBong.jpg';
+import dagoBong from '../../images/dagoBong.gif';
+import englishMuffin from '../../images/englishMuffin.gif';
 
 class Creative extends Component {
   render() {
@@ -18,42 +19,49 @@ class Creative extends Component {
         {/* <Container style={{ backgroundColor: "mediumseagreen" }}> */}
           <Container>
           <CardColumns>
-            <Card style={{ width: "100%", padding: "3px" }} border="dark">
+            <Card style={{ width: "100%" }}>
               <Card.Img
                 variant="top"
                 src={oishiSushi}
               />
             </Card>
-            <Card style={{ width: "100%", padding: "3px" }} border="dark">
+            <card style={{ width: "100%" }}>
+              <Card.Img
+                // variant="top"
+                src={dagoBong}
+              />
+            </card>            
+            <Card style={{ width: "100%" }}>
               <Card.Img
                 variant="top"
                 src={parseroCafe}
               />
             </Card>
-            <Card style={{ width: "100%", padding: "3px" }} border="dark">
+            
+            <Card style={{ width: "100%" }}>
               <Card.Img
                 variant="top"
                 src={skullAndBones}
               />
             </Card>
-            <Card style={{ width: "100%", padding: "3px" }} border="dark">
+            <card style={{ width: "100%" }}>
+              <Card.Img
+                // variant="top"
+                src={englishMuffin}
+              />
+            </card>             
+            <Card style={{ width: "100%" }}>
               <Card.Img
                 variant="top"
                 src={codeNasty}
               />
             </Card>
-            <Card style={{ width: "100%", padding: "3px" }} border="dark">
+            <card style={{ width: "100%" }}>
               <Card.Img
                 variant="top"
                 src={sapphireLogo}
               />
-            </Card>
-            <Card style={{ width: "100%", padding: "3px" }} border="dark">
-              <Card.Img
-                variant="top"
-                src={dagoBong}
-              />
-            </Card>
+            </card>
           </CardColumns>
           <br />
         </Container>
