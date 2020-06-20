@@ -12,6 +12,7 @@ import Creative from "./pages/Creative";
 import Contact from "./pages/Contact";
 import Photography from "./pages/Photography";
 
+
 const App = () => (
   <Router>   
     <Navbar/>
@@ -24,6 +25,7 @@ const App = () => (
         <Route path="/marketing" component={Marketing} />
         <Route path="/contact" component={Contact} />
       </Container>
+
   </Router>
 );
 export default App;

@@ -91,10 +91,10 @@ class About extends Component {
                     </div>
                 </section>
                 
-                <hr></hr>
+           
                     <br></br>
                     <br></br>
-                    <br></br>
+                   
 
 
                     <Footer/>
