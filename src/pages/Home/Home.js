@@ -15,7 +15,6 @@ class Home extends Component {
               <p className="tagLineText"> Digital Marketing </p>
               <p className="tagLineText"> Web Development </p>
               <p className="tagLineText"> graphic design </p>
-              <p className="tagLineText"> Audio Engineer</p>
             </div>
           </Row>
         </div>
