@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Creative.css";
 import { Container, Card, Row, Col, CardColumns } from "react-bootstrap";
-
+import Navbar from '../../components/Navbar';
 // image imports
 import parseroCafe from '../../images/parseroCafe.jpg';
 import oishiSushi from '../../images/oishiSushiLogo.jpg';
@@ -15,9 +15,11 @@ class Creative extends Component {
   render() {
     return (
       <div className="pageContent photographyPage">
-        <header className="pageHeader">Creative </header>
+      <Navbar/>
+       
         {/* <Container style={{ backgroundColor: "mediumseagreen" }}> */}
           <Container>
+          <h1 className="pageHeader">Creative </h1>
           <CardColumns>
             <Card style={{ width: "100%" }}>
               <Card.Img

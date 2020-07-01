@@ -1,2 +1,12 @@
 
+.navbar {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    /* background-color: gold; */
+    padding:0%;    
+}
 
+.navbar a {
+    color:black;
+}

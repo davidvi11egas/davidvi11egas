@@ -3,8 +3,8 @@ import "./Navbar.css";
 
 // Depending on the current path, this component sets the "active" className on the appropriate navigation link item
 const Navbar = props => (
-  <nav className="navbar navbar-expand-sm fixed-top navbar-light bg-light">
-    <div className="container">
+  <nav className="navbar navbar-expand-lg   justify-content-center">
+    <div >
       <a className="navbar-brand logo" href="/">DV</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
         <span className="navbar-toggler-icon"></span>

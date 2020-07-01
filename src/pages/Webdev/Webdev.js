@@ -4,7 +4,7 @@ import "./Webdev.css";
 class Webdev extends Component {
   render() {
     return (
-      <div className="pageContent">
+      <div className="container-fluid">
         <header className="pageHeader">WebDev</header>
         <div className="card siteCard">
           <div className="card-header">

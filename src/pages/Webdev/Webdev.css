@@ -1,3 +1,15 @@
-.siteCard {
+/* .siteCard {
     background-color: #2d88ce;
-}
+} */
+.pageContent {
+    clear: both;
+    height: 100%;
+    display: inline-block;
+  }
+  
+  .pageHeader {
+    margin-top: 10vh;
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    color: #343a40;
+  }
