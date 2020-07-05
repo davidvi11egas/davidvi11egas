@@ -31,34 +31,10 @@ body {
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  /* .pageContent {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    display: block;
-  }
-  .pageHeader {
-    margin-top: 6vh;
-  } */
-}
+@media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 768px) {
-  /* .pageContent {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    display: inline-block;
-  }
-  .pageHeader {
-    margin-top: 6vh;
-  }
-  .profilePhoto {
-    width: 100%;
-  } */
-
-}
+@media only screen and (max-width: 768px) {}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 

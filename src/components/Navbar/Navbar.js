@@ -1,38 +1,33 @@
 import React from "react";
 import "./Navbar.css";
-
+import dvLogo from "../../images/dv.png";
+import {Nav} from 'react-bootstrap';
 // Depending on the current path, this component sets the "active" className on the appropriate navigation link item
 const Navbar = props => (
-  <nav className="navbar navbar-expand-lg   justify-content-center">
-    <div >
-      <a className="navbar-brand logo" href="/">DV</a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbar1">
-        <ul className="navbar-nav nav nav-fill w-100">
-          <li className="nav-item">
-            <a className="nav-link active" href="About">About Me</a>
-          </li>
-          {/* <li className="nav-item">
-            <a className="nav-link" href="Webdev">Web Development</a>
-          </li> */}
-          {/* <li className="nav-item">
-            <a className="nav-link" href="Marketing">Digital Marketing</a>
-          </li> */}
-          <li className="nav-item">
-            <a className="nav-link" href="Creative">Creative Production</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="Photography">Photography</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="Contact">Contact Me</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+
+
+<Nav
+  activeKey="/home"
+  onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+>
+  <Nav.Item>
+    <Nav.Link href="/home">Active</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link eventKey="link-1">Link</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link eventKey="link-2">Link</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link eventKey="disabled" disabled>
+      Disabled
+    </Nav.Link>
+  </Nav.Item>
+</Nav>
+
+
+
 
 );
 
