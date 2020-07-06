@@ -2,17 +2,17 @@ import React, { Component } from "react";
 import "./Home2.css";
 import fireWorks from '../../images/fireWorks1.mp4';
 import Navbar from '../../components/Navbar';
-// import { Nav } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
 // import droneShot from '../../images/lakeDroneShot.jpg';
 
 
 class Home2 extends Component {
   render() {
     return (
-      <body>
-        {/* <div className="container-fluid"> */}
-        {/* <Navbar/> */}
+      <div>
+
         <div className="videoHolder">
+ 
           <video id="background-video" width="100%" loop autoPlay muted>
             <source src={fireWorks} type="video/mp4" />
               Your browser does not support the video tag.
@@ -38,13 +38,13 @@ class Home2 extends Component {
 
 
 
-        <div className="row">
+        <div className= "blurbSection">
 
-          <p class="text_column">
+          <p className="text_column">
             <h1><a href="http://natgeotv.com/ca/human-shark-bait/facts">WEB DEVELOPMENT</a></h1>
                 Are sharks out to get you? That’s the driving question behind this high-adrenaline, two-hour live National Geographic event.  Human Shark Bait will beam from some of the world’s most shark-infested waters off the coast of South Africa. Commonly referred to as “Shark Bay,” it is home to some of the most concentrated and diverse shark populations in the world, including species with a reputation for attacking people, such as great white, bull, tiger, black tip, mako, ragged tooth and blue sharks. Here, a team of free-divers and conservationists put their safety on the line to separate shark attack myths from realities while swimming freely among them.
                 </p>
-          <p class="text_column">
+          <p className="text_column">
             <h1><a href="/home"> DIGITAL MARKETING </a></h1>
                 In order for a comparison of shark bite numbers across locations to be meaningful, the
                 locations must share a common feature or available statistic. One such statistic, which we called the
@@ -53,7 +53,7 @@ class Home2 extends Component {
                 of individuals populating the beaches—for a given location throughout a year have served as the
                 denominator for the purpose of calculating this ratio.
                  </p>
-          <p class="text_column">
+          <p className="text_column">
             <h1><a href="/"> CONTENT CREATION </a></h1>
                 Sharks are crucial to marine ecosystems. They maintain a balance in populations of prey species
                 and keep the ocean healthy by removing ill or diseased animals. They are an important resource
@@ -137,7 +137,7 @@ class Home2 extends Component {
         <div className="copyright">&copy;2020- <strong>David Villegas</strong></div>
         {/* </div> */}
 
-      </body>
+      </div>
     )
   }
 }

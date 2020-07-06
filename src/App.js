@@ -16,7 +16,8 @@ import Photography from "./pages/Photography";
 
 const App = () => (
   <Router>   
-    <Navbar/>
+
+    {/* <Navbar/> */}
         {/* <Route exact path="/" component={Home} /> */}
         <Route exact path="/" component={Home2} />
         <Route path="/about" component={About} />
@@ -25,6 +26,8 @@ const App = () => (
         <Route path="/webDev" component={Webdev} />
         <Route path="/marketing" component={Marketing} />
         <Route path="/contact" component={Contact} />
+   
   </Router>
+ 
 );
 export default App;
