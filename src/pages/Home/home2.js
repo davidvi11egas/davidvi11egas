@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "./Home2.css";
-import fireWorks from '../../images/fireWorks1.mp4';
-import Navbar from '../../components/Navbar';
-import { Nav } from 'react-bootstrap';
+// import fireWorks from '../../images/fireWorks1.mp4';
+// import fireWorks1 from 'https://www.sendvid.com/h4lleaf5';
+// import Navbar from '../../components/Navbar';
+// import { Nav } from 'react-bootstrap';
 // import droneShot from '../../images/lakeDroneShot.jpg';
 
 
@@ -10,11 +11,9 @@ class Home2 extends Component {
   render() {
     return (
       <div>
-
         <div className="videoHolder">
- 
           <video id="background-video" width="100%" loop autoPlay muted>
-            <source src={fireWorks} type="video/mp4" />
+            <source src="https://www.sendvid.com/h4lleaf5" type="video/mp4" />
               Your browser does not support the video tag.
           </video>
           <div className="overlay">
