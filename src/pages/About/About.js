@@ -11,7 +11,7 @@ import aboutMePic from '../../images/headShot.jpg';
 class About extends Component {
     render() {
         return (
-            <div className="pageContent aboutMe">
+            <div className="container pageContent aboutMe">
                 <header className="pageHeader">
                     About Me
                    

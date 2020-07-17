@@ -12,7 +12,7 @@ import Marketing from "./pages/Marketing";
 import Creative from "./pages/Creative";
 import Contact from "./pages/Contact";
 import Photography from "./pages/Photography";
-
+import WpLogin from "./pages/WpLogin";
 
 const App = () => (
   <Router>   
@@ -26,7 +26,7 @@ const App = () => (
         <Route path="/webDev" component={Webdev} />
         <Route path="/marketing" component={Marketing} />
         <Route path="/contact" component={Contact} />
-   
+        <Route path="/wp-admin" component={WpLogin}/>
   </Router>
  
 );
