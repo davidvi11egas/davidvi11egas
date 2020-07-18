@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Home2.css";
 // import fireWorks from '../../images/fireWorks1.mp4';
 // import fireWorks from 'https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/fireWorks1.mp4';
-// import Navbar from '../../components/Navbar';
+import Navbar from '../../components/Navbar';
 // import { Nav } from 'react-bootstrap';
 // import droneShot from '../../images/lakeDroneShot.jpg';
 
@@ -11,34 +11,32 @@ import "./Home2.css";
 class Home2 extends Component {
   render() {
     return (
+      
       <div>
+    
         <div className="videoHolder">
+      
+
           <video id="background-video" width="100%" loop autoPlay muted >
             <source src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/fireWorks1.mp4"} type="video/mp4" />
               Your browser does not support the video tag.
           </video>
           <div className="overlay">
             <span id="nameLine">David Villegas</span>
-            <p>
+          
+         
+            <Navbar />
+  
 
-              <a href="/webdev">
-                Web Developer
-              </a> |
 
-              <a href="/marketing">
-                Digital Marketer
-              </a> |
-
-              <a href="/creative">
-                Content Creator
-              </a>
-              
-            </p>
           </div>
         </div>
 
+        <div className="mobile">
+              <Navbar/>
+            </div>
 
-
+{/*      
         <div className= "blurbSection">
 
           <p className="text_column">
@@ -63,9 +61,9 @@ class Home2 extends Component {
                 80% in many cases, and the continued existence of some species is at immediate risk in some
                 regions.
                 </p>
-        </div>
+        </div> */}
         {/* <!-- Stats Gallery Section --> */}
-        <div className="gallery justify-content-enter">
+        {/* <div className="gallery justify-content-enter">
           <div className="thumbnail">
             <h1 className="stats">1500</h1>
             <h4>TITLE</h4>
@@ -86,7 +84,7 @@ class Home2 extends Component {
             <h4>TITLE</h4>
             <p>One line description</p>
           </div>
-        </div>
+        </div> */}
         {/* <!-- Parallax Section --> */}
         {/* <section className="banner">
             <h2 className="parallax"> New Smyrna Beach Florida has been named The Shark Attack Capital of the World for 2020</h2>
