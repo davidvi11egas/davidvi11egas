@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./Home2.css";
 // import fireWorks from '../../images/fireWorks1.mp4';
-// import fireWorks from 'www.dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/fireWorks1.mp4';
+// import fireWorks from 'https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/fireWorks1.mp4';
 // import Navbar from '../../components/Navbar';
 // import { Nav } from 'react-bootstrap';
 // import droneShot from '../../images/lakeDroneShot.jpg';
-import Video from "../../components/Video";
+
 
 
 class Home2 extends Component {
@@ -13,11 +13,10 @@ class Home2 extends Component {
     return (
       <div>
         <div className="videoHolder">
-          {/* <video id="background-video" width="100%" loop autoPlay muted>
-            <source src={fireWorks} type="video/mp4" />
+          <video id="background-video" width="100%" loop autoPlay muted >
+            <source src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/fireWorks1.mp4"} type="video/mp4" />
               Your browser does not support the video tag.
-          </video> */}
-          <Video/>
+          </video>
           <div className="overlay">
             <span id="nameLine">David Villegas</span>
             <p>
