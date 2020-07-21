@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import "./Home2.css";
-// import fireWorks from '../../images/fireWorks1.mp4';
-// import fireWorks from 'https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/fireWorks1.mp4';
 import Navbar from '../../components/Navbar';
-// import { Nav } from 'react-bootstrap';
+
 // import droneShot from '../../images/lakeDroneShot.jpg';
 
 
@@ -94,19 +92,18 @@ class Home2 extends Component {
                 </a></h3>
             </p>
           </section> */}
-        <section className="banner">
-          <h2 className="parallax"> Original Drone Footage by David Villegas</h2>
+        {/* <section className="banner">
+          <h2 className="parallax"> DAVID VILLEGAS </h2>
           <p className="parallax_description"><h3>
             <a href="/photography">
               See what I can do with just an iPhone
                 </a></h3>
           </p>
-        </section>
+        </section> */}
         {/* <!-- More Info Section --> */}
-        <footer>
+        {/* <footer>
           <article className="footer_column">
             <h3>ABOUT</h3>
-            <img src="file:///Macintosh HD/Users/dv_mbp/Library/Application Support/Adobe/Dreamweaver 2020/en_US/Configuration/Temp/Assets/eam819a6d4.TMP/images/placeholder.jpg" alt="" width="400" height="200" className="cards" />
             <p>
               In order for a comparison of shark bite numbers across locations to be meaningful, the
               locations must share a common feature or available statistic. One such statistic, which we called the
@@ -122,15 +119,16 @@ class Home2 extends Component {
           </article>
           <article className="footer_column">
             <h3>LOCATION</h3>
-            {/* <img src={droneShot} alt="" width="400" height="200" className="cards" /> */}
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
           </article>
-        </footer>
+        </footer> */}
         {/* <!-- Footer Section --> */}
-        <section className="footer_banner" id="contact">
-          <h2 className="hidden">Footer Banner Section </h2>
-          <p className="hero_header"> CONNECT </p>
-          <div className="button">subscribe</div>
+        <section className="footer_banner p-2" id="contact">
+          <h2 className="hidden"> David Villegas</h2>
+          <p className="hero_header"> Quick Reference </p>
+          <img src={"https://img.icons8.com/color/60/000000/react-native.png"} alt="react.js logo"/>
+          
+          <div className="button">Contact</div>
         </section>
         {/* <!-- Copyrights Section --> */}
         <div className="copyright">&copy;2020- <strong>David Villegas</strong></div>

@@ -17,7 +17,7 @@ body {
 }
 
 .pageHeader {
-  margin-top: 1vh;
+  /* margin-top: 1vh; */
   font-family: "Bebas Neue";
   font-size: 60px;
   color: #343a40;
@@ -25,7 +25,7 @@ body {
 
 .sectionTitle {
   font-family: "Bebas Neue";
-  /* font-size: 40px; */
+  font-size: 40px;
   color: #343a40;
 }
 

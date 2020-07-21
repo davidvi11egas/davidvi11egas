@@ -11,14 +11,14 @@ import aboutMePic from '../../images/headShot.jpg';
 class About extends Component {
     render() {
         return (
-            <div className="container aboutMe">
-            <Navbar sticky="top"/>
-                <header className="pageHeader">
+            <div className="container">
+            <Navbar/>
+                {/* <header className="pageHeader">
                     About Me
                    
-                </header>
+                </header> */}
                 <hr />
-                <Row className="justify-content-md-center">
+                <Row className="justify-content-md-center ">
                     <Col md="auto">
                         <img src={aboutMePic} width="90%" className="profilePhoto" alt="davidBioPhoto" />
                     </Col>
@@ -70,7 +70,7 @@ class About extends Component {
                             <h2 className="sectionContentTitle"> Southeast Volusia Advertising Authority </h2>
                             <h3 className="sectionContentSubTitle"> Digital Marketing Manager </h3>
                             <p class="sectionContent">
-                                Produced original images and videos for use across digital and print mediums. Worked closely with internal PR team to strengthen brand awareness, and increase public engagement through social media. Utilized Google Analytics to validate marketing initiatives. Generated keywords to improve organic ranking. Utilized ConstantContact to send monthly newsletters to industry partners. Maintained multimedia archives for public access with CleanPix. Received Henry Award from destination marketing industry for our ​Sustainable Tourism​ campaign.
+                            During his time as Digital Marketing Manager at the New Smyrna Beach Vistitor’s bureau, he personally implemented virtual reality tours which increased online traffic by 11%. He also worked as a Marketing Manager where he utilized Google SEO’s and Strategic Social Media Marketing to raise over $50,000 in Hurricane Irma relief efforts. His skills not only span the Economic Tourism and Urban Development industries, but also dives into the world of Event Planning as a Social Media Marketer for one of Miami’s top Entertainment Promoters, New World Events, where he achieved a perfect 5-star Yelp! Rating by building strong brand recognition while providing high-quality service.
                             </p>
                         </article>
                         <br />

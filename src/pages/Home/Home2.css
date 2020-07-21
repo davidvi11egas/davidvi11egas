@@ -7,7 +7,7 @@
 
 body {
 	font-family: 'Hind', sans-serif;
-	background-color: #f2f2f2;
+	background-color: #ffffff;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -28,7 +28,7 @@ a:hover {
 	color: white;
 }
 
-.overlay {
+/* .overlay {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -41,13 +41,12 @@ a:hover {
 	color: #fff;
 	font-size: 8rem;
 	font-family: Bebas Neue;
-	/* margin: 50px; */
-}
+	margin: 50px;
+} */
 
 a {
 	color: #000000;
 	text-decoration: none;
-
 }
 
 
@@ -80,6 +79,7 @@ ul li a {
 
 ul li:hover a {
 	color: #00b386;
+	font-weight:bolder;
 }
 .light {
 	font-weight: bold;
@@ -278,8 +278,8 @@ footer .footer_column p {
 
 .footer_banner {
 	background-color: #B3B3B3;
-	padding-top: 60px;
-	padding-bottom: 60PX;
+	padding-top: 30px;
+	padding-bottom: 30PX;
 	margin-bottom: 0px;
 	background-repeat: repeat;
 }
@@ -334,12 +334,9 @@ footer {
 		margin-left: 0px;
 		width: 100%;
 		text-align: center;
-		/* padding-top: 8px; */
-		/* padding-bottom: 8px; */
+
 	}
-	/* .navbar-toggler-icon {
-		width: 20px;
-	} */
+
 	.block{
 		padding-top: 400px;
 	}
@@ -430,7 +427,7 @@ footer {
 
 	a:hover {
 		text-decoration: none;
-		color: green;
+		color: rgb(8, 116, 8);
 	}
 
 
@@ -462,13 +459,6 @@ footer {
 	#nameLine {
 		font-size: xx-large;
 	}
-
-
-
-
-
-
-
 
 
 
@@ -616,9 +606,6 @@ footer {
 		text-decoration: none;
 		color: white;
 	}
-
-
-
 
 	.videoHolder {
 		margin-bottom: 0%;

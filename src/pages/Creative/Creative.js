@@ -19,7 +19,12 @@ class Creative extends Component {
        
         {/* <Container style={{ backgroundColor: "mediumseagreen" }}> */}
           <Container>
-          <h1 className="pageHeader">Creative </h1>
+          <h1 className="creativeHeader">Creative Content</h1>
+         
+          <h4>
+            Adobe Illustrator & Photoshop were used to create the following
+          </h4>
+          <hr/>
           <CardColumns>
             <Card style={{ width: "100%" }}>
               <Card.Img

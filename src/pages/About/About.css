@@ -1,4 +1,6 @@
-
+.aboutMe {
+	margin-top: %;
+}
 .profileHeader {
     float: left;
 }
@@ -17,7 +19,7 @@
 
 .sectionContentTitle {
 	font-family: sans-serif;
-	color: rgba(146,146,146,1.00);
+	color: rgb(66, 65, 65);
 	font-size: 20px;
 	font-weight: 700;
 }
@@ -28,3 +30,4 @@
 	font-size: 16px;
 	font-weight: 400;
 }
+
