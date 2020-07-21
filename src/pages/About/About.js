@@ -59,6 +59,7 @@ class About extends Component {
                         </div>
                     </section>
                 </Row> */}
+                
 
                 <section className="previousExperience">
                     <span className="pageHeader"> Experience </span>

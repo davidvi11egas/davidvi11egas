@@ -2,9 +2,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { Route, BrowserRouter as Router } from "react-router-dom";
-import { Container } from "react-bootstrap";
-import Navbar from "../src/components/Navbar";
-// import Home from "./pages/Home";
 import Home2 from "./pages/Home/home2";
 import About from "./pages/About";
 import Webdev from "./pages/Webdev";
@@ -17,7 +14,6 @@ import WpLogin from "./pages/WpLogin";
 const App = () => (
   <Router>   
 
-    {/* <Navbar/> */}
         {/* <Route exact path="/" component={Home} /> */}
         <Route exact path="/" component={Home2} />
         <Route path="/about" component={About} />

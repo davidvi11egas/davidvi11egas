@@ -9,11 +9,11 @@ import Navbar from '../../components/Navbar';
 class Home2 extends Component {
   render() {
     return (
-      
+
       <div>
-    
+
         <div className="videoHolder">
-      
+
 
           <video id="background-video" width="100%" loop autoPlay muted >
             <source src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/fireWorks1.mp4"} type="video/mp4" />
@@ -21,20 +21,20 @@ class Home2 extends Component {
           </video>
           <div className="overlay">
             <span id="nameLine">David Villegas</span>
-          
-         
+
+
             <Navbar />
-  
+
 
 
           </div>
         </div>
 
         <div className="mobile">
-              <Navbar/>
-            </div>
+          <Navbar />
+        </div>
 
-{/*      
+        {/*      
         <div className= "blurbSection">
 
           <p className="text_column">
@@ -123,17 +123,30 @@ class Home2 extends Component {
           </article>
         </footer> */}
         {/* <!-- Footer Section --> */}
-        <section className="footer_banner p-2" id="contact">
-          <h2 className="hidden"> David Villegas</h2>
-          <p className="hero_header"> Quick Reference </p>
-          <img src={"https://img.icons8.com/color/60/000000/react-native.png"} alt="react.js logo"/>
-          
-          <div className="button">Contact</div>
-        </section>
-        {/* <!-- Copyrights Section --> */}
-        <div className="copyright">&copy;2020- <strong>David Villegas</strong></div>
-        {/* </div> */}
+        <section className="footer_banner justify-content-md-center p-2" id="contact">
+          {/* <h2> David Villegas</h2> */}
+          {/* <p className="hero_header"> My Tools: </p> */}
+          <div className="button">Contact Me</div>
 
+          <div className="iconBar">
+            <img src={"https://img.icons8.com/color/60/000000/html-5.png"} alt="html5" />
+            <img src={"https://img.icons8.com/color/60/000000/css3.png"} alt="css" />
+            <img src={"https://img.icons8.com/color/60/000000/javascript.png"} alt="javascript" />
+            <img src={"https://img.icons8.com/color/60/000000/react-native.png"} alt="react" />
+            <img src={"https://img.icons8.com/color/60/000000/python.png"} alt="python" />
+            <img src={"https://img.icons8.com/officel/60/000000/php-logo.png"} alt="php" />
+            <img src={"https://img.icons8.com/windows/60/000000/amazon-web-services.png"} alt="aws" />
+            <img src={"https://img.icons8.com/color/60/000000/google-ads.png"} alt="googleAds" />
+            <img src={"https://img.icons8.com/fluent/60/000000/visual-studio-code-2019.png"} alt="vsCode" />
+            <img src={"https://img.icons8.com/fluent/60/000000/github.png"} alt="github" />
+            <img src={"https://img.icons8.com/fluent/60/000000/adobe-photoshop.png"} alt="photoshop" />
+            <img src={"https://img.icons8.com/color/60/000000/adobe-illustrator.png"} alt="illustrator" />
+            <img src={"https://img.icons8.com/fluent/60/000000/adobe-dreamweaver.png"} alt="dreamweaver" />
+            <img src={"https://img.icons8.com/fluent/60/000000/adobe-premiere-pro.png"} alt="premier" />
+            <img src={"https://img.icons8.com/color/60/000000/adobe-creative-cloud.png"} alt="adobeCC" />
+          </div>
+        </section>
+        <div className="copyright">&copy;2020- <strong>David Villegas</strong></div>
       </div>
     )
   }
