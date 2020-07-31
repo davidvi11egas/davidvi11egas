@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Home2.css";
 import Navbar from '../../components/Navbar';
-
+import data from "../Contact/ContactData";
 // import droneShot from '../../images/lakeDroneShot.jpg';
 
 
@@ -126,7 +126,8 @@ class Home2 extends Component {
         <section className="footer_banner justify-content-md-center p-2" id="contact">
           {/* <h2> David Villegas</h2> */}
           {/* <p className="hero_header"> My Tools: </p> */}
-          <div className="button">Contact Me</div>
+          <div className="button">
+          <a href={`mailto:${data.contactEmail}`} className='email'>Contact Me</a></div>
 
           <div className="iconBar">
             <img src={"https://img.icons8.com/color/60/000000/html-5.png"} alt="html5" />
