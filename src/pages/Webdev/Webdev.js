@@ -17,7 +17,7 @@ class Webdev extends Component {
         <div className="container bodyText">
           <div className="instructions">
           <h4><strong> Click on the title to learn more about the site,</strong></h4>
-          <h5>Click on the picture to visit the website in a new tab.</h5>
+          <h5>Click on the picture to view the page in a new tab.</h5>
           </div>
           <div className="grid pt-4" id="layout">
             <section>

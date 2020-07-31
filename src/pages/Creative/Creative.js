@@ -23,7 +23,7 @@ class Creative extends Component {
           <h1 className="creativeHeader">Creative Content</h1>
           <div className=" container bodyText">
           <h3>
-            I made all of these graphics with my ipad & then used Photoshop and Illustrator to make them even better.
+            My designs start as hand-drawn ideas, then refined with Photoshop and Illustrator
           </h3>
           </div>
           <hr/>
