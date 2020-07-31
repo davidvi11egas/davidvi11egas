@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Photography.css";
 // component imports
-import { Container, Card, CardColumns } from "react-bootstrap";
+import { Container, Card} from "react-bootstrap";
 import Footer from "../../components/Footer";
 
 // photo imports

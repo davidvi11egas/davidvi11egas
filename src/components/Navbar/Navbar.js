@@ -42,9 +42,9 @@ const NavBar = props => (
           <li className="nav-item">
             <a className="nav-link" href="/webDev">Web Development</a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link" href="/marketing">Digital Marketing</a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a className="nav-link" href="/creative">Creative Content</a>
           </li>

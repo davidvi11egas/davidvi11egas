@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Creative.css";
-import { Container, Card, Row, Col, CardColumns } from "react-bootstrap";
+import { Container, Card,CardColumns } from "react-bootstrap";
 import Navbar from '../../components/Navbar';
 // image imports
 import parseroCafe from '../../images/parseroCafe.jpg';
