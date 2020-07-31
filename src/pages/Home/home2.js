@@ -15,7 +15,7 @@ class Home2 extends Component {
         <div className="videoHolder">
 
 
-          <video id="background-video" width="100%" loop autoPlay muted >
+          <video id="background-video" width="100%" autoPlay loop  muted >
             <source src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/fireWorks1.mp4"} type="video/mp4" />
               Your browser does not support the video tag.
           </video>
