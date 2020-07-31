@@ -10,8 +10,8 @@ const NavBar = props => (
     <NavbarBrand href="/">
       <img
         src={dvLogo}
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         className="d-inline-block align-top"
         alt="David_Villegas_icon"
       />
@@ -22,15 +22,15 @@ const NavBar = props => (
 
 
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span className="navbar-toggler-icon">
+      <span className="navbar-toggler-icon">
         <img
           src={dvLogo}
           width="30"
           height="30"
-          className="d-inline-block align-top navbar-toggler-icon"
+          className="d-inline-block  navbar-toggler-icon"
           alt="React Bootstrap logo"
         />
-      </span> 
+      </span>
     </button>
 
     <div className="collapse navbar-collapse" id="navbarContent">
@@ -42,11 +42,11 @@ const NavBar = props => (
           <li className="nav-item">
             <a className="nav-link" href="/webDev">Web Development</a>
           </li>
-          {/* <li className="nav-item">
-            <a className="nav-link" href="/marketing">Digital Marketing</a>
-          </li> */}
           <li className="nav-item">
             <a className="nav-link" href="/creative">Creative Content</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/contact">Contact Me</a>
           </li>
         </ul>
       </Container>

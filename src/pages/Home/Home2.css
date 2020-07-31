@@ -24,8 +24,9 @@ body {
 }
 
 a:hover {
+	clear: both;
 	text-decoration: none;
-	color: white;
+	/* color: white; */
 }
 
 /* .overlay {

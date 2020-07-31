@@ -16,13 +16,15 @@ class Webdev extends Component {
 
         <div className="container bodyText">
           <div className="instructions">
-          <h4><strong> Click on the title to learn more about the site</strong></h4>
-          <h5>Click on the picture to visit the website</h5>
+          <h4><strong> Click on the title to learn more about the site,</strong></h4>
+          <h5>Click on the picture to visit the website in a new tab.</h5>
           </div>
-          <div className="grid" id="layout mt-4">
-            <section className="websiteName">
-              <h3><a href="#visitFlorida" data-toggle="collapse" aria-expanded="false" className="siteText"
-                aria-controls="visitFlorida">Florida</a></h3>
+          <div className="grid pt-4" id="layout">
+            <section>
+              <div className="websiteName">
+              <h2><a href="#visitFlorida" data-toggle="collapse" aria-expanded="false" className="siteText"
+                aria-controls="visitFlorida">Florida</a></h2>
+                </div>
               <div className="collapse" id="visitFlorida">
                 <p className="dropDownText">
                   Responsive HTML & CSS
@@ -33,10 +35,13 @@ class Webdev extends Component {
                   alt="Cocoa Beach Florida" />
               </a>
             </section>
+            <br/>
             <section id="lists">
-              <h3><a href="#collapseMenu5" data-toggle="collapse" aria-expanded="false"
-                aria-controls="collapseMenu5">Up Pup</a></h3>
-              <div className="collapse" id="collapseMenu5">
+            <div className="websiteName">
+              <h3><a href="#nsbSharks" data-toggle="collapse" aria-expanded="false" className="siteText"
+                aria-controls="nsbSharks">New Smyrna Beach Sharks</a></h3>
+                </div>
+              <div className="collapse" id="nsbSharks">
                 {/* <div className="card"> */}
                 <p>
                   Responsive HTML & CSS
@@ -47,10 +52,13 @@ class Webdev extends Component {
                 <img src={nsbSharks} width="100%"
                   alt="Cocoa Beach Florida" />
               </a>
-            </section>              
+            </section>    
+            <br/>          
             <section id="lists">
+            <div className="websiteName">
               <h3><a href="#collapseMenu5" data-toggle="collapse" aria-expanded="false"
                 aria-controls="collapseMenu5">Up Pup</a></h3>
+                </div>
               <div className="collapse" id="collapseMenu5">
                 {/* <div className="card"> */}
                 <p>

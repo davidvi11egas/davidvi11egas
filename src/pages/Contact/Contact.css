@@ -1,7 +1,17 @@
+
+.contactPage {
+    background-image: url("../../images/sunAndMoon.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
 .contactHeader {
     font-family: 'Bebas Neue';
-    font-size: 9vw;
-    color: #343A40;
+    font-size: 6vw;
+    color: #1961aa;
+    padding-bottom: 25px;
 }
 
 #contactBox {
@@ -9,7 +19,34 @@
     font-size: 7vh;
     list-style-type:none;
     color: #343A40;
-   
+    float: right;
    
 }
 
+.wavePic {
+    position: absolute;
+    bottom: 0;
+    margin-bottom:0;
+}
+
+.contactBox img {
+    padding: 4px;
+    margin-bottom: 0px;
+}
+a .email {
+    background-color: transparent;
+}
+p a:hover {
+    background-color: black;
+    border-style: dotted;
+  }
+
+
+  @media only screen and (min-width: 320px)and (max-width: 1024px) {
+
+    .contactHeader {
+        text-align: center;
+        font-size: 15vw;
+    }
+     
+     }

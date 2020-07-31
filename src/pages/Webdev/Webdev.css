@@ -50,11 +50,13 @@
     margin-bottom: 0.3em;
   }
 
-  a:hover {
+  .websiteName a:hover {
     background-color: black;
     border-style: dotted;
   }
 
+  
+   /* iphones to small screens */
   @media only screen and (min-width: 320px)and (max-width: 1024px) {
 
     .webDevHeader {
@@ -64,3 +66,4 @@
   
   }
   
+ 

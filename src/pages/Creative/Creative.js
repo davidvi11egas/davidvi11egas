@@ -15,15 +15,17 @@ class Creative extends Component {
   render() {
     return (
       <div className="pageContent photographyPage">
-      <Navbar/>
+     
        
         {/* <Container style={{ backgroundColor: "mediumseagreen" }}> */}
           <Container>
+          <Navbar/>
           <h1 className="creativeHeader">Creative Content</h1>
-         
-          <h4>
-            Adobe Illustrator & Photoshop were used to create the following
-          </h4>
+          <div className=" container bodyText">
+          <h3>
+            I made all of these graphics with my ipad & then used Photoshop and Illustrator to make them even better.
+          </h3>
+          </div>
           <hr/>
           <CardColumns>
             <Card style={{ width: "100%" }}>
