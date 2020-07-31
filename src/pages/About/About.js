@@ -39,26 +39,6 @@ class About extends Component {
 
 
                 <br /><br />
-{/* 
-                <Row className="justify-content-md-left">
-                    <section className="talentsAndSkills">
-                        <h1> Talent & Skill </h1>
-                        <hr />
-                        <div className="mainContent">
-                            <br/>
-                            <article>
-                                <h2 className="sectionContentTitle"> Digital Marketing </h2>
-                                <aside class="socialNetworkNavBar">
-                                    <div class="socialNetworkNav">
-                                        <img src={googleAnalytics} width="200" alt="google_analytics_logo" /> </div>
-                                    <div class="socialNetworkNav">
-                                        <img src={SEOicon} width="150" alt="seo_icon" /> </div>
-                                </aside>
-                            </article>
-                            <br/>
-                        </div>
-                    </section>
-                </Row> */}
                 
 
                 <section className="previousExperience">

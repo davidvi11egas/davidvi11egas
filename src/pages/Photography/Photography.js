@@ -10,7 +10,7 @@ import cubanChurch from '../../images/cubanChurch.jpg';
 import puertoRicanBeach from '../../images/puertoRicanBeach.jpg';
 import yellowApartment from '../../images/yellowApartment.jpg';
 
-class Creative extends Component {
+class Photography extends Component {
   render() {
     return (
       <div className="pageContent photographyPage">
@@ -44,7 +44,7 @@ class Creative extends Component {
             </Card>
 
          
-      
+      test
         </Container>
         <Footer/>
       </div>
@@ -52,4 +52,4 @@ class Creative extends Component {
   }
 }
 
-export default Creative;
+export default Photography;
