@@ -17,18 +17,18 @@ class Webdev extends Component {
         <div className="container bodyText">
           <div className="instructions">
           <h4><strong> Click on the title to learn more about the site,</strong></h4>
-          <h5>Click on the picture to visit the website in a new tab.</h5>
+          <h4>Click on the picture to view the page in a new tab.</h4>
           </div>
           <div className="grid pt-4" id="layout">
             <section>
               <div className="websiteName">
-              <h2><a href="#visitFlorida" data-toggle="collapse" aria-expanded="false" className="siteText"
-                aria-controls="visitFlorida">Florida</a></h2>
+              <h1><a href="#visitFlorida" data-toggle="collapse" aria-expanded="false" className="siteText"
+                aria-controls="visitFlorida">Florida</a></h1>
                 </div>
               <div className="collapse" id="visitFlorida">
-                <p className="dropDownText">
-                  Responsive HTML & CSS
-									</p>
+                <h1>
+                This page is fully responsive & built with just HTML, CSS, and Bootstrap
+									</h1>
               </div>
               <a href="https://davidvi11egas.github.io/visit_florida/" target="_blank" rel="noopener noreferrer">
                 <img src={visitFlorida} width="100%"
@@ -42,11 +42,9 @@ class Webdev extends Component {
                 aria-controls="nsbSharks">New Smyrna Beach Sharks</a></h3>
                 </div>
               <div className="collapse" id="nsbSharks">
-                {/* <div className="card"> */}
-                <p>
-                  Responsive HTML & CSS
-									</p>
-                {/* </div> */}
+                <h1>
+                  NSB Sharks is a React app hosted on AWS Amplify
+									</h1>
               </div>
               <a href="https://www.newsmyrnasharks.com/" target="_blank" rel="noopener noreferrer">
                 <img src={nsbSharks} width="100%"
@@ -56,15 +54,13 @@ class Webdev extends Component {
             <br/>          
             <section id="lists">
             <div className="websiteName">
-              <h3><a href="#collapseMenu5" data-toggle="collapse" aria-expanded="false"
+              <h3><a href="#collapseMenu5" data-toggle="collapse" aria-expanded="false" className="siteText"
                 aria-controls="collapseMenu5">Up Pup</a></h3>
                 </div>
               <div className="collapse" id="collapseMenu5">
-                {/* <div className="card"> */}
-                <p>
+                <h1>
                   Responsive HTML & CSS
-									</p>
-                {/* </div> */}
+									</h1>
               </div>
               <a href="https://master.d35odzy1irc8uc.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
                 <img src={upPup} width="100%"

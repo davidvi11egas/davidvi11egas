@@ -22,9 +22,9 @@ class Creative extends Component {
           <Navbar/>
           <h1 className="creativeHeader">Creative Content</h1>
           <div className=" container bodyText">
-          <h3>
-            I made all of these graphics with my ipad & then used Photoshop and Illustrator to make them even better.
-          </h3>
+          <h2>
+            Most of my designs begin as hand-drawn sketches. Then I use Adobe Photoshop or Illustrator to perfect them. 
+          </h2>
           </div>
           <hr/>
           <CardColumns>
@@ -34,12 +34,11 @@ class Creative extends Component {
                 src={oishiSushi}
               />
             </Card>
-            <card style={{ width: "100%" }}>
+            {/* <card style={{ width: "100%" }}>
               <Card.Img
-                // variant="top"
                 src={dagoBong}
               />
-            </card>            
+            </card>             */}
             <Card style={{ width: "100%" }}>
               <Card.Img
                 variant="top"
