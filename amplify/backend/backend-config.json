@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"davidvi11egas905343a4": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"dvdvllgsauth": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

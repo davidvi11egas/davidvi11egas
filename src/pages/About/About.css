@@ -1,4 +1,6 @@
-
+.aboutMe {
+	margin-top: %;
+}
 .profileHeader {
     float: left;
 }
@@ -10,21 +12,22 @@
 .socialNetworkNavBar {
 	text-align: center;
 	/* display: block; */
-	margin-top: 60px;
+	/* margin-top: 60px; */
 	clear: both;
 }
 
 
 .sectionContentTitle {
 	font-family: sans-serif;
-	color: rgba(146,146,146,1.00);
-	font-size: 18px;
+	color: rgb(66, 65, 65);
+	font-size: 20px;
 	font-weight: 700;
 }
 
-.sectionContentSubTitle {
+.sectionContentSubTitle {	
 	/* font-family: sans-serif; */
 	color: rgb(170, 49, 49);
 	font-size: 16px;
 	font-weight: 400;
 }
+

@@ -1,1 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
+.creativeHeader {
+    margin:20px;
+    margin-top: 5%;
+    font-size: 5rem;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.bodyText {
+    font-family: 'Caveat', cursive;
+}
+
+@media only screen and (min-width: 320px)and (max-width: 1024px) {
+
+ /* .creativeHeader {
+     font-size: 3.5em;
+ } */
+  
+  
+  }
+  

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './About.css';
 import { Row, Col } from 'react-bootstrap';
 import Footer from "../../components/Footer";
-
+import Navbar from "../../components/Navbar";
 // icon & photo imports
 // import googleAnalytics from '../../images/googleAnalytics.png';
 import aboutMePic from '../../images/headShot.jpg';
@@ -11,15 +11,16 @@ import aboutMePic from '../../images/headShot.jpg';
 class About extends Component {
     render() {
         return (
-            <div className="pageContent aboutMe">
-                <header className="pageHeader">
+            <div className="container">
+            <Navbar/>
+                {/* <header className="pageHeader">
                     About Me
                    
-                </header>
+                </header> */}
                 <hr />
-                <Row className="justify-content-md-center">
+                <Row className="justify-content-md-center ">
                     <Col md="auto">
-                        <img src={aboutMePic} width="80%" className="profilePhoto" alt="davidBioPhoto" />
+                        <img src={aboutMePic} width="90%" className="profilePhoto" alt="davidBioPhoto" />
                     </Col>
                     <Col>
                         <section className="profileHeader">
@@ -28,9 +29,10 @@ class About extends Component {
                             <h4>Digital Marketing Professional</h4>
                             <hr />
                             <p>
-                                With an eye for captivating design and a passion for innovation, David Villegas has over a decade of experience in digital marketing and creative production.
-                                In addition to digital marketing, David has talents spread across photography, cinematography, and musical production.
-                                Or, to put it frankly - David Villegas is a production house all in one. </p>
+                            With an eye for captivating design and a passion for innovation, David Villegas has over a decade of experience in digital marketing and creative production. In addition to digital marketing, David’s talents spread across photography, cinematography, musical production, and web development. 
+                                <br/><br/>
+                            With extensive knowledge in a variety of computer languages like HTML, CSS, Java Script, React, and PHP, David is capable of producing creative content via Adobe CC, Logic, and Final Cut Pro to develop engaging user experiences, but can also deliver this content to the world with captivating front-end development. 
+                                 </p>
                         </section>
                     </Col>
                 </Row>
@@ -57,6 +59,7 @@ class About extends Component {
                         </div>
                     </section>
                 </Row> */}
+                
 
                 <section className="previousExperience">
                     <span className="pageHeader"> Experience </span>
@@ -68,7 +71,7 @@ class About extends Component {
                             <h2 className="sectionContentTitle"> Southeast Volusia Advertising Authority </h2>
                             <h3 className="sectionContentSubTitle"> Digital Marketing Manager </h3>
                             <p class="sectionContent">
-                                Produced original images and videos for use across digital and print mediums. Worked closely with internal PR team to strengthen brand awareness, and increase public engagement through social media. Utilized Google Analytics to validate marketing initiatives. Generated keywords to improve organic ranking. Utilized ConstantContact to send monthly newsletters to industry partners. Maintained multimedia archives for public access with CleanPix. Received Henry Award from destination marketing industry for our ​Sustainable Tourism​ campaign.
+                            During his time as Digital Marketing Manager at the New Smyrna Beach Vistitor’s bureau, he personally implemented virtual reality tours which increased online traffic by 11%. He also worked as a Marketing Manager where he utilized Google SEO’s and Strategic Social Media Marketing to raise over $50,000 in Hurricane Irma relief efforts. His skills not only span the Economic Tourism and Urban Development industries, but also dives into the world of Event Planning as a Social Media Marketer for one of Miami’s top Entertainment Promoters, New World Events, where he achieved a perfect 5-star Yelp! Rating by building strong brand recognition while providing high-quality service.
                             </p>
                         </article>
                         <br />

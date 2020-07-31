@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Creative.css";
-import { Container, Card, Row, Col, CardColumns } from "react-bootstrap";
-
+import { Container, Card,CardColumns } from "react-bootstrap";
+import Navbar from '../../components/Navbar';
 // image imports
 import parseroCafe from '../../images/parseroCafe.jpg';
 import oishiSushi from '../../images/oishiSushiLogo.jpg';
@@ -15,9 +15,18 @@ class Creative extends Component {
   render() {
     return (
       <div className="pageContent photographyPage">
-        <header className="pageHeader">Creative </header>
+     
+       
         {/* <Container style={{ backgroundColor: "mediumseagreen" }}> */}
           <Container>
+          <Navbar/>
+          <h1 className="creativeHeader">Creative Content</h1>
+          <div className=" container bodyText">
+          <h3>
+            I made all of these graphics with my ipad & then used Photoshop and Illustrator to make them even better.
+          </h3>
+          </div>
+          <hr/>
           <CardColumns>
             <Card style={{ width: "100%" }}>
               <Card.Img

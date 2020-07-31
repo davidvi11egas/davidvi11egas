@@ -9,13 +9,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 .pageContent {
   height: 100%;
   display: inline-block;
+  width: 100%;
 }
 
 .pageHeader {
-  margin-top: 10vh;
+  /* margin-top: 1vh; */
   font-family: "Bebas Neue";
   font-size: 60px;
   color: #343a40;
@@ -27,41 +29,3 @@ body {
   color: #343a40;
 }
 
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .pageContent {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    display: block;
-  }
-  .pageHeader {
-    margin-top: 6vh;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 768px) {
-  .pageContent {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    display: inline-block;
-  }
-  .pageHeader {
-    margin-top: 6vh;
-  }
-  .profilePhoto {
-    width: 100%;
-  }
-
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
