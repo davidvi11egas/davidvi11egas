@@ -7,7 +7,7 @@ const NavBar = props => (
 
   <nav className="navbar navbar-expand-lg ">
 
-    <NavbarBrand href="/">
+    {/* <NavbarBrand href="/" className="bg-white">
       <img
         src={dvLogo}
         width="40"
@@ -15,7 +15,7 @@ const NavBar = props => (
         className="d-inline-block align-top"
         alt="David_Villegas_icon"
       />
-    </NavbarBrand>
+    </NavbarBrand> */}
 
 
 
@@ -34,8 +34,21 @@ const NavBar = props => (
     </button>
 
     <div className="collapse navbar-collapse" id="navbarContent">
+    
       <Container className="justify-content-lg-center">
+      <NavbarBrand href="/" className="bg-white">
+      <img
+        src={dvLogo}
+        width="40"
+        height="40"
+        className="d-inline-block align-top"
+        alt="David_Villegas_icon"
+      />
+    </NavbarBrand>
         <ul className="navbar-nav">
+        <li className="nav-item">
+            <a className="nav-link" href="/">Home</a>
+          </li>        
           <li className="nav-item">
             <a className="nav-link" href="/about">About Me</a>
           </li>

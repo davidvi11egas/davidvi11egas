@@ -9,7 +9,7 @@ function Footer() {
     return (
         <footer>
         <hr></hr>
-            <Nav justified>
+            {/* <Nav justified>
                 <NavItem className="button">
                     <Button variant="light" href={`mailto:${"davidvillegas627@gmail.com"}`}>
                         <img src={email} width='25px' alt='emailIcon' />
@@ -20,7 +20,15 @@ function Footer() {
                         <img src={linkedin} width='25px' alt='linkedInIcon' />
                     </Button>      
                 </NavItem>
-            </Nav>
+            </Nav> */}
+            {/* <div className="float-left"> */}
+            {/* <Button variant="light" href={`mailto:${"davidvillegas627@gmail.com"}`}>
+                        <img src={email} width='25px' alt='emailIcon' />
+                    </Button>
+                    <Button variant="light" href="https://www.linkedin.com/in/davidvi11egas/">
+                        <img src={linkedin} width='25px' alt='linkedInIcon' />
+                    </Button>   */}
+            {/* </div> */}
             <div className="text-center small copyright">
                 © David Villegas 2020
             </div>

@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import "./Creative.css";
-import { Container, Card,CardColumns } from "react-bootstrap";
+import { Container, Card, CardColumns } from "react-bootstrap";
 import Navbar from '../../components/Navbar';
 // image imports
+import photoIcon from "../../images/photoIcon.png";
+import videoIcon from "../../images/videoIcon.png";
+import downArrow from "../../images/downArrow.png";
 import parseroCafe from '../../images/parseroCafe.jpg';
 import oishiSushi from '../../images/oishiSushiLogo.jpg';
 import skullAndBones from '../../images/skullAndBones.jpg';
@@ -15,18 +18,36 @@ class Creative extends Component {
   render() {
     return (
       <div className="pageContent photographyPage">
-     
-       
-        {/* <Container style={{ backgroundColor: "mediumseagreen" }}> */}
-          <Container>
-          <Navbar/>
+
+
+        <Container>
+          <Navbar />
+          
           <h1 className="creativeHeader">Creative Content</h1>
-          <div className=" container bodyText">
-          <h2>
-            Most of my designs begin as hand-drawn sketches. Then I use Adobe Photoshop or Illustrator to perfect them. 
-          </h2>
+
+          <div className="row creativeLinks">
+
+            <a href="/photography">
+              <img src={photoIcon} width="55px" alt="link_to_photos" />
+                Click here for pics
+            </a>
+            <br/>
+            <a href="/creative">
+              <img src={videoIcon} width="55px" alt="link_to_videos" />
+                Click here for vids
+            </a>
+            <a href="#graphics">
+              <img src={downArrow} width="55px" alt="scroll_to_graphics" />
+                Scroll for graphics
+            </a>
+       
           </div>
-          <hr/>
+          <hr />
+          <div className="bodyText" id="graphics">
+          <h1><strong>
+          My designs are hand-drawn first, then perfected with Illustrator & Photoshop
+          </strong></h1>
+          </div>
           <CardColumns>
             <Card style={{ width: "100%" }}>
               <Card.Img
@@ -34,18 +55,18 @@ class Creative extends Component {
                 src={oishiSushi}
               />
             </Card>
-            {/* <card style={{ width: "100%" }}>
+          <card style={{ width: "100%" }}>
               <Card.Img
                 src={dagoBong}
               />
-            </card>             */}
+            </card>
             <Card style={{ width: "100%" }}>
               <Card.Img
                 variant="top"
                 src={parseroCafe}
               />
             </Card>
-            
+
             <Card style={{ width: "100%" }}>
               <Card.Img
                 variant="top"
@@ -54,10 +75,9 @@ class Creative extends Component {
             </Card>
             <card style={{ width: "100%" }}>
               <Card.Img
-                // variant="top"
                 src={englishMuffin}
               />
-            </card>             
+            </card>
             <Card style={{ width: "100%" }}>
               <Card.Img
                 variant="top"

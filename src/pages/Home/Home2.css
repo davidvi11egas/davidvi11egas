@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
-
-
+/* @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
 
 body {
 	font-family: 'Hind', sans-serif;
@@ -53,7 +54,10 @@ a {
 
 .overlay span {
 	font-size: 9rem;
-	font-family: 'Oswald';
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+	margin: 0;
+
 }
 
 .videoHolder {
@@ -64,7 +68,7 @@ a {
 
 nav ul li {
 	float: left;
-	color: #FFFFFF;
+	/* color: #FFFFFF; */
 	/* font-size: 15px; */
 	text-align: center;
 	margin-right: 25px;
@@ -79,7 +83,7 @@ ul li a {
 }
 
 ul li:hover a {
-	color: #00b386;
+	color: #ffffff;
 	font-weight:bolder;
 }
 .light {
@@ -201,7 +205,7 @@ ul li:hover a {
 /* More info */
 footer {
 	background-color: #FFFFFF;
-	padding-bottom: 35px;
+	/* padding-bottom: 35px; */
 }
 
 .footer_column {
@@ -279,14 +283,14 @@ footer .footer_column p {
 
 .footer_banner {
 	background-color: #B3B3B3;
-	padding-top: 30px;
-	padding-bottom: 30PX;
+	padding-top: 10px;
+	padding-bottom: 10PX;
 	margin-bottom: 0px;
 	background-repeat: repeat;
 }
-.footer_banner img {
+/* .footer_banner img {
 	padding: 4px;
-}
+} */
 footer {
 	display: inline-block;
 }
@@ -429,11 +433,11 @@ footer {
 		text-decoration: none;
 	}
 
-
+/* 
 	a:hover {
 		text-decoration: none;
 		color: rgb(12, 153, 146);
-	}
+	} */
 
 
 
@@ -455,7 +459,7 @@ footer {
 		flex-direction: column;
 		color: #fff;
 		font-size: xx-large;
-		font-family: Bebas Neue;
+		/* font-family: Bebas Neue; */
 		margin: 0;
 		height: 50%;
 	}
@@ -463,6 +467,7 @@ footer {
 
 	#nameLine {
 		font-size: xx-large;
+		font-family: 'Sacramento';
 	}
 
 
@@ -630,7 +635,7 @@ footer {
 		flex-direction: column;
 		color: #fff;
 		font-size: 5rem;
-		font-family: Bebas Neue;
+		/* font-family: Bebas Neue; */
 		margin: 0;
 		height: 100vh;
 	}

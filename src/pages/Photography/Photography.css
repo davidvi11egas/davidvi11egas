@@ -1,4 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo");
 
 .photographyPage {
     float: left;
 }
+
+.photographyHeader {
+    margin:20px;
+    margin-top: 5%;
+    font-size: 5rem;
+    font-family: 'Special Elite', cursive;
+}
+
+.photographyBodyText {
+    font-family: 'Swanky', monospace;
+}
+.photographyBodyText a {
+    font-weight: bold;
+}
+
+.photographyBodyText a:hover {
+    color: red;
+}
+
+img.card-img-top {
+    border-radius: 0;
+}
+
+
+@media only screen and (min-width: 320px)and (max-width: 1024px) {
+
+    .photographyHeader {
+        font-size: 3.5em;
+        text-align: center;
+    } 
+     
+     
+     }
+     

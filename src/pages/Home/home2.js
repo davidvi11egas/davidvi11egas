@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Home2.css";
 import Navbar from '../../components/Navbar';
-import data from "../Contact/ContactData";
+import data from "../Contact/";
 // import droneShot from '../../images/lakeDroneShot.jpg';
 
 
