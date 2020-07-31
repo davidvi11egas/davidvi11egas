@@ -37,11 +37,14 @@ a .email {
     background-color: transparent;
 }
 p a:hover {
-    background-color: black;
-    border-style: dotted;
+    color: #1961aa;
+    /* border-style: dotted; */
   }
 
-
+/* .contactLink a:hover {
+    text-decoration: none;
+    color: red;
+} */
   @media only screen and (min-width: 320px)and (max-width: 1024px) {
 
     .contactHeader {

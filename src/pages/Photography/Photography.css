@@ -15,7 +15,26 @@
 .photographyBodyText {
     font-family: 'Swanky', monospace;
 }
+.photographyBodyText a {
+    font-weight: bold;
+}
+
+.photographyBodyText a:hover {
+    color: red;
+}
 
 img.card-img-top {
     border-radius: 0;
 }
+
+
+@media only screen and (min-width: 320px)and (max-width: 1024px) {
+
+    .photographyHeader {
+        font-size: 3.5em;
+        text-align: center;
+    } 
+     
+     
+     }
+     

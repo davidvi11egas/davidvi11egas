@@ -22,7 +22,8 @@ class Photography extends Component {
           <h1 className="photographyHeader">Photography</h1>
           <div className=" container photographyBodyText">
           <h5>
-            I took these photos with an iPhone, then used Light Room & Photoshop to edit them.
+            These photos were taken with an iPhone, then edited with Photoshop and Lightroom. <br/>
+            (except the first one, that was taken with a dji phantom drone)
           </h5>
           </div>
           <hr/>
@@ -59,10 +60,15 @@ class Photography extends Component {
             </Card>
           
 
-         
-      
         </Container>
+        <hr/>
+        <div className="photographyBodyText text-center">
+          <a href="/creative">
+            <strong>Back to the creative page.</strong>
+          </a>
+      </div>
         <Footer/>
+        
       </Container>
     );
   }

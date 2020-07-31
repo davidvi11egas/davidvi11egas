@@ -201,7 +201,7 @@ ul li:hover a {
 /* More info */
 footer {
 	background-color: #FFFFFF;
-	padding-bottom: 35px;
+	/* padding-bottom: 35px; */
 }
 
 .footer_column {
@@ -279,14 +279,14 @@ footer .footer_column p {
 
 .footer_banner {
 	background-color: #B3B3B3;
-	padding-top: 30px;
-	padding-bottom: 30PX;
+	padding-top: 10px;
+	padding-bottom: 10PX;
 	margin-bottom: 0px;
 	background-repeat: repeat;
 }
-.footer_banner img {
+/* .footer_banner img {
 	padding: 4px;
-}
+} */
 footer {
 	display: inline-block;
 }
@@ -429,11 +429,11 @@ footer {
 		text-decoration: none;
 	}
 
-
+/* 
 	a:hover {
 		text-decoration: none;
 		color: rgb(12, 153, 146);
-	}
+	} */
 
 
 
