@@ -17,6 +17,7 @@ nav {
 
 .navbar-toggler-icon {
     color: black;
+  
 }
 
 
@@ -27,4 +28,5 @@ nav {
     .navbar-brand {
         display:none;
     }
+
 }

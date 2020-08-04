@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
-/* @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
 
@@ -30,21 +29,7 @@ a:hover {
 	/* color: white; */
 }
 
-/* .overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	color: #fff;
-	font-size: 8rem;
-	font-family: Bebas Neue;
-	margin: 50px;
-} */
+
 
 a {
 	color: #000000;
@@ -62,8 +47,10 @@ a {
 
 .videoHolder {
 	margin-top: 0%;
+	margin-bottom: 0px;
 	padding: 0%;
 	width: 100%;
+	height: 100%;
 }
 
 nav ul li {
@@ -258,15 +245,16 @@ footer .footer_column p {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	border: 3px solid #FFFFFF;
+	
 	color: #FFFFFF;
 	transition: all 0.3s linear;
 }
 
 .button:hover {
-	background-color: #FEFEFE;
-	color: #C4C4C4;
+	background-color: #000;
+	color: #fff;
 	cursor: pointer;
+	/* border: 1px solid #FFFFFF; */
 }
 
 .copyright {
@@ -299,7 +287,7 @@ footer {
 }
 
 /* PHONES TO IPADS */
-@media only screen and (min-width: 320px)and (max-width: 1024px) {
+@media only screen and (min-width: 320px)and (max-width: 812px) {
 
 	.videoHolder{
 		display: none;
@@ -458,16 +446,27 @@ footer {
 		justify-content: center;
 		flex-direction: column;
 		color: #fff;
-		font-size: xx-large;
 		/* font-family: Bebas Neue; */
 		margin: 0;
-		height: 50%;
+		/* height: 100vh; */
 	}
 
 
 	#nameLine {
 		font-size: xx-large;
 		font-family: 'Sacramento';
+		
+	}
+
+	.mobile {
+		height: 100vh;
+		background-image: url("../../images/abstract1.jpg");
+		background-position: center;
+		background-size: cover;
+		color: #F9DC5C;
+		font-family: "Bebas Neue";
+		/* text-shadow: 1px 1px 2px #ffffff; */
+		font-size: 7em;
 	}
 
 
@@ -475,7 +474,10 @@ footer {
 }
 
 /* MEDIUM TO LARGE SCREENS */
-@media only screen and (min-width: 1025px){
+@media only screen and (min-width: 813px){
+
+
+
 
 
 	.mobile {
@@ -620,7 +622,7 @@ footer {
 	.videoHolder {
 		margin-bottom: 0%;
 		padding: 0%;
-		/* height: 100vh; */
+		height: 100vh;
 	}
 
 	.overlay {
@@ -635,7 +637,7 @@ footer {
 		flex-direction: column;
 		color: #fff;
 		font-size: 5rem;
-		/* font-family: Bebas Neue; */
+		font-family: Bebas Neue;
 		margin: 0;
 		height: 100vh;
 	}

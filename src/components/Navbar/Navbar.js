@@ -22,12 +22,12 @@ const NavBar = props => (
 
 
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon">
+      <span className="navbar-toggler-icon bg-white">
         <img
           src={dvLogo}
           width="30"
           height="30"
-          className="d-inline-block  navbar-toggler-icon"
+          className="d-inline-block mobileLogo"
           alt="React Bootstrap logo"
         />
       </span>

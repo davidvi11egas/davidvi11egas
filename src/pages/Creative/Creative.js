@@ -55,11 +55,11 @@ class Creative extends Component {
                 src={oishiSushi}
               />
             </Card>
-          <card style={{ width: "100%" }}>
+          {/* <card style={{ width: "100%" }}>
               <Card.Img
                 src={dagoBong}
               />
-            </card>
+            </card> */}
             <Card style={{ width: "100%" }}>
               <Card.Img
                 variant="top"
