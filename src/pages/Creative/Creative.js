@@ -32,7 +32,7 @@ class Creative extends Component {
                 Click here for pics
             </a>
             <br/>
-            <a href="/creative">
+            <a href="/videos">
               <img src={videoIcon} width="55px" alt="link_to_videos" />
                 Click here for vids
             </a>

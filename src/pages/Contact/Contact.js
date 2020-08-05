@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import data from './ContactData';
 import './Contact.css';
-// import sunAndMoon from '../../images/sunAndMoon.gif';
+import sunAndMoon from '../../images/sunAndMoon.gif';
 import Navbar from "../../components/Navbar";
 class Contact extends Component {
     render() {
@@ -24,7 +24,7 @@ class Contact extends Component {
 
                         </p>
 
-                        {/* <img width="80%" src={sunAndMoon} alt="sun and Moon" /> */}
+                        <img width="80%" src={sunAndMoon} alt="sun and Moon" />
                     </div>
                 </div>
                 </div>

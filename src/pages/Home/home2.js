@@ -19,8 +19,9 @@ class Home2 extends Component {
           </video>
           <div className="overlay">
             <span id="nameLine">David Villegas</span>
-
+           
             <Navbar />
+
           </div>
         </div>
 

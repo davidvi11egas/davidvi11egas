@@ -27,8 +27,8 @@ class Photography extends Component {
           <h1 className="photographyHeader">Photography</h1>
           <div className=" container photographyBodyText">
           <h5>
-            These photos were taken with an iPhone, then edited with Photoshop and Lightroom. <br/>
-            (except the first one, that was taken with a dji phantom drone)
+            The following photos were modified with Photoshop and Lightroom. <br/>
+      
           </h5>
           </div>
           <hr/>

@@ -22,7 +22,7 @@ const NavBar = props => (
 
 
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon bg-white">
+      <span className="navbar-toggler-icon bg-black">
         <img
           src={dvLogo}
           width="30"
