@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.photographyPage {
+    float: left;
+}
+
+.marketingHeader {
+    margin:20px;
+    margin-top: 5%;
+    font-size: 5rem;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.photographyBodyText {
+    font-family: 'Swanky', monospace;
+}
+.photographyBodyText a {
+    font-weight: bold;
+}
+
+.photographyBodyText a:hover {
+    color: red;
+}
+
+img.card-img-top {
+    border-radius: 0;
+}
+
+
+@media only screen and (min-width: 320px)and (max-width: 1024px) {
+
+    .photographyHeader {
+        font-size: 3.5em;
+        text-align: center;
+    } 
+     
+     
+     }
+     

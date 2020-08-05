@@ -9,6 +9,7 @@ import Marketing from "./pages/Marketing";
 import Creative from "./pages/Creative";
 import Contact from "./pages/Contact";
 import Photography from "./pages/Photography";
+import Videos from "./pages/Videos";
 import WpLogin from "./pages/WpLogin";
 
 const App = () => (
@@ -19,6 +20,7 @@ const App = () => (
         <Route path="/about" component={About} />
         <Route path="/creative" component={Creative} />
         <Route path="/photography" component={Photography} />
+        <Route path="/videos" component={Videos} />
         <Route path="/webDev" component={Webdev} />
         <Route path="/marketing" component={Marketing} />
         <Route path="/contact" component={Contact} />

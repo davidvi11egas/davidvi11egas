@@ -31,7 +31,7 @@ class About extends Component {
                             <p>
                             With an eye for captivating design and a passion for innovation, David Villegas has over a decade of experience in digital marketing and creative production. In addition to digital marketing, David’s talents spread across photography, cinematography, musical production, and web development. 
                                 <br/><br/>
-                            With extensive knowledge in a variety of computer languages like HTML, CSS, Java Script, React, and PHP, David is capable of producing creative content via Adobe CC, Logic, and Final Cut Pro to develop engaging user experiences, but can also deliver this content to the world with captivating front-end development. 
+                            With extensive knowledge in a variety of computer languages like HTML, CSS, Java Script, and React, David is capable of producing creative content via Adobe CC, Logic, and Final Cut Pro to develop engaging user experiences, but can also deliver this content to the world with captivating front-end development. 
                                  </p>
                         </section>
                     </Col>
@@ -39,26 +39,6 @@ class About extends Component {
 
 
                 <br /><br />
-{/* 
-                <Row className="justify-content-md-left">
-                    <section className="talentsAndSkills">
-                        <h1> Talent & Skill </h1>
-                        <hr />
-                        <div className="mainContent">
-                            <br/>
-                            <article>
-                                <h2 className="sectionContentTitle"> Digital Marketing </h2>
-                                <aside class="socialNetworkNavBar">
-                                    <div class="socialNetworkNav">
-                                        <img src={googleAnalytics} width="200" alt="google_analytics_logo" /> </div>
-                                    <div class="socialNetworkNav">
-                                        <img src={SEOicon} width="150" alt="seo_icon" /> </div>
-                                </aside>
-                            </article>
-                            <br/>
-                        </div>
-                    </section>
-                </Row> */}
                 
 
                 <section className="previousExperience">

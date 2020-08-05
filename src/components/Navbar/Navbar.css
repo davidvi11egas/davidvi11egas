@@ -1,6 +1,7 @@
 nav {
     display: inline-block;
     text-align: center;
+
 }
 .nav-item {
    width: max-content;
@@ -17,6 +18,7 @@ nav {
 
 .navbar-toggler-icon {
     color: black;
+  
 }
 
 
@@ -27,4 +29,5 @@ nav {
     .navbar-brand {
         display:none;
     }
+
 }
