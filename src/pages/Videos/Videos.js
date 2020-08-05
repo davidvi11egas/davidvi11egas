@@ -29,6 +29,7 @@ class Videos extends Component {
           <Row center="xs">
           
             <ReactPlayer url="https://youtu.be/N3YUDcv4ctY"
+            controls
             />
          
             <Col xs>
