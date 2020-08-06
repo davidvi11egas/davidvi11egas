@@ -7,7 +7,7 @@
 
 body {
 	font-family: 'Hind', sans-serif;
-	background-color: #ffffff;
+	/* background-color: #ffffff; */
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -19,7 +19,7 @@ body {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 0px;
+	/* margin-bottom: 0px; */
 	background-color: #FFFFFF;
 }
 
@@ -287,7 +287,7 @@ footer {
 }
 
 /* PHONES TO IPADS */
-@media only screen and (min-width: 320px)and (max-width: 812px) {
+@media only screen and (min-width: 320px)and (max-width: 767px) {
 
 	.videoHolder{
 		display: none;
@@ -474,11 +474,185 @@ footer {
 }
 
 /* MEDIUM TO LARGE SCREENS */
-@media only screen and (min-width: 813px){
+@media only screen and (min-width: 768px) and (max-width:1439px){
+
+
+	.navbar {
+		display: none;
+	}
+
+
+	.mobile {
+		display:none ;
+	}
+
+
+	.logo {
+		width: 100%;
+		text-align: center;
+		margin-top: 13px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		color: #043745;
+	}
+
+	.site-container {
+		flex-direction: row;
+	}
+
+	.container header nav {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		float: none;
+		overflow: auto;
+		display: inline-block;
+		background: #52bad5;
+	}
+
+	header nav ul {
+		padding: 0px;
+		float: none;
+	}
+
+	nav ul li {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		text-align: center;
+		/* padding-top: 8px; */
+		/* padding-bottom: 8px; */
+	}
+	.block{
+		padding-top: 400px;
+	}
+	.text_column {
+		width: 30%;
+		text-align: left;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+	}
+
+	.thumbnail {
+		width: 100%;
+	}
+
+	.footer_column {
+		width: 100%;
+		margin-top: 0px;
+	}
+
+	.parallax {
+		text-align: center;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		padding-top: 40%;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		width: 100%;
+		/* font-size: 18px; */
+	}
+
+	.parallax_description {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-top: 30%;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.thumbnail {
+		width: 50%;
+	}
+
+	.parallax {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-top: 20%;
+	}
+
+	.parallax_description {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 30px;
+	}
+
+	.banner {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.footer_column {
+		width: 100%;
+	}
+
+	a {
+		color: black;
+		text-decoration: none;
+	}
+
+
+	a:hover {
+		text-decoration: none;
+		color: white;
+	}
+
+	.videoHolder {
+		margin-bottom: 0%;
+		padding: 0%;
+		/* height: 100vh; */
+	}
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		/* bottom: 0; */
+		left: 0;
+		right: 0;
+		display: flex;
+		align-items: center;
+		justify-content: first baseline;
+		flex-direction: column;
+		color: #fff;
+		font-size: 5rem;
+		font-family: Bebas Neue;
+		/* height: 100vh; */
+	}
 
 
 
 
+
+
+
+
+}
+/* large TO LARGEest SCREENS */
+@media only screen and (min-width: 1440px){
 
 	.mobile {
 		display:none ;
@@ -638,7 +812,6 @@ footer {
 		color: #fff;
 		font-size: 5rem;
 		font-family: Bebas Neue;
-		margin: 0;
 		height: 100vh;
 	}
 

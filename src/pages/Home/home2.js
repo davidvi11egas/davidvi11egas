@@ -33,10 +33,13 @@ class Home2 extends Component {
             <h2>Graphic Design</h2>
             <h3>Marketing</h3>
         </div>
-{/*     
-        <section className="footer_banner justify-content-md-center" id="contact">
-          <div className="button">
-          <a href={`mailto:${data.contactEmail}`} className='email'>Contact Me</a></div>
+
+
+
+  {/* <section className="footer_banner justify-content-md-center" id="contact"> */}
+  <div className="navbar navbar-expand-lg">
+       
+          
           <div className="iconBar">
             <img src={"https://img.icons8.com/color/60/000000/html-5.png"} alt="html5" />
             <img src={"https://img.icons8.com/color/60/000000/css3.png"} alt="css" />
@@ -54,8 +57,9 @@ class Home2 extends Component {
             <img src={"https://img.icons8.com/fluent/60/000000/adobe-premiere-pro.png"} alt="premier" />
             <img src={"https://img.icons8.com/color/60/000000/adobe-creative-cloud.png"} alt="adobeCC" />
           </div>
-        </section> */}
+
         {/* <div className="copyright">&copy;2020- <strong>David Villegas</strong></div> */}
+      </div>
       </div>
     )
   }

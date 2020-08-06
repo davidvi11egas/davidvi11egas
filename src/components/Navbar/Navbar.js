@@ -4,14 +4,14 @@ import dvLogo from "../../images/dvLogo.png";
 import { Container, NavbarBrand } from 'react-bootstrap';
 
 const NavBar = props => (
-  <nav className="navbar navbar-expand-lg ">
+  <nav className="navbar navbar-expand-lg">
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon bg-black">
+      <span className="navbar-toggler-icon">
         <img
           src={dvLogo}
-          width="30"
-          height="30"
-          className="d-inline-block mobileLogo"
+          width="30px"
+          height="30px"
+          className="mobileLogo"
           alt="React Bootstrap logo"
         />
       </span>
@@ -21,8 +21,8 @@ const NavBar = props => (
       <NavbarBrand href="/" className="bg-white">
       <img
         src={dvLogo}
-        width="40"
-        height="40"
+        width="30px"
+        height="30px"
         className="d-inline-block align-top"
         alt="David_Villegas_icon"
       />

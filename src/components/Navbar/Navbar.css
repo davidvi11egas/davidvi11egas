@@ -12,8 +12,12 @@ nav {
     background-color: black;
 }
 
+
 .navbar-toggler-icon {
-    color: black;
+    color: white;
+    background-color: white;
+    /* padding: 10px; */
+    /* padding-right: 30px; */
 }
 
 /* iphones to small screens */
