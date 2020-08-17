@@ -1,10 +1,10 @@
 import React from "react";
 import "./Navbar.css";
 import dvLogo from "../../images/dvLogo.png";
-import { Container, NavbarBrand } from 'react-bootstrap';
+import { Container, NavbarBrand, Nav } from 'react-bootstrap';
 
 const NavBar = props => (
-  <nav className="navbar navbar-expand-lg">
+  <Nav className="navbar navbar-expand-lg">
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon">
         <img
@@ -35,6 +35,9 @@ const NavBar = props => (
             <a className="nav-link" href="/about">About Me</a>
           </li>
           <li className="nav-item">
+            <a className="nav-link" href="/about#resume">Resume</a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link" href="/webDev">Web Development</a>
           </li>
           <li className="nav-item">
@@ -46,6 +49,6 @@ const NavBar = props => (
         </ul>
       </Container>
     </div>
-  </nav>
+  </Nav>
 );
 export default NavBar;

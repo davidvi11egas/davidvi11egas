@@ -1,33 +1,171 @@
-.aboutMe {
-	margin-top: %;
-}
-.profileHeader {
-    float: left;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.masterContainer {
+	padding: 0px;
 }
 
-.profileHeader p {
-    text-align: justify;
+.profileHeader h1 {
+	font-family: 'Abril Fatface', arial;
+	font-size: 5em;
 }
 
-.socialNetworkNavBar {
-	text-align: center;
-	/* display: block; */
-	/* margin-top: 60px; */
-	clear: both;
+.profileHeader h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+	font-weight: 500;
 }
 
+.profileHeader h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.6em;
+	font-weight: 300;
+	text-align: justify;
+	padding-right: 30px;
+	
+}
+
+#resume a:hover {
+	background-color: black;
+	color: white;
+	padding: 2px;
+}
+.profileBioText {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+	text-align: justify;
+}
+.pageHeader {
+	padding-left: 15px;
+	margin:0;
+	font-weight: 800;
+	font-size: 3em;
+}
+
+.profilePhoto{
+	padding: 15px;
+	width: "100%";
+}
+
+.banner {
+	background-color: #2D9AB7;
+	background-image: url("../../images/roboWallArt.png");
+	height: 600px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallax {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	padding-right: 100px;
+	padding-top: 150px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.parallax_description {
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	background-color: #000000;
+	text-align: justify;
+	width: 100%;
+	line-height: 20px;
+	font-weight: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+.parallax_description a {
+	color: #df960f;
+}
 
 .sectionContentTitle {
-	font-family: sans-serif;
-	color: rgb(66, 65, 65);
-	font-size: 20px;
-	font-weight: 700;
+	color: rgb(110, 26, 26);
+	font-family: 'Open Sans', sans-serif;
 }
 
-.sectionContentSubTitle {	
-	/* font-family: sans-serif; */
-	color: rgb(170, 49, 49);
-	font-size: 16px;
-	font-weight: 400;
+#resumeTitle {
+	margin-top: 1rem;
+	font-size: 5em;
 }
 
+
+
+
+/* PHONES TO IPADS */
+@media only screen and (min-width: 320px)and (max-width: 767px) {
+
+	.masterContainer {
+		padding: 2px;
+	}
+
+	#imageCol {
+		width: 50%;
+		margin-top: 0px;
+	}
+
+	.profileHeader h1 {
+		text-align: center;
+		font-family: 'Abril Fatface', arial;
+		font-size: 10vw;
+	}
+
+	.profileHeader h2 {
+		text-align: center;
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 5vw;
+	}
+
+	.profileHeader h3 {
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+		font-size: 4vw;
+	}
+
+	.banner {
+		height: 900px;
+	}
+	.parallax {
+		padding-top: 50px;
+
+	}
+}
+
+/* IPADS TO LARGE SCREENS */
+@media only screen and (min-width: 768px) and (max-width:1439px) {
+
+
+	.profileHeader h1 {
+		font-family: 'Abril Fatface', arial;
+		font-size: 6vw;
+	}
+
+	.profileHeader h2 {
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 100;
+		font-size: 3vw;
+	}
+
+	.profileHeader h3 {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 2vw;
+		font-weight: 500;
+		text-align: justify;
+	}
+	#resumeLink a:hover {
+		background-color: black;
+		color: white;
+		padding: 2px;
+	}
+}
+
+/* LARGE SCREENS AND UP */
+@media only screen and (min-width: 1440px) {}

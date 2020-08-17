@@ -36,11 +36,11 @@ class Creative extends Component {
               <img src={videoIcon} width="55px" alt="link_to_videos" />
                 Click here for vids
             </a>
-            <a href="#graphics">
+            {/* <a href="#graphics">
               <img src={downArrow} width="55px" alt="scroll_to_graphics" />
                 Scroll for graphics
             </a>
-       
+        */}
           </div>
           <hr />
           <div className="bodyText" id="graphics">

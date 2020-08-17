@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
 .pageContent {
     clear: both;
     height: 100%;
@@ -14,14 +15,17 @@
     font-weight: bold;
     font-family: 'Major Mono Display', monospace;
 }
-.instructions {
-  font-family: 'Major Mono Display', monospace;
+.collapse {
+  font-family: 'Open Sans', sans-serif;
 }
+/* .instructions {
+  font-family: 'Major Mono Display', monospace;
+} */
 .websiteName {
-  font-family: 'Bebas Neue', monospace;
+  font-family: 'Open Sans', monospace;
 }
 .dropDownText {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
   .grid {
     margin: 0 -1em;
@@ -49,10 +53,13 @@
   .grid ul li {
     margin-bottom: 0.3em;
   }
-
+  .websiteName {
+    font-family: 'Open Sans', sans-serif;
+  }
   .websiteName a:hover {
     background-color: black;
-    border-style: dotted;
+    border-style: dashed;
+    color: white;
     
   }
 

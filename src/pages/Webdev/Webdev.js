@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import "./Webdev.css";
 import Navbar from "../../components/Navbar";
 import visitFlorida from "../../images/visitFlorida.png";
-import upPup from "../../images/upPup.png";
+import upPup from "../../images/upPupNew.png";
+// import upPup from {"https://master.d35odzy1irc8uc.amplifyapp.com/"};
+
 import nsbSharks from "../../images/nsbSharks.png";
 class Webdev extends Component {
   render() {
@@ -22,8 +24,8 @@ class Webdev extends Component {
           <div className="grid pt-4" id="layout">
             <section>
               <div className="websiteName">
-              <h1><a href="#visitFlorida" data-toggle="collapse" aria-expanded="false" className="siteText"
-                aria-controls="visitFlorida">Florida</a></h1>
+              <h5><a href="#visitFlorida" data-toggle="collapse" aria-expanded="false" className="siteText"
+                aria-controls="visitFlorida">Florida</a></h5>
                 </div>
               <div className="collapse" id="visitFlorida">
                 <h1>

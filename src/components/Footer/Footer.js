@@ -29,6 +29,7 @@ function Footer() {
                         <img src={linkedin} width='25px' alt='linkedInIcon' />
                     </Button>   */}
             {/* </div> */}
+            
             <div className="text-center small copyright">
                 © David Villegas 2020
             </div>

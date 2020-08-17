@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;500;700&display=swap');
+
+
 nav {
     display: inline-block;
     text-align: center;
+    
 }
 
 .nav-item {
-   width: max-content;
-   font-size: 0.9rem;
+   /* width: max-content; */
+   font-size: 1.3rem;
+   font-family: 'Josefin Sans', sans-serif;
+   border-radius: 4px;
 }
 
 .nav-item a:hover {
     background-color: black;
+    color: white;
 }
 
 
