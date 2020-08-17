@@ -9,14 +9,11 @@ class Skills extends Component {
         return (
             <Container className="skills">
                 <Row lg className="d-inline-flex">
-                    <Col xl>
+                    <Col>
                         <h2 className="sectionHeader">Skills</h2>
-                        <br />
                     </Col>
                 </Row>
-
                 <Row>
-               
                     <Container className="d-flex justify-content-center skillRow">
                         <Col flex md={3}>
                             <h5>
@@ -85,7 +82,7 @@ class Skills extends Component {
                         </Col>
                     </Container>
                 </Row>
-                {/* <SkillsIconBar/> */}
+
             </Container>
         );
     }

@@ -14,6 +14,10 @@
     padding-left: 0;
     list-style: none;
 }
+.skillRow li {
+    /* font-weight: bold; */
+    /* color: green; */
+}
 .skillRow h5 {
     color: rgb(27, 117, 207);
 }
