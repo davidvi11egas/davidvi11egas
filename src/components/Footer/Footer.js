@@ -8,7 +8,7 @@ import "./Footer.css";
 function Footer() {
     return (
         <footer>
-        <hr></hr>
+ 
             {/* <Nav justified>
                 <NavItem className="button">
                     <Button variant="light" href={`mailto:${"davidvillegas627@gmail.com"}`}>

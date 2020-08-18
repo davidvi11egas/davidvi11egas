@@ -17,39 +17,44 @@ class Experience extends Component {
 
                     <Col className="jobSection">
                         {/* <section> */}
-                            <div className="sectionContentTitle">
-                                <h5>
-                                    <strong>
-                                        <a
-                                            href="https://visitnsbfl.com/"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            Southeast Volusia Advertising
-                                            Authority
-                                        </a>
-                                    </strong>
-                                </h5>
-                                <h5>Digital Marketing Manager</h5>
-                            </div>
-                            <p class="sectionContent">
-                                During his time as Digital Marketing Manager at
-                                the New Smyrna Beach Vistitor’s bureau, he
-                                personally implemented virtual reality tours
-                                which increased online traffic by 11%. He also
-                                worked as a Marketing Manager where he utilized
-                                Google SEO’s and Strategic Social Media
-                                Marketing to raise over $50,000 in Hurricane
-                                Irma relief efforts. His skills not only span
-                                the Economic Tourism and Urban Development
-                                industries, but also dives into the world of
-                                Event Planning as a Social Media Marketer for
-                                one of Miami’s top Entertainment Promoters, New
-                                World Events, where he achieved a perfect 5-star
-                                Yelp! Rating by building strong brand
-                                recognition while providing high-quality
-                                service.
-                            </p>
+                        <div className="sectionContentTitle">
+                            <h5>
+                                <strong>
+                                    <a
+                                        href="https://visitnsbfl.com/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Southeast Volusia Advertising Authority
+                                    </a>
+                                </strong>
+                            </h5>
+                            <h5>Digital Marketing Manager</h5>
+                        </div>
+                        <p class="sectionContent">
+                            During his time as Digital Marketing Manager at the
+                            New Smyrna Beach Vistitor’s bureau, he personally
+                            implemented{" "}
+                            <a
+                                href="https://visitnsbfl.com/nsb360"
+                                link="_blank"
+                                rel=""
+                            >
+                                360 Experience Tours
+                            </a>{" "}
+                            which increased online traffic by 11%. Produced
+                            original images and videos for use across digital
+                            and print mediums. Worked closely with internal PR
+                            team to strengthen brand awareness, and increase
+                            public engagement through social media. Utilized
+                            Google Analytics to validate marketing initiatives.
+                            Generated keywords to improve organic ranking.
+                            Utilized ConstantContact to send monthly newsletters
+                            to industry partners. Maintained multimedia archives
+                            for public access with CleanPix. Received Henry
+                            Award from destination marketing industry for our
+                            Sustainable Touris m campaign.
+                        </p>
                         {/* </section> */}
                     </Col>
 
