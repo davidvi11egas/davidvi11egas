@@ -97,7 +97,9 @@
 }
 
 #btt {
+	padding-top: 80px;
 	padding-left: 30px;
+	/* margin-left: 30px; */
 }
 
 
