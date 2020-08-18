@@ -136,7 +136,7 @@ class About extends Component {
                                 <h6>
                                     {" "}
                                     <a
-                                        href="https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/DavidVillegas_Resume.pdf"
+                                        href="https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/david_villegas_resume_8.2020.pdf"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >

@@ -87,7 +87,7 @@ class Experience extends Component {
                                 <h5>
                                     <strong>
                                         <a
-                                            href="http://www.nweventsllc.com"
+                                            href="http  ://www.nweventsllc.com"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
