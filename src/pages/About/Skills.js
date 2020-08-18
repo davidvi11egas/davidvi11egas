@@ -59,7 +59,7 @@ class Skills extends Component {
                                 <li>Indesign</li>
                                 <li>Illustrator</li>
                                 <li>Adobe Premier</li>
-
+                                <li>After Effects</li>
 
 
                             </ul>
@@ -70,14 +70,15 @@ class Skills extends Component {
                                 <strong>Extra</strong>
                             </h5>
                             <ul>
+                                <li>Management Experience</li>                            
                                 <li>Bilingual (Spanish)</li>
-                                <li>Management Experience</li>
-                                <li>Indesign</li>
-                                <li>Illustrator</li>
-                                <li>Premier</li>
-                                <li>PHP</li>
-                                <li>MongoDB</li>
-                                <li>Amplify</li>
+                                <li>CRMs (HubSpot)</li>
+                                <li>MS Office</li>
+                                <li>Trello</li>
+                                <li>ConstantContact</li>
+                                <li>HootSuite</li>
+                                <li>SolidWorks</li>
+
                             </ul>
                         </Col>
                     </Container>

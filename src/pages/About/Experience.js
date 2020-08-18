@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
 import "./Experience.css";
-
 import "./Experience.css";
 
 class Experience extends Component {
@@ -14,9 +13,35 @@ class Experience extends Component {
                             <h2 className="sectionHeader">Experience</h2>
                         </Col>
                     </Row>
-
                     <Col className="jobSection">
-                        {/* <section> */}
+                        <div className="sectionContentTitle">
+                            <h5>
+                                <strong>
+                                    <a
+                                        href="https://visitnsbfl.com/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Acorn Stairlifts
+                                    </a>
+                                </strong>
+                            </h5>
+                            <h5>Digital Marketing Manager</h5>
+                        </div>
+                        <p class="sectionContent">
+                            Lead in planning, design, and rollout of company
+                            websites. Managed detailed aspects of paid search,
+                            email, and web campaigns. Conducted analyses on
+                            website interactions to gauge performance and
+                            engagement. Analyzed source code to identify and fix
+                            SEO opportunities for both domestic and
+                            international websites. Achievements: Created “Stay
+                            Home Stay Safe” marketing campaign to help incoming
+                            web traffic understand corporate efforts during the
+                            pandemic.
+                        </p>
+                    </Col>
+                    <Col className="jobSection">
                         <div className="sectionContentTitle">
                             <h5>
                                 <strong>
@@ -55,39 +80,7 @@ class Experience extends Component {
                             Award from destination marketing industry for our
                             Sustainable Touris m campaign.
                         </p>
-                        {/* </section> */}
                     </Col>
-
-                    <Col className="jobSection">
-                        <section>
-                            <div className="sectionContentTitle">
-                                <h5>
-                                    <strong>
-                                        <a
-                                            href="https://visitnsbfl.com/"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            Sky Builders USA
-                                        </a>
-                                    </strong>
-                                </h5>
-                                <h5>Marketing Manager</h5>
-                            </div>
-
-                            <p class="sectionContent">
-                                Developed content for all social media channels
-                                with strategies aimed to strengthen brand and
-                                grow online presence. Assisted in website
-                                redesign to create a better user experience,
-                                especially for mobile users. Increased web
-                                traffic by uploading new content regularly.
-                                Utilized social media outlets to raise over
-                                $50,000 for Hurricane Irma relief efforts.
-                            </p>
-                        </section>
-                    </Col>
-                    {/* <br /> */}
                     <Col className="jobSection">
                         <section>
                             <div className="sectionContentTitle">
@@ -113,6 +106,34 @@ class Experience extends Component {
                                 clients. Achieved a perfect 5-star Yelp rating
                                 by building a strong brand reputation for
                                 providing high-quality service.
+                            </p>
+                        </section>
+                    </Col>                    
+                    <Col className="jobSection">
+                        <section>
+                            <div className="sectionContentTitle">
+                                <h5>
+                                    <strong>
+                                        <a
+                                            href="https://visitnsbfl.com/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            Sky Builders USA
+                                        </a>
+                                    </strong>
+                                </h5>
+                                <h5>Marketing Manager</h5>
+                            </div>
+                            <p class="sectionContent">
+                                Developed content for all social media channels
+                                with strategies aimed to strengthen brand and
+                                grow online presence. Assisted in website
+                                redesign to create a better user experience,
+                                especially for mobile users. Increased web
+                                traffic by uploading new content regularly.
+                                Utilized social media outlets to raise over
+                                $50,000 for Hurricane Irma relief efforts.
                             </p>
                         </section>
                     </Col>

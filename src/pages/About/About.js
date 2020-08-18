@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import aboutMePic from "../../images/headShot.jpg";
 // import skills from "../../images/skills.png";
-// import SkillsIconBar from "../../components/SkillsIconBar";
+import SkillsIconBar from "../../components/SkillsIconBar";
 import Skills from "./Skills.js";
 import Experience from "./Experience.js";
 
@@ -71,15 +71,17 @@ class About extends Component {
                             Born in Medellin Colombia, then raised in Central
                             Florida, David Villegas pulls inspiration from the
                             spirit and culture of the places that raised him.
-                            With extensive knowledge in a variety of computer
-                            languages like HTML, CSS, Java Script, and React,
-                            David is capable of producing creative content via
-                            Adobe CC, Logic, and Final Cut Pro to develop
-                            engaging user experiences, but can also deliver this
-                            content to the world with captivating front-end
-                            development. Never stop learning, because life never
-                            stops teaching.
+                            With extensive knowledge in a variety of industries
+                            such as web development, marketing, graphic design,
+                            and music production, David has the skills needed to
+                            take your any idea and make it into reality. Never
+                            stop learning, because life never stops teaching.
                         </h5>
+                    </div>
+                    <div className="parallax_description justify-justify">
+                        <h4>
+                            <strong>Professional History</strong>
+                        </h4>
                         <h5>
                             David's career began in Miami Florida with an
                             internship at Emmy Award-winning studio,{" "}
@@ -124,17 +126,31 @@ class About extends Component {
 
                 <Container id="resume">
                     <Row>
-                        <Col xl>
+                        <Col>
                             <h1 className="pageHeader" id="resumeTitle">
-                                Resume
+                                David Villegas |
+                                Orlando, FL
                             </h1>
+                            <Container>
                             
+                                <h6>
+                                    {" "}
+                                    <a
+                                        href="https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/DavidVillegas_Resume.pdf"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        View the printable PDF
+                                    </a>{" "}
+                                </h6>
+                            </Container>
                         </Col>
                     </Row>
                 </Container>
                 <Skills />
+                
                 <Experience />
-                <br></br>
+
                 <br></br>
                 <Container>
                     <Row>
@@ -144,6 +160,7 @@ class About extends Component {
                             </a>
                         </Col>
                     </Row>
+                    <SkillsIconBar/>
                 </Container>
                 <Footer />
             </Container>
