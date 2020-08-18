@@ -71,7 +71,7 @@
 .parallax_description {
 	font-family: 'Open Sans', sans-serif;
 	color: #ffffff;
-	background-color: #000000;
+	background-color: #212529;
 	text-align: justify;
 	width: 100%;
 	line-height: 20px;
@@ -92,11 +92,13 @@
 }
 
 #resumeTitle {
-	margin-top: 1rem;
-	font-size: 5em;
+	margin-top: 3rem;
+	font-size: 4em;
 }
 
-
+#btt {
+	padding-left: 30px;
+}
 
 
 /* PHONES TO IPADS */

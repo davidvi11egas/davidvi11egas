@@ -3,8 +3,7 @@
 
 .experience {
     font-family: 'Open Sans', sans-serif;
-    margin-top: 60px;
-    /* margin-bottom: 20px; */
+    margin-top: 30px;
 }
 
 .pageHeader {
@@ -18,6 +17,7 @@
 }
 .sectionContent {
     text-align: justify;
+    font-size: 1.1em;
 }
 .sectionContentTitle h5 {
     font-weight: 600;

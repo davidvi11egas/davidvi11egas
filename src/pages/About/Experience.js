@@ -16,8 +16,7 @@ class Experience extends Component {
                     </Row>
 
                     <Col className="jobSection">
-                        <section>
-                            <br />
+                        {/* <section> */}
                             <div className="sectionContentTitle">
                                 <h5>
                                     <strong>
@@ -51,7 +50,7 @@ class Experience extends Component {
                                 recognition while providing high-quality
                                 service.
                             </p>
-                        </section>
+                        {/* </section> */}
                     </Col>
 
                     <Col className="jobSection">

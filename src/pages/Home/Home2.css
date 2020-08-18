@@ -7,7 +7,7 @@
 
 body {
     font-family: "Hind", sans-serif;
-    background-color: #000;
+    background-color: #212529;
     /* background-color: #3e3f41; */
     margin-top: 0px;
     margin-right: 0px;
@@ -35,7 +35,7 @@ a {
 }
 
 .overlay span {
-    font-size: 10rem;
+    font-size: 10.5rem;
     font-family: "Bebas Neue";
     font-weight: bold;
     margin: 0;
@@ -343,7 +343,7 @@ footer {
     }
 
 .nameLine {
-	color: green;
+	
 }
 
     .mobile {
@@ -616,7 +616,7 @@ footer {
         justify-content: center;
         flex-direction: column;
         color: #fff;
-        font-size: 5rem;
+        font-size: 8rem;
         font-family: Bebas Neue;
         height: 100vh;
     }

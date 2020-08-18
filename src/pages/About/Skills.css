@@ -2,7 +2,7 @@
 
 .skills {
     font-family: 'Open Sans', sans-serif;
-    margin-top: 60px;
+    margin-top: 20px;
     /* margin-bottom: 20px; */
 }
 .skillRow {
@@ -15,7 +15,7 @@
     list-style: none;
 }
 .skillRow li {
-    /* font-weight: bold; */
+    font-size: 1.1em;
     /* color: green; */
 }
 .skillRow h5 {
