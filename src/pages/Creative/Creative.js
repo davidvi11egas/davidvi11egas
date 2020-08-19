@@ -5,13 +5,13 @@ import Navbar from '../../components/Navbar';
 // image imports
 import photoIcon from "../../images/photoIcon.png";
 import videoIcon from "../../images/videoIcon.png";
-import downArrow from "../../images/downArrow.png";
+// import downArrow from "../../images/downArrow.png";
 import parseroCafe from '../../images/parseroCafe.jpg';
 import oishiSushi from '../../images/oishiSushiLogo.jpg';
 import skullAndBones from '../../images/skullAndBones.jpg';
 import codeNasty from '../../images/codeNasty.jpg';
 import sapphireLogo from '../../images/sapphireLogo.jpg';
-import dagoBong from '../../images/dagoBong.gif';
+// import dagoBong from '../../images/dagoBong.gif';
 import englishMuffin from '../../images/englishMuffin.gif';
 
 class Creative extends Component {

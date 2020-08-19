@@ -16,14 +16,14 @@
     
     font-size: 1.5em;
     /* color: rgb(9, 95, 129); */
-    font-family: 'Caveat', cursive;
+    /* font-family: 'Caveat', cursive; */
 }
 .creativeLinks a:hover {
     color: red;
     font-weight: bold;
 }
 .bodyText h1 {
-    font-family: 'Caveat', cursive;
+    /* font-family: 'Caveat', cursive; */
 }
 
 #graphics {
