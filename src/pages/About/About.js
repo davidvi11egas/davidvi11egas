@@ -27,6 +27,7 @@ class About extends Component {
                         <img
                             src={aboutMePic}
                             width="100%"
+                            height="100%"
                             className="profilePhoto"
                             alt="davidBioPhoto"
                         />
