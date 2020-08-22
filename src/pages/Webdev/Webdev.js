@@ -14,8 +14,6 @@ class Webdev extends Component {
         <header className="webDevHeader pb-3">WebDev</header>
 
 
-
-
         <div className="container bodyText">
           <div className="instructions">
           <h4><strong> Click on the title to learn more about the site,</strong></h4>

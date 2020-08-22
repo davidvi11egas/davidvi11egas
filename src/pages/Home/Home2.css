@@ -4,8 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
 @import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barrio&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap");
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -37,7 +36,7 @@ a {
 }
 
 .overlay span {
-    font-size: 10.5rem;
+    /* font-size: 10.5rem; */
     font-family: "Bebas Neue";
     font-weight: bold;
     margin: 0;
@@ -48,7 +47,7 @@ a {
     margin-bottom: 0px;
     padding: 0%;
     width: 100%;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 nav ul li {
@@ -66,7 +65,6 @@ ul li a {
     font-weight: bold;
     /* color: #717070; */
 }
-
 
 /* About Section */
 .text_column {
@@ -226,47 +224,18 @@ footer .footer_column p {
     background-repeat: repeat;
 }
 
-/* .footer_banner img {
-	padding: 4px;
-} */
-footer {
-    display: inline-block;
-}
-
 .iconBar {
     text-align: center;
 }
 
 /* PHONES*/
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767.98px) {
     .videoHolder {
         display: none;
     }
 
-    .logo {
-        width: 100%;
-        text-align: center;
-        margin-top: 13px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        color: #043745;
-    }
-
     .site-container {
         flex-direction: row;
-    }
-
-    .container header nav {
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        width: 100%;
-        float: none;
-        overflow: auto;
-        display: inline-block;
-        background: #52bad5;
     }
 
     header nav ul {
@@ -296,72 +265,31 @@ footer {
         padding-left: 0px;
     }
 
-    .thumbnail {
-        width: 100%;
-    }
-
-    .footer_column {
-        width: 100%;
-        margin-top: 0px;
-    }
-
-    .thumbnail {
-        width: 50%;
-    }
-
-    .banner {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .footer_column {
-        width: 100%;
-    }
-
     a {
         color: black;
         text-decoration: none;
     }
 
-    .videoHolder {
-        margin-bottom: 0%;
-        padding: 0%;
-    }
-
-    .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        color: #fff;
-        /* font-family: Bebas Neue; */
-        margin: 0;
-        height: 100vh;
-    }
-
-.nameLine {
-	
-}
-
     .mobile {
         height: 100vh;
-        background-image: url("../../images/abstract1.jpg");
+        /* background-image: url("../../images/abstract1.jpg"); */
+        /* background-image: url("https://images.pexels.com/photos/4194842/pexels-photo-4194842.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"); */
+        background-image: url("../../images/whiteWaterDrops.jpg");
         background-position: center;
         background-size: cover;
-        color: #f9dc5c;
-        font-family: "Bebas Neue";
-        /* text-shadow: 1px 1px 2px #ffffff; */
-        font-size: 7em;
+        /* color: #f9dc5c; */
+        /* font-family: "Bebas Neue"; */
+        /* text-shadow: 1px 1px #ffffff; */
+    }
+    .mobileContent h1 {
+        font-size: 15vw;
+    }
+    .mobileContent h2 {
+        font-size: 10vw;
     }
 }
-
 /* iPads and up */
-@media only screen and (min-width: 768px) and (max-width: 1439px) {
+@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
     .mobile {
         display: none;
     }
@@ -410,76 +338,6 @@ footer {
         padding-top: 400px;
     }
 
-    .text_column {
-        width: 30%;
-        text-align: left;
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-    }
-
-    .parallax {
-        text-align: center;
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        padding-top: 40%;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        width: 100%;
-        /* font-size: 18px; */
-    }
-
-    .parallax_description {
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        margin-top: 30%;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-    /* 
-	.thumbnail {
-		width: 50%;
-	} */
-
-    .parallax {
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        padding-top: 20%;
-    }
-
-    .parallax_description {
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        width: 100%;
-        padding-top: 30px;
-    }
-
-    .banner {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .footer_column {
-        width: 100%;
-    }
-
     a {
         color: black;
         text-decoration: none;
@@ -499,7 +357,6 @@ footer {
     .overlay {
         position: absolute;
         top: 0;
-        /* bottom: 0; */
         left: 0;
         right: 0;
         display: flex;
@@ -507,9 +364,9 @@ footer {
         justify-content: first baseline;
         flex-direction: column;
         color: #fff;
-        font-size: 8rem;
+        font-size: 9em;
         font-family: Bebas Neue;
-        /* height: 100vh; */
+        margin-top: 1em;
     }
 }
 
@@ -519,7 +376,7 @@ footer {
         display: none;
     }
 
-    .logo {
+    /* .logo {
         width: 100%;
         text-align: center;
         margin-top: 13px;
@@ -527,13 +384,13 @@ footer {
         margin-bottom: 0px;
         margin-left: 0px;
         color: #043745;
-    }
+    } */
 
-    .site-container {
+    /* .site-container {
         flex-direction: row;
-    }
+    } */
 
-    .container header nav {
+    /* .container header nav {
         margin-top: 0px;
         margin-right: 0px;
         margin-bottom: 0px;
@@ -543,23 +400,21 @@ footer {
         overflow: auto;
         display: inline-block;
         background: #52bad5;
-    }
+    } */
 
     header nav ul {
         padding: 0px;
         float: none;
     }
 
-    nav ul li {
+    /* nav ul li {
         margin-top: 0px;
         margin-right: 0px;
         margin-bottom: 0px;
         margin-left: 0px;
         width: 100%;
         text-align: center;
-        /* padding-top: 8px; */
-        /* padding-bottom: 8px; */
-    }
+    } */
 
     .block {
         padding-top: 400px;
@@ -618,7 +473,7 @@ footer {
         justify-content: center;
         flex-direction: column;
         color: #fff;
-        font-size: 8rem;
+        font-size: 9.5rem;
         font-family: Bebas Neue;
         height: 100vh;
     }

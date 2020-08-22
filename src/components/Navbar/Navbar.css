@@ -8,10 +8,9 @@ nav {
 }
 
 .nav-item {
-   /* width: max-content; */
-   font-size: 1.2rem;
+   width: max-content;
+   font-size: 1.05rem;
    font-family: 'Josefin Sans', sans-serif;
-   border-radius: 4px;
 }
 
 .nav-item a:hover {
@@ -19,13 +18,16 @@ nav {
     color: white;
 }
 
-
 .navbar-toggler-icon {
-    color: white;
-    background-color: white;
-    /* padding: 10px; */
-    /* padding-right: 30px; */
+
+    /* background-color: rgb(14, 113, 143); */
+    margin: 0px;
+    width: 2em;
+    height: 2em;
+    background-image: url("../../images/dvLogo.png");
+ 
 }
+
 
 /* iphones to small screens */
 @media only screen and (min-width: 320px)and (max-width: 1024px) {
