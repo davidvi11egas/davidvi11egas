@@ -1,29 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
-.masterContainer {
-	padding: 0px;
-}
 
 .profileHeader h1 {
-	font-family: 'Abril Fatface', arial;
-	font-size: 5em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
 }
 
 .profileHeader h2 {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 2em;
-	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 }
 
-.profileHeader h3 {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 1.6em;
+.profileHeader h4 {
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	text-align: justify;
-	padding-right: 30px;
 	
 }
 
@@ -44,15 +36,11 @@
 	font-size: 3em;
 }
 
-.profilePhoto{
-	padding: 15px;
-	width: "100%";
-}
 
 .banner {
 	background-color: #2D9AB7;
 	background-image: url("../../images/roboWallArt.png");
-	height: 600px;
+	height: 450px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -106,36 +94,37 @@
 /* PHONES TO IPADS */
 @media only screen and (min-width: 320px)and (max-width: 767px) {
 
-	.masterContainer {
-		padding: 2px;
-	}
+	
 
 	#imageCol {
-		width: 50%;
+		width: 100%;
 		margin-top: 0px;
+		text-align: center;
 	}
-
+	.profilePhoto {
+		width: 80%;
+	}
 	.profileHeader h1 {
 		text-align: center;
-		font-family: 'Abril Fatface', arial;
 		font-size: 10vw;
 	}
 
 	.profileHeader h2 {
 		text-align: center;
-		font-family: 'Josefin Sans', sans-serif;
 		font-size: 5vw;
 	}
 
-	.profileHeader h3 {
-		text-align: center;
-		font-family: 'Open Sans', sans-serif;
-		font-weight: bold;
+	.profileHeader h4 {
+		text-align: justify;
+		font-weight: 600;
 		font-size: 4vw;
+	}
+	.profileHeader p {
+		text-align: justify;
 	}
 
 	.banner {
-		height: 900px;
+		height: 500px;
 	}
 	.parallax {
 		padding-top: 50px;
@@ -148,20 +137,14 @@
 
 
 	.profileHeader h1 {
-		font-family: 'Abril Fatface', arial;
-		font-size: 6vw;
+		font-weight: 800;
 	}
 
 	.profileHeader h2 {
-		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 100;
-		font-size: 3vw;
 	}
 
 	.profileHeader h3 {
-		font-family: 'Josefin Sans', sans-serif;
-		font-size: 2vw;
-		font-weight: 500;
 		text-align: justify;
 	}
 	#resumeLink a:hover {

@@ -12,22 +12,19 @@ import Experience from "./Experience.js";
 class About extends Component {
     render() {
         return (
-            <Container className="masterContainer">
+            <Container>
                 <div id="top"></div>
                 <Navbar />
                 <br />
-                <Row className="d-flex justify-content-center mt-2">
+                <Container className="pt-4">
+                <Row className="d-flex justify-content-center">
                     <Col
                         md="4"
-                        height="100%"
-                        width="100%"
-                        className="d-inline-flex"
                         id="imageCol"
                     >
                         <img
                             src={aboutMePic}
                             width="100%"
-                            height="100%"
                             className="profilePhoto"
                             alt="davidBioPhoto"
                         />
@@ -43,8 +40,8 @@ class About extends Component {
                                 &
                                 <strong> Digital Marketing Professional</strong>
                             </h2>
-
-                            <h3>
+                            <p>
+                            <h4>
                                 <hr />
                                 With an eye for captivating design, love for
                                 technology, and a mind overflowing with
@@ -54,10 +51,12 @@ class About extends Component {
                                 <a href="#resume" id="resumeLink">
                                     View My Resume
                                 </a>
-                            </h3>
+                            </h4>
+                            </p>
                         </div>
                     </Col>
                 </Row>
+                </Container>
                 <section className="banner">
                     <h2 className="parallax">
                         <u>
@@ -79,7 +78,7 @@ class About extends Component {
                             stop learning, because life never stops teaching.
                         </h5>
                     </div>
-                    <div className="parallax_description justify-justify">
+                    {/* <div className="parallax_description justify-justify">
                         <h4>
                             <strong>Professional History</strong>
                         </h4>
@@ -95,7 +94,7 @@ class About extends Component {
                             </a>
                             . Where most of his day was spent in ProTools
                             editing dialogue for film overdubs. At night David
-                            promoted musical performances at Miami's most iconic
+                            promoted events at Miami's most iconic
                             venues such as{" "}
                             <a
                                 href="https://www.livnightclub.com/"
@@ -122,7 +121,7 @@ class About extends Component {
                             </a>
                             .
                         </h5>
-                    </div>
+                    </div> */}
                 </section>
 
                 <Container id="resume">

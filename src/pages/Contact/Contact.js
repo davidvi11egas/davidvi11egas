@@ -38,7 +38,7 @@ class Contact extends Component {
             <strong>Back to the creative page.</strong>
           </a>
         </div> */}
-        <h1 className="videoHeader">Contact Me.</h1>
+        <h1 className="pageHeader">Contact Me</h1>
         {/* <div className=" container photographyBodyText">
           <h5>
             My Videos

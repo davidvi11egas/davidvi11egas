@@ -6,11 +6,14 @@ nav {
     text-align: center;
     
 }
-
+a {
+    color: #000000;
+    text-decoration: none;
+} 
 .nav-item {
    width: max-content;
    font-size: 1.05rem;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
 }
 
 .nav-item a:hover {
@@ -24,7 +27,7 @@ nav {
     margin: 0px;
     width: 2em;
     height: 2em;
-    background-image: url("../../images/dvLogo.png");
+    background-image: url("../../images/dvLogo2.png");
  
 }
 

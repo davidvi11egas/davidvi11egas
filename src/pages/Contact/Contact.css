@@ -9,10 +9,10 @@
     height: 100%;
 }
 
-.contactHeader {
+.pageHeader {
     font-family: 'Bebas Neue';
     font-size: 6vw;
-    color: #1961aa;
+    /* color: #1961aa; */
     padding-bottom: 400px;
 }
 

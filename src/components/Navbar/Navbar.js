@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import dvLogo from "../../images/dvLogo.png";
+import dvLogo from "../../images/dvLogo2.png";
 import { Container, NavbarBrand, Nav } from 'react-bootstrap';
 
 const NavBar = props => (
@@ -17,12 +17,12 @@ const NavBar = props => (
       </span>
     </button>
     <div className="collapse navbar-collapse" id="navbarContent">
-      <Container className="justify-content-lg-center">
-      <NavbarBrand href="/" className="bg-white">
+      <Container className="justify-content-lg-center bg-white">
+      <NavbarBrand href="/">
       <img
         src={dvLogo}
-        width="30px"
-        height="30px"
+        width="25px"
+        height="25px"
         className="d-inline-block align-top"
         alt="David_Villegas_icon"
       />

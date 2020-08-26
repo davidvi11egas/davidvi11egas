@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Container} from "react-bootstrap";
+import {Container, Col} from "react-bootstrap";
 import "./Home2.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
@@ -32,13 +32,16 @@ class Home2 extends Component {
                     </div>
                     <Footer/>
                 </div>
-                <div className="mobile">
+                <div className="container mobile">
                     <Navbar />
-                    <div className="mobileContent">     
-                    {/* <h1>DAVID VILLEGAS</h1> */}
-                    {/* <h2>Web Development</h2> */}
-                    {/* <h2>Digital Marketing</h2> */}
-                    {/* <h2>Graphic Design</h2> */}
+                    <div className=" container mobileContent">
+                    <hr />
+                    
+                    <h1>DAVID VILLEGAS </h1>
+                    <h2>Web Development</h2>
+                    <h2>Digital Marketing</h2>
+                    <h2>Graphic Design</h2>
+                
                     </div>
                 </div>
                
