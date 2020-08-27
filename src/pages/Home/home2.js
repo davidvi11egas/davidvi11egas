@@ -11,7 +11,8 @@ class Home2 extends Component {
                     width="100%"
                     autoPlay
                     loop
-                    muted>
+                    muted
+                    playsinline>
                     <source
                     src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/fireWorks1.mp4"}
                     type="video/mp4"/>
