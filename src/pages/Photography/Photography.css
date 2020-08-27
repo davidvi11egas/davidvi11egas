@@ -1,5 +1,7 @@
-.photographyHeader h1 {
+.photographyHeader {
     font-family: 'Open Sans', sans-serif;
+}
+.photographyHeader h1 {
     font-weight: 800;
 }
 
@@ -12,7 +14,9 @@
 img.card-img-top {
     border-radius: 0;
 }
-
+#photoPageBlurb {
+    font-weight: 300;
+}
 @media only screen and (min-width: 320px)and (max-width: 1024px) {
     .photographyHeader {
         font-size: 3.5em;

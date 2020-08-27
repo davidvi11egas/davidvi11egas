@@ -12,17 +12,17 @@ class Photography extends Component {
         <Navbar />
         <div className="photographyHeader pt-5">
           <h1>Photography</h1>
-          <h5>
-            The following photos were modified with Photoshop and Lightroom
-          </h5>
-          <p>
+          <h6>
             <a href="/creative">
-              <strong>Back to the creative page</strong>
+              Back to the creative page
             </a>
-          </p>
+          </h6>
         </div>
         <hr />
-        <Container>
+        <div>
+        <h5 id="photoPageBlurb">
+            The following photos were modified with Photoshop and Lightroom
+          </h5>
         <Card style={{ width: "inherit" }} border="light">
             <Card.Img
               variant="top"
@@ -65,7 +65,7 @@ class Photography extends Component {
               src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/favelasInTheValley_1.gif"}
             />
           </Card>
-        </Container>
+        </div>
         <hr />
         <div className="photographyHeader text-center">
           <a href="/creative">
