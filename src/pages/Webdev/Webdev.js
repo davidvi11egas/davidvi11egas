@@ -53,8 +53,8 @@ class Webdev extends Component {
             <br />
             <section id="lists">
               <div className="websiteName">
-                <h3><a href="#collapseMenu5" data-toggle="collapse" aria-expanded="false" className="siteText"
-                  aria-controls="collapseMenu5">Up Pup</a></h3>
+                <h4><strong><a href="#collapseMenu5" data-toggle="collapse" aria-expanded="false" className="siteText"
+                  aria-controls="collapseMenu5">Up Pup</a></strong></h4>
               </div>
               <div className="collapse" id="collapseMenu5">
                 <p>

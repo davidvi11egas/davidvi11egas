@@ -6,14 +6,12 @@ import "./Experience.css";
 class Experience extends Component {
     render() {
         return (
-            <section className="container experience" id="resume">
+            <section className="experience" id="resume">
                 <div className="mainContent">
                     <Row className="d-inline-flex">
-                        <Col>
                             <h2 className="sectionHeader">Experience</h2>
-                        </Col>
                     </Row>
-                    <Col className="jobSection">
+                    <div className="jobSection">
                         <div className="sectionContentTitle">
                             <h5>
                                 <strong>
@@ -40,8 +38,8 @@ class Experience extends Component {
                             web traffic understand corporate efforts during the
                             pandemic.
                         </p>
-                    </Col>
-                    <Col className="jobSection">
+                    </div>
+                    <div className="jobSection">
                         <div className="sectionContentTitle">
                             <h5>
                                 <strong>
@@ -80,8 +78,8 @@ class Experience extends Component {
                             Award from destination marketing industry for our
                             Sustainable Touris m campaign.
                         </p>
-                    </Col>
-                    <Col className="jobSection">
+                    </div>
+                    <div className="jobSection">
                         <section>
                             <div className="sectionContentTitle">
                                 <h5>
@@ -108,8 +106,8 @@ class Experience extends Component {
                                 providing high-quality service.
                             </p>
                         </section>
-                    </Col>                    
-                    <Col className="jobSection">
+                    </div>                    
+                    <div className="jobSection">
                         <section>
                             <div className="sectionContentTitle">
                                 <h5>
@@ -136,7 +134,7 @@ class Experience extends Component {
                                 $50,000 for Hurricane Irma relief efforts.
                             </p>
                         </section>
-                    </Col>
+                    </div>
                 </div>
             </section>
         );

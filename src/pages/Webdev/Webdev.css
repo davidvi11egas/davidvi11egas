@@ -1,17 +1,18 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap'); */
 
 .pageContent {
   clear: both;
   height: 100%;
   display: inline-block;
 }
-
-.webDevHeader h1 {
-  /* margin-top: 1em; */
-  font-weight: 800;
+.webDevHeader {
   font-family: 'Open Sans', monospace;
 }
-
+.webDevHeader h1 {
+  font-weight: 800;
+}
+.webDevHeader h5 {
+  font-weight: 300;
+}
 .websiteName {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -30,14 +31,4 @@
   background-color: black;
   color: white;
 }
-
-
-/* iphones to small screens */
-@media only screen and (min-width: 320px)and (max-width: 1024px) {
-
-  /* .webDevHeader {
-    font-size: 4rem;
-  } */
-
-
-}
+ 

@@ -1,20 +1,16 @@
 import React, { Component } from "react";
-import { Row, Col, Container } from "react-bootstrap";
-// import skills from "../../images/skills.png";
+import { Row, Col } from "react-bootstrap";
 import "./Skills.css";
-// import SkillsIconBar from "../../components/SkillsIconBar";
 
 class Skills extends Component {
     render() {
         return (
-            <Container className="skills">
+            <div className="skills">
                 <Row lg className="d-inline-flex">
-                    <Col>
                         <h2 className="sectionHeader">Skills</h2>
-                    </Col>
                 </Row>
                 <Row>
-                    <Container className="d-flex justify-content-center skillRow">
+                    <div className="d-flex container justify-content-center skillRow">
                         <Col flex md={3}>
                             <h5>
                                 <strong>Web Development</strong>
@@ -70,7 +66,7 @@ class Skills extends Component {
                                 <strong>Extra</strong>
                             </h5>
                             <ul>
-                                <li>Management Experience</li>                            
+                                <li>Management</li>                            
                                 <li>Bilingual (Spanish)</li>
                                 <li>CRMs (HubSpot)</li>
                                 <li>MS Office</li>
@@ -81,10 +77,10 @@ class Skills extends Component {
 
                             </ul>
                         </Col>
-                    </Container>
+                    </div>
                 </Row>
 
-            </Container>
+            </div>
         );
     }
 }

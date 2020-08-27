@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Satisfy");
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
 
 body {
@@ -11,18 +9,13 @@ body {
   -moz-osx-font-smoothing: grayscale; 
 }
 
-
 .pageContent {
   height: 100%;
   display: inline-block;
   width: 100%;
 }
 
-
-
-.sectionTitle {
-  font-family: "Open Sans";
-  font-size: 40px;
-  color: #3e3f41;
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
