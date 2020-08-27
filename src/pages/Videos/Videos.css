@@ -5,23 +5,22 @@
 .videoHeader {
     font-family: 'Open Sans', cursive;
 }
+
 .videoHeader h1 {
     font-weight: 800;
 }
-
 
 .videoHeader a:hover {
     text-decoration: none;
     color: #fff;
     background-color: black;
-} 
+}
 
 img.card-img-top {
     border-radius: 0;
 }
 
 #movaGlobeText a {
-    /* font-weight: 300; */
     color: rgb(51, 207, 12);
 }
 
@@ -32,8 +31,8 @@ img.card-img-top {
 }
 
 @media only screen and (min-width: 320px)and (max-width: 1024px) {
-    .photographyHeader {
+    /* .photographyHeader {
         font-size: 3.5em;
         text-align: center;
-    }
+    } */
 }
