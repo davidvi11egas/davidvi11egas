@@ -1,26 +1,18 @@
 import React from "react";
 import "./Navbar.css";
-import dvLogo from "../../images/dvLogo2.png";
 import { Container, NavbarBrand, Nav } from 'react-bootstrap';
 
 const NavBar = props => (
   <Nav className="navbar navbar-expand-md">
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon p-4">
-        {/* <img
-          src={dvLogo}
-          width="30px"
-          height="30px"
-          className="mobileLogo"
-          alt="David Villegas Logo"
-        /> */}
       </span>
     </button>
     <div className="collapse navbar-collapse" id="navbarContent">
       <Container className="justify-content-lg-center bg-white">
       <NavbarBrand href="/">
       <img
-        src={dvLogo}
+        src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/dvLogo2.png"}
         width="25px"
         height="25px"
         className="d-inline-block align-top"
