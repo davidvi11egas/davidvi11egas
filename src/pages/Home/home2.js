@@ -26,7 +26,6 @@ class Home2 extends Component {
                 {/* MOBILE VIEW */}
                 <div className="container mobile">
                     <div className=" container mobileContent">
-                        <hr />
                         <h1>DAVID VILLEGAS</h1>
                         <h2>Web Development</h2>
                         <h2>Digital Marketing</h2>
