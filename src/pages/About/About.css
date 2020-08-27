@@ -50,7 +50,7 @@
 
 
 .banner {
-	background-color: #2D9AB7;
+	background-color: rgb(21, 197, 115);
 	background-image: url("https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/roboWallArt.png");
 	height: 450px;
 	background-attachment: fixed;
@@ -72,8 +72,8 @@
 
 .parallax_description {
 	font-family: 'Open Sans', sans-serif;
-	color: #ffffff;
-	background-color: #212529;
+	color: #fff;
+	background-color: #000;
 	text-align: justify;
 	width: 100%;
 	line-height: 20px;
@@ -144,12 +144,12 @@
 	}
 
 	.banner {
-		height: 500px;
+		height: 50vh;
 	}
 
 	.parallax {
 		padding-top: 50px;
-
+		display: none;
 	}
 }
 
