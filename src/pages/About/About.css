@@ -28,7 +28,7 @@
 	text-align: center;
 }
 
-#resume a:hover {
+.resumeLink a:hover {
 	text-decoration: none;
 	background-color: black;
 	color: white;
@@ -51,7 +51,7 @@
 
 .banner {
 	background-color: #2D9AB7;
-	background-image: url("../../images/roboWallArt.png");
+	background-image: url("https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/roboWallArt.png");
 	height: 450px;
 	background-attachment: fixed;
 	background-size: cover;
@@ -102,11 +102,11 @@
 #resume h3 {
 	font-weight: 300;
 }
-
+/* 
 #btt {
 	padding-top: 80px;
 }
-
+ */
 
 /* PHONES TO IPADS */
 @media only screen and (min-width: 320px)and (max-width: 767px) {

@@ -3,22 +3,22 @@ import ReactPlayer from "react-player/lazy";
 import "./Videos.css";
 // component imports
 import { Container, Col, Row } from "react-bootstrap";
-import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
-// import { Grid, Row, Col } from 'react-flexbox-grid';
 
 class Videos extends Component {
     render() {
         return (
             <Container>
                 <Navbar />
-                <div className="pt-4">
-                <h1 className="videoHeader">Videos</h1>
-                <hr />
+                <div className="pt-5 videoHeader">
+                    <h1 className="videoHeader">Videos</h1>
+                    <a href="/creative">
+                        Back to the creative page
+                    </a>
+                    <hr />
                 </div>
-
                 <Container>
-                    <Row className="d-flex justify-content-center mt-2">
+                    <Row className="d-flex justify-content-center mt-5">
                         <Col md="auto">
                             <ReactPlayer
                                 url="https://youtu.be/N3YUDcv4ctY"
@@ -43,16 +43,12 @@ class Videos extends Component {
                         </Col>
                     </Row>
                 </Container>
-
-
-
                 <hr />
-                <div className="videoBodyText text-center">
+                <div className="videoHeader text-center">
                     <a href="/creative">
-                        <strong>Back to the creative page.</strong>
+                        Back to the creative page
                     </a>
                 </div>
-                <Footer />
             </Container>
         );
     }

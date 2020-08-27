@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
 import "./Experience.css";
-import "./Experience.css";
+
 
 class Experience extends Component {
     render() {

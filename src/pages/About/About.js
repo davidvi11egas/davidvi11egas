@@ -3,8 +3,6 @@ import "./About.css";
 import { Row, Col, Container } from "react-bootstrap";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
-import aboutMePic from "../../images/headShot.jpg";
-// import skills from "../../images/skills.png";
 import Skills from "./Skills.js";
 import Experience from "./Experience.js";
 
@@ -12,14 +10,13 @@ class About extends Component {
     render() {
         return (
             <Container>
-                <div id="top"></div>
+                
                 <Navbar />
-           
                 <Container className="pt-5">
                     <Row className="d-flex justify-content-center">
                         <Col md="4" id="imageCol">
                             <img
-                                src={aboutMePic}
+                                src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/headShot.jpg"}
                                 width="90%"
                                 className="profilePhoto"
                                 alt="davidBioPhoto"
@@ -86,50 +83,6 @@ class About extends Component {
                             stops teaching.
                         </p>
                     </div>
-                    {/* <div className="parallax_description justify-justify">
-                        <h4>
-                            <strong>Professional History</strong>
-                        </h4>
-                        <h5>
-                            David's career began in Miami Florida with an
-                            internship at Emmy Award-winning studio,{" "}
-                            <a
-                                href="https://www.thekitchen.tv/"
-                                rel="noopener noreferrer"
-                                link="_blank"
-                            >
-                                The Kitchen
-                            </a>
-                            . Where most of his day was spent in ProTools
-                            editing dialogue for film overdubs. At night David
-                            promoted events at Miami's most iconic
-                            venues such as{" "}
-                            <a
-                                href="https://www.livnightclub.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                LIV
-                            </a>
-                            ,{" "}
-                            <a
-                                href="https://www.sbe.com/hotels/sls-hotels/south-beach"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                SLS
-                            </a>
-                            , and{" "}
-                            <a
-                                href="https://www.clubspace.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Club Space
-                            </a>
-                            .
-                        </h5>
-                    </div> */}
                 </section>
                     <Row>
                     <div id="resume"></div>
@@ -162,9 +115,10 @@ class About extends Component {
                     <Skills />
                     <Experience />
                     <Row>
-                        <Col id="btt">
+                        <Col id="btt" className="resumeLink">
+                        <hr/>
                             <a href="#top">
-                                <strong>Back To Top</strong>
+                            Back To Top
                             </a>
                         </Col>
                     </Row>

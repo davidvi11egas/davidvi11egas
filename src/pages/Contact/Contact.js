@@ -9,8 +9,8 @@ class Contact extends Component {
     return (
       <Container>
         <Navbar />
-        <div className="pt-5">
-          <h1 className="pageHeader">Contact Me</h1>
+        <div className="contactHeader pt-5">
+          <h1>Contact Me</h1>
           <hr />
         </div>
         <Row center="xs">

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import skills from "../../images/skills.png";
+// import skills from "../../images/skills.png";
 import "./Skills.css";
-import SkillsIconBar from "../../components/SkillsIconBar";
+// import SkillsIconBar from "../../components/SkillsIconBar";
 
 class Skills extends Component {
     render() {

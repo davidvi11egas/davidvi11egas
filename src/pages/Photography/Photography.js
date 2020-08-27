@@ -1,79 +1,78 @@
 import React, { Component } from "react";
 import "./Photography.css";
 // component imports
-import { Container, Card} from "react-bootstrap";
+import { Container, Card } from "react-bootstrap";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
-
-// photo imports
-import apartmentsInCuba from '../../images/apartmentsInCuba.jpg';
-import cubanChurch from '../../images/cubanChurch.jpg';
-import puertoRicanBeach from '../../images/puertoRicanBeach.jpg';
-import yellowApartment from '../../images/yellowApartment.jpg';
-import lakeDrownShot from '../../images/lakeDroneShot.jpg';
 
 class Photography extends Component {
   render() {
     return (
       <Container>
-
-
-        <Navbar/>
-        <div className="photographyBodyText text-center">
-          <a href="/creative">
-            <strong>Back to the creative page.</strong>
-          </a>
-      </div>
-          <h1 className="photographyHeader">Photography</h1>
-          <div className=" container photographyBodyText">
+        <Navbar />
+        <div className="photographyHeader pt-5">
+          <h1>Photography</h1>
           <h5>
-            The following photos were modified with Photoshop and Lightroom. <br/>
-      
+            The following photos were modified with Photoshop and Lightroom
           </h5>
-          </div>
-          <hr/>
-         <Container>
+          <p>
+            <a href="/creative">
+              <strong>Back to the creative page</strong>
+            </a>
+          </p>
+        </div>
+        <hr />
+        <Container>
+        <Card style={{ width: "inherit" }} border="light">
+            <Card.Img
+              variant="top"
+              src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/HOWT4335.jpeg"}
+            />
+          </Card>
           <Card style={{ width: "inherit" }} border="light">
-              <Card.Img
-                variant="top"
-                src={lakeDrownShot}
-              />
-            </Card>  
-            <Card style={{ width: "inherit" }} border="light">
-              <Card.Img
-                variant="top"
-                src={apartmentsInCuba}
-              />
-            </Card>
-            <Card style={{ width: "inherit" }} border="light">
-              <Card.Img
-                variant="top"
-                src={cubanChurch}
-              />
-            </Card>
-            <Card style={{ width: "inherit" }} border="light">
-              <Card.Img
-                variant="top"
-                src={puertoRicanBeach}
-              />
-            </Card>
-            <Card style={{ width: "inherit" }} border="light">
-              <Card.Img
-                variant="top"
-                src={yellowApartment}
-              />
-            </Card>
-          
-
+            <Card.Img
+              variant="top"
+              src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/guatalahara.jpg"}
+            />
+          </Card>          
+          <Card style={{ width: "inherit" }} border="light">
+            <Card.Img
+              variant="top"
+              src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/lakeDroneShot.jpg"}
+            />
+          </Card>
+          <Card style={{ width: "inherit" }} border="light">
+            <Card.Img
+              variant="top"
+              src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/apartmentsInCuba.jpg"}
+            />
+          </Card>
+          <Card style={{ width: "inherit" }} border="light">
+            <Card.Img
+              variant="top"
+              src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/cubanChurch.jpg"}
+            />
+          </Card>
+          <Card style={{ width: "inherit" }} border="light">
+            <Card.Img
+              variant="top"
+              src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/puertoRicanBeach.jpg"}
+            />
+          </Card>
+          <Card style={{ width: "inherit" }} border="light">
+            <Card.Img
+              variant="top"
+              src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/favelasInTheValley_1.gif"}
+            />
+          </Card>
         </Container>
-        <hr/>
-        <div className="photographyBodyText text-center">
+        <hr />
+        <div className="photographyHeader text-center">
           <a href="/creative">
             <strong>Back to the creative page.</strong>
           </a>
-      </div>
-        <Footer/>
-        
+        </div>
+        <Footer />
       </Container>
     );
   }
