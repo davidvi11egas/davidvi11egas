@@ -67,9 +67,9 @@ class Photography extends Component {
           </Card>
         </div>
         <hr />
-        <div className="photographyHeader text-center">
+        <div className="text-center backToCreativeLink" >
           <a href="/creative">
-            <strong>Back to the creative page.</strong>
+            Back to the creative page
           </a>
         </div>
         <Footer />

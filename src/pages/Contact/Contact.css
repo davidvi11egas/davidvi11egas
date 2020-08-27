@@ -1,9 +1,5 @@
 
 .contactPage {
-    background-image: url("https://pixabay.com/get/57e3d6454257a814ead98378c720377a1022dfe05a57764a762f79d4.jpg");
-    background-position: center;
-    object-fit: cover;
-    background-repeat: no-repeat;
     margin: 0;
     width: 100%;
     height: 100%;
@@ -35,24 +31,25 @@
     padding: 4px;
     margin-bottom: 0px;
 }
-a .email {
-    background-color: transparent;
+
+.linkBox {
+    text-align: center;
 }
-p a:hover {
+
+.linkBox a:hover {
     text-decoration: none;
     background-color: #000;
     color: #fff;
-  }
+}
 
-/* .contactLink a:hover {
-    text-decoration: none;
-    color: red;
-} */
-  @media only screen and (min-width: 320px)and (max-width: 1024px) {
+.contactLinks {
+    list-style-type: none;
+}
 
-    .contactHeader {
+@media only screen and (min-width: 320px)and (max-width: 1024px) {
+
+    /* .contactHeader {
         text-align: center;
         font-size: 15vw;
-    }
-     
-     }
+    }  */
+}

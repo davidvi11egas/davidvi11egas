@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import data from './ContactData';
 import './Contact.css';
 import Navbar from "../../components/Navbar";
-import { Container, Col, Row } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 
 class Contact extends Component {
   render() {
@@ -13,24 +13,14 @@ class Contact extends Component {
           <h1>Contact Me</h1>
           <hr />
         </div>
-        <Row center="xs">
-          <Col xs>
-            <p>
-              <ul className="contactLinks">
-                <li>
+          <div className="linkBox">
                   <h4>
                     <a href={`mailto:${data.contactEmail}`} className='email'>Send me an Email</a>
                   </h4>
-                </li>
-                <li>
                   <h4>
-                    <a href={"https://www.linkedin.com/in/davidvi11egas/"}> Connect on LinkedIn</a>
+                    <a href={"https://www.linkedin.com/in/davidvi11egas/"} target="_blank" rel="noopener noreferrer"> Connect on LinkedIn</a>
                   </h4>
-                </li>
-              </ul>
-            </p>
-          </Col>
-        </Row>
+            </div>
       </Container>
     );
   }

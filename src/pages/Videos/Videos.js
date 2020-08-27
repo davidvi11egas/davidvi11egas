@@ -12,17 +12,15 @@ class Videos extends Component {
                 <Navbar />
                 <div className="pt-5 videoHeader">
                     <h1 className="videoHeader">Videos</h1>
-                    <a href="/creative">
-                        Back to the creative page
-                    </a>
                     <hr />
                 </div>
                 <Container>
                     <Row className="d-flex justify-content-center mt-5">
-                        <Col md="auto">
+                        <Col sm={8}>
                             <ReactPlayer
                                 url="https://youtu.be/N3YUDcv4ctY"
                                 controls
+                                width="100%"
                             />
                         </Col>
                         <Col md="auto" className="pt-3">
