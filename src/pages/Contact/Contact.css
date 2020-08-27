@@ -10,10 +10,9 @@
 }
 
 .pageHeader {
-    font-family: 'Bebas Neue';
-    font-size: 6vw;
-    /* color: #1961aa; */
-    padding-bottom: 400px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+  
 }
 
 #contactBox {
@@ -40,8 +39,9 @@ a .email {
     background-color: transparent;
 }
 p a:hover {
-    color: #1961aa;
-    /* border-style: dotted; */
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
   }
 
 /* .contactLink a:hover {

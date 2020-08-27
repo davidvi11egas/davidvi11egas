@@ -5,7 +5,6 @@ import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import aboutMePic from "../../images/headShot.jpg";
 // import skills from "../../images/skills.png";
-import SkillsIconBar from "../../components/SkillsIconBar";
 import Skills from "./Skills.js";
 import Experience from "./Experience.js";
 
@@ -15,47 +14,51 @@ class About extends Component {
             <Container>
                 <div id="top"></div>
                 <Navbar />
-                <br />
-                <Container className="pt-4">
-                <Row className="d-flex justify-content-center">
-                    <Col
-                        md="4"
-                        id="imageCol"
-                    >
-                        <img
-                            src={aboutMePic}
-                            width="100%"
-                            className="profilePhoto"
-                            alt="davidBioPhoto"
-                        />
-                    </Col>
-                    <Col md="8">
-                        <div className="profileHeader">
-                            <h1>David Villegas</h1>
-                            <h2>
-                                <strong>Web Developer |</strong> Content Creator
-                            </h2>
-                            <h2>
-                                {" "}
-                                &
-                                <strong> Digital Marketing Professional</strong>
-                            </h2>
-                            <p>
-                            <h4>
-                                <hr />
-                                With an eye for captivating design, love for
-                                technology, and a mind overflowing with
-                                creativity; David Villegas delivers innovation,
-                                quality and accuracy in web development,
-                                creative production, and digital marketing.{" "}
-                                <a href="#resume" id="resumeLink">
-                                    View My Resume
-                                </a>
-                            </h4>
-                            </p>
-                        </div>
-                    </Col>
-                </Row>
+           
+                <Container className="pt-5">
+                    <Row className="d-flex justify-content-center">
+                        <Col md="4" id="imageCol">
+                            <img
+                                src={aboutMePic}
+                                width="90%"
+                                className="profilePhoto"
+                                alt="davidBioPhoto"
+                            />
+                        </Col>
+                        <Col md="8">
+                            <div className="profileHeader">
+                                <h1>David Villegas</h1>
+                                <h2>
+                                    <strong>Web Developer |</strong> Content
+                                    Creator
+                                </h2>
+                                <h2>
+                                    {" "}
+                                    &
+                                    <strong>
+                                        {" "}
+                                        Digital Marketing Professional
+                                    </strong>
+                                </h2>
+                                <p>
+                                    <h5>
+                                        <hr />
+                                        Hello, and welcome to my website! My
+                                        name is David Villegas, and I’ve created
+                                        this page to showcase some of my talent,
+                                        experience, and for you to get to know
+                                        me a little better. If you would like to
+                                        read more about me - scroll down. If
+                                        you'd prefer to skip straight to my
+                                        professional resume,{" "}
+                                        <a href="#resume" id="resumeLink">
+                                            Click Here.
+                                        </a>
+                                    </h5>
+                                </p>
+                            </div>
+                        </Col>
+                    </Row>
                 </Container>
                 <section className="banner">
                     <h2 className="parallax">
@@ -67,16 +70,21 @@ class About extends Component {
                         <h4>
                             <strong>About Me</strong>
                         </h4>
-                        <h5>
+                        <p>
                             Born in Medellin Colombia, then raised in Central
                             Florida, David Villegas pulls inspiration from the
                             spirit and culture of the places that raised him.
                             With extensive knowledge in a variety of industries
                             such as web development, marketing, graphic design,
                             and music production, David has the skills needed to
-                            take your any idea and make it into reality. Never
-                            stop learning, because life never stops teaching.
-                        </h5>
+                            take your any idea and make it into reality. With an
+                            eye for captivating design, love for technology, and
+                            a mind overflowing with creativity; David Villegas
+                            delivers innovation, quality and accuracy in web
+                            development, creative production, and digital
+                            marketing.Never stop learning, because life never
+                            stops teaching.
+                        </p>
                     </div>
                     {/* <div className="parallax_description justify-justify">
                         <h4>
@@ -123,36 +131,36 @@ class About extends Component {
                         </h5>
                     </div> */}
                 </section>
-
-                <Container id="resume">
                     <Row>
-                        <Col>
-                            <h1 className="pageHeader" id="resumeTitle">
-                                David Villegas |
-                                Orlando, FL
-                            </h1>
-                            <Container>
+                    <div id="resume"></div>
+                        <Col className="mt-5 mb-5">
+                        <span>
                             
-                                <h6>
-                                    {" "}
-                                    <a
-                                        href="https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/david_villegas_resume_8.2020.pdf"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        View the printable PDF
-                                    </a>{" "}
-                                </h6>
-                            </Container>
-                        </Col>
-                    </Row>
-                </Container>
-                <Skills />
-                
-                <Experience />
+                            <h1 id="resumeTitle">
+                                David Villegas | Orlando, FL
+                               
+                            </h1>
+                          
+                            </span>
+                            <h3>
+                            Digital Marketing | Web Development | Creative Content
+                            </h3>
+                            <hr />
 
-                <br></br>
-                <Container>
+                            <h5>
+                                <a
+                                href="https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/david_villegas_resume_8.2020.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                View the printable PDF
+                                </a>
+                            </h5>
+                        </Col>
+
+                    </Row>
+                    <Skills />
+                    <Experience />
                     <Row>
                         <Col id="btt">
                             <a href="#top">
@@ -160,9 +168,7 @@ class About extends Component {
                             </a>
                         </Col>
                     </Row>
-                    <SkillsIconBar/>
-                </Container>
-                <Footer />
+                    <Footer />
             </Container>
         );
     }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Creative.css";
-import { Container, Card, CardColumns } from "react-bootstrap";
+import { Container, Card, CardColumns,Col } from "react-bootstrap";
 import Navbar from '../../components/Navbar';
 // image imports
 import photoIcon from "../../images/photoIcon.png";
@@ -17,31 +17,30 @@ import englishMuffin from '../../images/englishMuffin.gif';
 class Creative extends Component {
   render() {
     return (
-      <div className="pageContent photographyPage">
+ 
 
 
         <Container>
           <Navbar />
-          
+          <div className="pt-4">
           <h1 className="creativeHeader">Creative Content</h1>
-
+          </div>
           <div className="row creativeLinks">
-
+          <Col>
             <a href="/photography">
-              <img src={photoIcon} width="55px" alt="link_to_photos" />
-                Click here for pics
-            </a>
-            <br/>
+                Photos
+            </a>|
             <a href="/videos">
-              <img src={videoIcon} width="55px" alt="link_to_videos" />
-                Click here for vids
+               <strong>Videos</strong>
             </a>
+            </Col>
           </div>
           <hr />
           <div className="bodyText" id="graphics">
-          <h1><strong>
+          <p>
+          
           My designs are hand-drawn first, then perfected with Illustrator & Photoshop
-          </strong></h1>
+          </p>
           </div>
           <CardColumns>
             <Card style={{ width: "100%" }}>
@@ -88,7 +87,7 @@ class Creative extends Component {
           </CardColumns>
           <br />
         </Container>
-      </div>
+
     );
   }
 }

@@ -11,7 +11,7 @@
 }
 
 .sectionContentTitle {
-    font-family: 'Open Sans', arial;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(27, 117, 207);
     padding: 0px;
 }
@@ -28,12 +28,12 @@
     font-weight: 200;
 }
 .sectionContentTitle a {
-    font-family: 'Open Sans', arial;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(27, 117, 207);
 
 }
 .sectionContentTitle a:hover {
-    font-family: 'Open Sans', arial;
+    font-family: 'Open Sans', sans-serif;
     color: #3e3f41;
 
 }

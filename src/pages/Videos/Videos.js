@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactPlayer from "react-player/lazy";
 import "./Videos.css";
 // component imports
-import { Container, Card, Grid, Col, Row } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 // import { Grid, Row, Col } from 'react-flexbox-grid';
@@ -12,17 +12,10 @@ class Videos extends Component {
         return (
             <Container>
                 <Navbar />
-                <div className="videoBodyText text-center">
-                    <a href="/creative">
-                        <strong>Back to the creative page.</strong>
-                    </a>
-                </div>
+                <div className="pt-4">
                 <h1 className="videoHeader">Videos</h1>
-                <div className=" container photographyBodyText">
-                    <h5>My Videos</h5>
-                </div>
                 <hr />
-
+                </div>
 
                 <Container>
                     <Row className="d-flex justify-content-center mt-2">
