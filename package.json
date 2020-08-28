@@ -17,6 +17,7 @@
     "image-webpack-loader": "^6.0.0",
     "immutable": "^4.0.0-rc.12",
     "iobroker.icons-icons8": "^0.0.1",
+    "iphone-inline-video": "^2.2.2",
     "jquery": "^3.5.1",
     "json-loader": "^0.5.7",
     "less": "^3.11.3",
