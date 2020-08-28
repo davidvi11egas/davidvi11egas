@@ -12,7 +12,6 @@ class Home2 extends Component {
                     autoPlay
                     muted
                     loop
-                    playsInline
                     >
                     <source
                     src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/fireWorks1.mp4"}
