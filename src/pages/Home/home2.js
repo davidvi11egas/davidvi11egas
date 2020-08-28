@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Home2.css";
 import Navbar from "../../components/Navbar";
-import enableInlineVideo from 'iphone-inline-video';
 class Home2 extends Component {
     render() {
         return (
@@ -10,8 +9,8 @@ class Home2 extends Component {
                 <video
                     id="background-video"
                     width="100%"
-                    playsInline
                     autoPlay
+                    playsInline
                     muted
                     loop>
                     <source
