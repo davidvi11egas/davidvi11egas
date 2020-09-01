@@ -12,7 +12,6 @@
     padding: 0%;
     width: 100%;
     overflow: hidden;
-
 }
 
 .copyright {
@@ -87,15 +86,10 @@
         font-family: Bebas Neue;
         margin-top: 1em;
     }
+
     .mobile {
         display: none;
-        /* height: 100vh;
-        width: 100vw;
-        background-color: #000;
-        color: #fff; */
-        /* background-position: center; */
-        /* background-size: cover; */
-    }    
+    }
 }
 
 /* large TO LARGEest SCREENS */
@@ -129,6 +123,6 @@
         color: #fff;
         font-size: 9.5rem;
         font-family: Bebas Neue;
-        /* height: 100vh; */
+        height: 100vh;
     }
 }

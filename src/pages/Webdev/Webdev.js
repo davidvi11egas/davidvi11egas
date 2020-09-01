@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./Webdev.css";
+import { Container, Col, Row } from "react-bootstrap";
 import Navbar from "../../components/Navbar";
 
-
+import "./Webdev.css";
 
 class Webdev extends Component {
   render() {
@@ -17,56 +17,101 @@ class Webdev extends Component {
           </h5>
           <hr />
         </div>
-        <div className="bodyText">
-          <div className="grid pt-5" id="layout">
-            <section>
-              <div className="websiteName">
-                <h4><strong><a href="#visitFlorida" data-toggle="collapse" aria-expanded="false" className="siteText"
-                  aria-controls="visitFlorida">Florida</a></strong></h4>
-              </div>
-              <div className="collapse" id="visitFlorida">
-                <p>
-                  This page is fully responsive & built with just HTML, CSS, and Bootstrap
+        <div className="bodyText mt-4">
+          <Container>
+            <Row>
+              <Col md={6}>
+                <section>
+                  <div className="websiteName">
+                    <h4><strong><a href="#visitFlorida" data-toggle="collapse" aria-expanded="false" className="siteText"
+                      aria-controls="visitFlorida">Florida</a></strong></h4>
+                  </div>
+                  <div className="collapse" id="visitFlorida">
+                    <p>
+                    <ul>
+                        <li> Full Responsive</li>
+                        <li> HTML 5 </li>
+                        <li> CSS </li>
+                        <li> Bootstrap </li>
+                        <li> Hosted on AWS </li>
+                      </ul>
 									</p>
-              </div>
-              <a href="https://davidvi11egas.github.io/visit_florida/" target="_blank" rel="noopener noreferrer">
-                <img src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/visitFlorida.png"} width="100%"
-                  alt="Cocoa Beach Florida" />
-              </a>
-            </section>
+                  </div>
+                  <a href="https://davidvi11egas.github.io/visit_florida/" target="_blank" rel="noopener noreferrer">
+                    <img src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/visitFlorida.png"} width="100%"
+                      alt="Cocoa Beach Florida" />
+                  </a>
+                </section>
+              </Col>
+              <Col md={6}>
+                <section>
+                  <div className="websiteName">
+                    <h4><strong><a href="#nsbSharks" data-toggle="collapse" aria-expanded="false" className="siteText"
+                      aria-controls="nsbSharks">New Smyrna Beach Sharks</a></strong></h4>
+                  </div>
+                  <div className="collapse" id="nsbSharks">
+                  <ul>
+                        <li> Full Responsive</li>
+                        <li> React.js </li>
+                        <li> CSS </li>
+                        <li> react-bootstrap </li>
+                        <li> Hosted on AWS </li>
+                      </ul>
+                  </div>
+                  <a href="https://www.newsmyrnasharks.com/" target="_blank" rel="noopener noreferrer">
+                    <img src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/nsbSharks.png"} width="100%"
+                      alt="Cocoa Beach Florida" />
+                  </a>
+                </section>
+              </Col>
+            </Row>
             <br />
-            <section id="lists">
-              <div className="websiteName">
-                <h4><strong><a href="#nsbSharks" data-toggle="collapse" aria-expanded="false" className="siteText"
-                  aria-controls="nsbSharks">New Smyrna Beach Sharks</a></strong></h4>
-              </div>
-              <div className="collapse" id="nsbSharks">
-                <p>
-                  NSB Sharks is a React app hosted on AWS Amplify
+            <Row>
+              <Col md={6}>
+                <section id="lists">
+                  <div className="websiteName">
+                    <h4><strong><a href="#collapseMenu5" data-toggle="collapse" aria-expanded="false" className="siteText"
+                      aria-controls="collapseMenu5">Up Pup</a></strong></h4>
+                  </div>
+                  <div className="collapse" id="collapseMenu5">
+                    <p>
+                      <ul>
+                        <li> Full Responsive</li>
+                        <li> HTML 5 </li>
+                        <li> CSS </li>
+                        <li> Bootstrap </li>
+                        <li> Hosted on AWS </li>
+                      </ul>
 									</p>
-              </div>
-              <a href="https://www.newsmyrnasharks.com/" target="_blank" rel="noopener noreferrer">
-                <img src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/nsbSharks.png"} width="100%"
-                  alt="Cocoa Beach Florida" />
-              </a>
-            </section>
-            <br />
-            <section id="lists">
-              <div className="websiteName">
-                <h4><strong><a href="#collapseMenu5" data-toggle="collapse" aria-expanded="false" className="siteText"
-                  aria-controls="collapseMenu5">Up Pup</a></strong></h4>
-              </div>
-              <div className="collapse" id="collapseMenu5">
-                <p>
-                  Responsive HTML & CSS
+                  </div>
+                  <a href="https://master.d35odzy1irc8uc.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
+                    <img src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/upPup.png"} width="100%"
+                      alt="UpPup" />
+                  </a>
+                </section>
+              </Col>
+              <Col md={6}>
+                <section id="lists">
+                  <div className="websiteName">
+                    <h4><strong><a href="#collapseMenu6" data-toggle="collapse" aria-expanded="false" className="siteText"
+                      aria-controls="collapseMenu5">Email Marketing</a></strong></h4>
+                  </div>
+                  <div className="collapse" id="collapseMenu6">
+                    <p>
+                    This email marketing page was written with email marketing campaigns in mind.
+                    This means the body is table based, and all styling occurs in-line.
 									</p>
-              </div>
-              <a href="https://master.d35odzy1irc8uc.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
-                <img src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/upPup.png"} width="100%"
-                  alt="UpPup" />
-              </a>
-            </section>
-          </div>
+                  </div>
+                  <a href="https://master.d35odzy1irc8uc.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
+                    <img src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/email_marketing.png"} width="100%"
+                      alt="UpPup" />
+                  </a>
+                </section>
+
+              </Col>
+            </Row>
+          </Container>
+
         </div>
       </div>
     );
