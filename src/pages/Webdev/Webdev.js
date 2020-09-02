@@ -102,7 +102,7 @@ class Webdev extends Component {
                     This means the body is table based, and all styling occurs in-line.
 									</p>
                   </div>
-                  <a href="https://master.d35odzy1irc8uc.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://davidvi11egas.github.io/email_marketing_sample/" target="_blank" rel="noopener noreferrer">
                     <img src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/email_marketing.png"} width="100%"
                       alt="UpPup" />
                   </a>
