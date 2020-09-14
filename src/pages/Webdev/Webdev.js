@@ -20,6 +20,29 @@ class Webdev extends Component {
         <div className="bodyText mt-4">
           <Container>
             <Row>
+            <Col md={6}>
+                <section>
+                  <div className="websiteName">
+                    <h4><strong><a href="#dagobong" data-toggle="collapse" aria-expanded="false" className="siteText"
+                      aria-controls="dagobong">DagoBong Vintage Clothing Shop</a></strong></h4>
+                  </div>
+                  <div className="collapse" id="dagobong">
+                    <p>
+                    <ul>
+                        <li> Fully Functional E-Commerce Website</li>
+                        <li> Owned & operated by David & Matthew Villegas</li>
+                        <li> Built with Wordpress</li>
+                        <li> Sales made with WooCommerce </li>
+                        <li> Hosted on Amazon Web Services </li>
+                      </ul>
+									</p>
+                  </div>
+                  <a href="https://dagobong.com" target="_blank" rel="noopener noreferrer">
+                    <img src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/dagobongScreenshot.png"} width="100%"
+                      alt="Dagobong Vintage Clothing" />
+                  </a>
+                </section>
+              </Col>            
               <Col md={6}>
                 <section>
                   <div className="websiteName">
@@ -64,9 +87,9 @@ class Webdev extends Component {
                   </a>
                 </section>
               </Col>
-            </Row>
+            {/* </Row> */}
             <br />
-            <Row>
+            {/* <Row> */}
               <Col md={6}>
                 <section id="lists">
                   <div className="websiteName">
