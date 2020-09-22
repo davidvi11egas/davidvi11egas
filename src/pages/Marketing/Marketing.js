@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import "./Marketing.css";
 // component imports
-import { Container, Card} from "react-bootstrap";
+// import { Container, Card} from "react-bootstrap";
+import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 

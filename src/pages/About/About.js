@@ -10,7 +10,6 @@ class About extends Component {
     render() {
         return (
             <Container>
-                
                 <Navbar />
                 <Container className="pt-5">
                     <Row className="d-flex justify-content-center">
