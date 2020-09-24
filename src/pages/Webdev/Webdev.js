@@ -66,7 +66,7 @@ class Webdev extends Component {
                   </a>
                 </section>
               </Col>
-              <Col md={6}>
+              {/* <Col md={6}>
                 <section>
                   <div className="websiteName">
                     <h4><strong><a href="#nsbSharks" data-toggle="collapse" aria-expanded="false" className="siteText"
@@ -86,7 +86,7 @@ class Webdev extends Component {
                       alt="Cocoa Beach Florida" />
                   </a>
                 </section>
-              </Col>
+              </Col> */}
             {/* </Row> */}
             <br />
             {/* <Row> */}
