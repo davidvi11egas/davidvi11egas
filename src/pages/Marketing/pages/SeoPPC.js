@@ -17,7 +17,7 @@ const SeoPPC = () => (
       consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
       fames ac ante ipsum primis in faucibus.
     </p>
-    <embed src={"https://newsmyrnasharks.com"} style={pageStyle}/>
+    {/* <embed src={"https://newsmyrnasharks.com"} style={pageStyle}/> */}
   </div>
 );
 
