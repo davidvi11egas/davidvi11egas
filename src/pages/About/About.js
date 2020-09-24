@@ -99,7 +99,7 @@ class About extends Component {
                             </h3>
                             <hr />
 
-                            <h5>
+                            {/* <h5>
                                 <a
                                 href="https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/david_villegas_resume_8.2020.pdf"
                                 target="_blank"
@@ -107,7 +107,7 @@ class About extends Component {
                                 >
                                 View the printable PDF
                                 </a>
-                            </h5>
+                            </h5> */}
                         </Col>
 
                     </Row>

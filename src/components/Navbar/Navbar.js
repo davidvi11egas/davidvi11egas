@@ -9,8 +9,8 @@ const NavBar = props => (
       </span>
     </button>
     <div className="collapse navbar-collapse" id="navbarContent">
-      <Container className="justify-content-lg-center bg-white">
-      <NavbarBrand href="/">
+      <Container className="justify-content-lg-center bg-white p-0">
+      {/* <NavbarBrand href="/">
       <img
         src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/dvLogo2.png"}
         width="25px"
@@ -18,7 +18,7 @@ const NavBar = props => (
         className="d-inline-block align-top"
         alt="David_Villegas_icon"
       />
-    </NavbarBrand>
+    </NavbarBrand> */}
         <ul className="navbar-nav">
         <li className="nav-item">
             <a className="nav-link" href="/">Home</a>
@@ -28,6 +28,9 @@ const NavBar = props => (
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/about#resume">Resume</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/marketing">Marketing</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/webDev">Web Development</a>

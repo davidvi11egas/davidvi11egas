@@ -9,6 +9,7 @@ class Home2 extends Component {
                 <video
                     id="background-video"
                     width="100%"
+                    
                     autoPlay
                     muted
                     loop

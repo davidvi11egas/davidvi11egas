@@ -9,7 +9,10 @@ a {
     color: #000000;
     text-decoration: none;
 }
-
+.navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .nav-item {
     width: max-content;
     font-size: 1.05rem;
@@ -20,12 +23,15 @@ a {
     background-color: black;
     color: white;
 }
-
-.navbar-toggler-icon {
+.navbar-toggler {
     margin: 0px;
+    padding: 0px;
+}
+.navbar-toggler-icon {
+    
     width: 2em;
     height: 2em;
-    background-image: url("../../images/dvLogo2.png");
+    background-image: url("https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/dvLogo.png");
 }
 
 /* iphones to small screens */
