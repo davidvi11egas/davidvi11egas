@@ -35,9 +35,6 @@ class Marketing extends Component {
         <Navbar/>
         <div className="marketingHeader pt-2">
           <h1> Marketing </h1>
-          {/* <h5>
-            With over 5 year 
-          </h5> */}
           <hr />
         </div>
         <div  className="marketingComponent">

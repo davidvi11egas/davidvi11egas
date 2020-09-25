@@ -29,15 +29,15 @@ const NavBar = props => (
           <li className="nav-item">
             <a className="nav-link" href="/about#resume">Resume</a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link" href="/marketing">Marketing</a>
-          </li>
-          <li className="nav-item">
+          </li> */}
+          {/* <li className="nav-item">
             <a className="nav-link" href="/webDev">Web Development</a>
-          </li>
-          <li className="nav-item">
+          </li> */}
+          {/* <li className="nav-item">
             <a className="nav-link" href="/creative">Creative Content</a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a className="nav-link" href="/contact">Contact Me</a>
           </li>

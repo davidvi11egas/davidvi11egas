@@ -40,7 +40,7 @@ const NavTabs = props => (
           props.currentPage === "Contact" ? "nav-link active" : "nav-link"
         }
       >
-        Graphics
+        Copywriting
       </a>
     </li>
   </ul>
