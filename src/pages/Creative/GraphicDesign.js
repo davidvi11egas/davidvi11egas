@@ -3,17 +3,27 @@ import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
 import Col from "react-bootstrap/Col";
+// import {EastCoastSurfer as src} from "https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/EastcoastSurferLogo.png";
 const GraphicDesign = () => (
     
-    <Container className="pt-5">
-    <h1>Graphic Design</h1>
-        <hr />
-        <div className="bodyText" id="graphics">
+    <Container className="pt-4 p-0">
+    <h2><strong>Graphic Design</strong></h2>
+      
+        <div className="bodyText pb-2 justify-text" id="graphics">
           <p>
-            Most of my graphics begin as hand-drawn pieces. From there I then digitize them with Illustrator.
+            Graphic Designs begin as hand drawn sketches. From there, they are converted to vector images using Adobe Illustrator.
+            From there, designs are then brought into Adobe Photoshop for any additional editing. 
           </p>
+          <hr />
         </div>
+
         <CardColumns>
+        <Card style={{  border:"none" }}>
+            <Card.Img
+              variant="top"
+              src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/EastcoastSurferLogo.png"}
+            />
+          </Card>        
           <Card style={{ width: "100%" }}>
             <Card.Img
               variant="top"

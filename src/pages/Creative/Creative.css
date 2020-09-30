@@ -1,6 +1,6 @@
 
 .creativeHeader {
-    font-family: 'Open Sans', monospace;
+    font-family:poppins, sans-serif;
     font-weight: 800;
 }
 
@@ -16,4 +16,5 @@
 
 #graphics {
     margin-bottom: 1em;
+    text-align: justify;
 }

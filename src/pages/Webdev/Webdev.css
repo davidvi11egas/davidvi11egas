@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/nnn7cfm.css");
 
 .pageContent {
   clear: both;
@@ -5,7 +6,7 @@
   display: inline-block;
 }
 .webDevHeader {
-  font-family: 'Open Sans', monospace;
+  font-family: poppins, sans-serif;
 }
 .webDevHeader h1 {
   font-weight: 800;
@@ -15,16 +16,16 @@
 }
 
 .websiteName {
-  font-family: 'Open Sans', sans-serif;
+  font-family: poppins, sans-serif;
   font-weight: 300;
 }
 
 .dropDownText {
-  font-family: 'Open Sans', sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 .websiteName {
-  font-family: 'Open Sans', sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 .websiteName a:hover {

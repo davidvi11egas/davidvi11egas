@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 .experience {
-    font-family: 'Open Sans', sans-serif;
+    font-family: poppins, sans-serif;
     margin-top: 30px;
     margin-bottom: 60px;
 }
@@ -12,7 +12,7 @@
 }
 
 .sectionContentTitle {
-    font-family: 'Open Sans', sans-serif;
+    font-family: poppins, sans-serif;
     color: rgb(27, 117, 207);
     padding: 0px;
 }
@@ -29,12 +29,12 @@
     font-weight: 200;
 }
 .sectionContentTitle a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: poppins, sans-serif;
     color: rgb(27, 117, 207);
 
 }
 .sectionContentTitle a:hover {
-    font-family: 'Open Sans', sans-serif;
+    font-family: poppins, sans-serif;
     color: #3e3f41;
 
 }

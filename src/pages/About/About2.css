@@ -6,19 +6,16 @@
 
 .profileHeader h1 {
 	font-family: minion-std-black, sans-serif;
-	/* font-family: minion-std-black, sans-serif; */
 	font-weight: 200;
 }
 
 .profileHeader h2 {
 	font-family: minion-pro-display, serif;
-	/* font-weight: 700; */
 	font-style: normal;
 }
 
 .profileHeader h5 {
 	font-family: poppins, sans-serif;
-	/* font-weight: 500; */
 	text-align: justify;
 }
 
@@ -28,16 +25,16 @@
 	background-color: #000;
 }
 
-#imageCol {
+/* #imageCol {
 	text-align: center;
-}
+} */
 
-.resumeLink a:hover {
+/* .resumeLink a:hover {
 	text-decoration: none;
 	background-color: black;
 	color: white;
 	padding: 2px;
-}
+} */
 
 .profileBioText {
 	font-family: 'Open Sans', sans-serif;
@@ -53,16 +50,16 @@
 }
 
 
-.banner {
+/* .banner {
 	background-color: rgb(21, 197, 115);
 	background-image: url("https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/roboWallArt.png");
 	height: 450px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-}
+} */
 
-.parallax {
+/* .parallax {
 	font-family: poppins, sans-serif;
 	font-weight: bold;
 	color: #FFFFFF;
@@ -72,7 +69,7 @@
 	letter-spacing: 2px;
 	margin-top: 0px;
 	margin-left: 0px;
-}
+} */
 
 .parallax_description {
 	font-family: poppins, sans-serif;
@@ -102,6 +99,12 @@
 	font-family: poppins;
 	font-weight: 800;
 	margin-top: 1em;
+}
+
+#personalBio {
+	font-size: 1.1em;
+	font-weight: 400;
+	text-align: justify;
 }
 #resume h3 {
 	font-weight: 300;

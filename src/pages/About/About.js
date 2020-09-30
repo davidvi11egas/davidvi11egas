@@ -21,7 +21,7 @@ class About extends Component {
                                 alt="davidBioPhoto"
                             />
                         </Col>
-                        <Col md="8">
+                        <Col md="12">
                             <div className="profileHeader">
                                 <h1>David Villegas</h1>
                                 <h2>
@@ -37,20 +37,19 @@ class About extends Component {
                                     </strong>
                                 </h2>
                                 <p>
-                                    <h5>
+                                    <p>
                                         <hr />
-                                        Hello, and welcome to my website! My
+                                        My
                                         name is David Villegas, and I’ve created
                                         this page to showcase some of my talent,
                                         experience, and for you to get to know
-                                        me a little better. If you would like to
-                                        read more about me - scroll down. If
+                                        me a little better. If
                                         you'd prefer to skip straight to my
                                         professional resume,{" "}
                                         <a href="#resume" id="resumeLink">
                                             Click Here.
                                         </a>
-                                    </h5>
+                                    </p>
                                 </p>
                             </div>
                         </Col>

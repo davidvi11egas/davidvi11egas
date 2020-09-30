@@ -1,6 +1,7 @@
+@import url("https://use.typekit.net/nnn7cfm.css");
 .marketingHeader {
-    font-family: 'Open Sans', monospace;
-    /* padding-top: 30px; */
+    font-family: poppins, serif;
+    font-weight: 900;
   }
   .marketingHeader h1 {
     font-weight: 800;
@@ -11,12 +12,6 @@
 .photographyBodyText {
     font-family: 'Swanky', monospace;
 }
-.marketingComponent {
-  /* padding: 10px; */
-
-}
-
-
 
 @media (max-width: 767.98px) {
   /* .marketingHeader{

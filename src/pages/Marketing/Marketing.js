@@ -4,14 +4,16 @@ import Container from 'react-bootstrap/Container';
 import Navbar from "../../components/Navbar";
 import NavTabs from "./NavTabs";
 import SeoPPC from "./pages/SeoPPC";
-import About from "./pages/About";
-import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
-
+// import PPC from "./pages/PPC";
+import EmailMarketing from "./pages/EmailMarketing";
+import SocialMedia from "./pages/SocialMedia";
+import Copywriting from "./pages/Copywriting";
+import MarketingHome from "./pages/MarketingHome";
+import Footer from '../../components/Footer';
 class Marketing extends Component {
 
   state = {
-    currentPage: "Home"
+    currentPage: "About"
   };
 
   handlePageChange = page => {
@@ -21,19 +23,25 @@ class Marketing extends Component {
   renderPage = () => {
     if (this.state.currentPage === "Home") {
       return <SeoPPC />;
-    } else if (this.state.currentPage === "About") {
-      return <About />;
-    } else if (this.state.currentPage === "Blog") {
-      return <Blog />;
-    } else {
-      return <Contact />;
+    }    
+    else if (this.state.currentPage === "SeoPPC") {
+      return <SeoPPC />;
+    } 
+    else if (this.state.currentPage === "About") {
+      return <EmailMarketing />;
+    }
+    else if (this.state.currentPage === "Blog") {
+      return <SocialMedia />;
+    } 
+    else {
+      return <Copywriting />;
     }
   };
   render() {
     return (
-      <Container>
+      <Container id="marketing">
         <Navbar/>
-        <div className="marketingHeader pt-2">
+        <div className="marketingHeader pt-5">
           <h1> Marketing </h1>
           <hr />
         </div>
@@ -44,6 +52,7 @@ class Marketing extends Component {
           />
           {this.renderPage()}
         </div>
+        <Footer/>
       </Container>
     
     );

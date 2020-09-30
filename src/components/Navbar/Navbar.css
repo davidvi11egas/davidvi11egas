@@ -16,7 +16,7 @@ a {
 .nav-item {
     width: max-content;
     font-size: 1.05rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 .nav-item a:hover {

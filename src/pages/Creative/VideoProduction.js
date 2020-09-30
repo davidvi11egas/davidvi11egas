@@ -8,13 +8,14 @@ import Navbar from "../../components/Navbar";
 class Videos extends Component {
     render() {
         return (
-            <Container>
-                {/* <Navbar /> */}
-                {/* <div className="pt-5 videoHeader">
-                    <h1 className="videoHeader">Videos</h1>
-                    <hr />
-                </div> */}
-                <Container>
+                <Container className="pt-4 p-0">
+    <h2><strong>Video Production</strong></h2>
+      <div className="bodyText pb-2 text-justify" id="graphics">
+        <p>
+            David has over 10 years of experience in capturing, editing, and implementing videos. With video marketing becoming ever more dominant in digital marketing, it is crucial to have someone on your marketing team with these skills.
+        </p>
+        <hr />
+      </div>               
                     <Row className="d-flex justify-content-center mt-5">
                         <Col sm={8}>
                             <ReactPlayer
@@ -27,12 +28,12 @@ class Videos extends Component {
                             <p>
                                 <h5 id="movaGlobeText">
                                     This clip was filmed in collaboration with{" "}
-                                    <a href="https://www.instagram.com/enjillneer">
+                                    <a href="https://www.instagram.com/enjillneer" target="_blank">
                                         {" "}
                                         Enjillneer{" "}
                                     </a>
                                     for{" "}
-                                    <a href="https://www.movaglobes.com/stayhomesciencefair">
+                                    <a href="https://www.movaglobes.com/stayhomesciencefair" target="_blank">
                                         {" "}
                                         Mova Globe's Stay Home Science Fair
                                     </a>
@@ -40,13 +41,6 @@ class Videos extends Component {
                             </p>
                         </Col>
                     </Row>
-                </Container>
-                <hr />
-                <div className="videoHeader text-center">
-                    <a href="/creative">
-                        Back to the creative page
-                    </a>
-                </div>
             </Container>
         );
     }

@@ -12,7 +12,7 @@ const NavBar = props => (
       <Container className="justify-content-lg-center bg-white p-0">
       {/* <NavbarBrand href="/">
       <img
-        src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/dvLogo2.png"}
+        src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/dvLogo.png"}
         width="25px"
         height="25px"
         className="d-inline-block align-top"
@@ -26,18 +26,18 @@ const NavBar = props => (
           <li className="nav-item">
             <a className="nav-link" href="/about">About Me</a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link" href="/about#resume">Resume</a>
-          </li>
-          {/* <li className="nav-item">
+          </li> */}
+          <li className="nav-item">
             <a className="nav-link" href="/marketing">Marketing</a>
-          </li> */}
-          {/* <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" href="/webDev">Web Development</a>
-          </li> */}
-          {/* <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <a className="nav-link" href="/creative">Creative Content</a>
-          </li> */}
+          </li>
           <li className="nav-item">
             <a className="nav-link" href="/contact">Contact Me</a>
           </li>

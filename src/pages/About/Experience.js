@@ -11,6 +11,7 @@ class Experience extends Component {
                     <Row className="d-inline-flex">
                             <h2 className="sectionHeader">Experience</h2>
                     </Row>
+                    <hr/>
                     <div className="jobSection">
                         <div className="sectionContentTitle">
                             <h5>

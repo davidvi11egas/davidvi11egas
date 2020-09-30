@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar';
 import GraphicDesign from "./GraphicDesign";
 import VideoProduction from "./VideoProduction";
 import Creative_NavTabs from "./Creative_NavTabs";
+import Footer from "../../components/Footer";
 
 class Creative extends Component {
 
@@ -43,6 +44,7 @@ class Creative extends Component {
               />
               {this.renderPage()}
             </div>
+            <Footer/>
           </Container>
         
         );
