@@ -72,13 +72,10 @@ class About extends Component {
                             With extensive knowledge in a variety of industries
                             such as web development, marketing, graphic design,
                             and music production, David has the skills needed to
-                            take your any idea and make it into reality. With an
+                            take any idea and make it into reality. With an
                             eye for captivating design, love for technology, and
                             a mind overflowing with creativity; David Villegas
-                            delivers innovation, quality and accuracy in web
-                            development, creative production, and digital
-                            marketing.Never stop learning, because life never
-                            stops teaching.
+                            delivers innovation, quality and accuracy every time.
                         </p>
                     </div>
                 </section>
