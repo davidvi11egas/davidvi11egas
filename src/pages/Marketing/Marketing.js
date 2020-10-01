@@ -43,7 +43,7 @@ class Marketing extends Component {
         <Navbar/>
         <div className="marketingHeader pt-5">
           <h1> Marketing </h1>
-          <hr />
+          <hr className="thickHR" />
         </div>
         <div  className="marketingComponent">
           <NavTabs

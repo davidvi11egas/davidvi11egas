@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from './ContactData';
+import data from '../About/ContactData';
 import './Contact.css';
 import Navbar from "../../components/Navbar";
 import { Container} from "react-bootstrap";
@@ -11,7 +11,7 @@ class Contact extends Component {
         <Navbar />
         <div className="contactHeader pt-5">
           <h1>Contact Me</h1>
-          <hr />
+          <hr className="thickHR"/>
         </div>
           <div className="linkBox">
                   <h4>

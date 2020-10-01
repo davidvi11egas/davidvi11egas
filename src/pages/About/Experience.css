@@ -18,19 +18,20 @@
 }
 .sectionContent {
     text-align: justify;
-    font-size: 1.1em;
 }
 .sectionContentTitle h5 {
-    font-weight: 600;
+    font-weight: 300;
     color: #3e3f41;
 }
 .sectionContent a {
     color: rgb(27, 117, 207);
-    font-weight: 200;
+    font-weight: 400;
 }
 .sectionContentTitle a {
     font-family: poppins, sans-serif;
-    color: rgb(27, 117, 207);
+    /* color: rgb(102, 27, 4); */
+    color: #212629;
+    font-weight: 600;
 
 }
 .sectionContentTitle a:hover {

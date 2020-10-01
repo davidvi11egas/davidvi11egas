@@ -17,7 +17,8 @@
     font-size: 1.1em;
 }
 .skillRow h5 {
-    color: rgb(27, 117, 207);
+    /* color: rgb(27, 117, 207); */
+    color: #212629;
 }
 
 .sectionHeader {

@@ -38,7 +38,7 @@ class About extends Component {
                                 </h2>
                                 <p>
                                     <p>
-                                        <hr />
+                                        <hr  />
                                         My
                                         name is David Villegas, and I’ve created
                                         this page to showcase some of my talent,

@@ -10,14 +10,20 @@ body {
   font-family: poppins, sans-serif;
 }
 
-.pageContent {
+/* .pageContent {
   height: 100%;
   display: inline-block;
   width: 100%;
-}
+} */
 
+.thickHR
+{
+    /* border: 5px solid #212629; */
+    border: 5px solid rgb(27, 117, 207);
+}
 p {
   font-family: poppins, san-serif;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 1.2em;
 }
 

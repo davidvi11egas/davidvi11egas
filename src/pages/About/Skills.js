@@ -9,8 +9,10 @@ class Skills extends Component {
                 <Row lg className="d-inline-flex">
                         <h2 className="sectionHeader">Skills</h2>
                 </Row>
-                <hr/>
+                <hr className="thickHR" />
+                <br/>
                 <Row>
+                
                     <div className="d-flex container justify-content-center skillRow">
                         <Col flex md={3}>
                             <h5>

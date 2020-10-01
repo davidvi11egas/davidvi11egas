@@ -12,7 +12,9 @@
 .photographyBodyText {
     font-family: 'Swanky', monospace;
 }
-
+p {
+  font-weight: 300;
+}
 @media (max-width: 767.98px) {
   /* .marketingHeader{
     padding-top: 30px;

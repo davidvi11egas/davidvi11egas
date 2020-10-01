@@ -9,9 +9,9 @@ var pageStyle = {
 };
 const SeoPPC = () => (
     <Container className="pt-4 p-0">
-        <h2>
+        <h3>
             <strong>SEO & PPC</strong>
-        </h2>
+        </h3>
         <div className="bodyText pb-2 text-justify" id="graphics">
             <p>
             SEO begins under the hood of your website. From Meta tags in your header, to title tags in your body, the structure of your source code MATTERS.   

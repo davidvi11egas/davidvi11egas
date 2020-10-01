@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import Skills from "./Skills.js";
 import Experience from "./Experience.js";
-
+import data from "./ContactData.js";
 class About2 extends Component {
     render() {
         return (
@@ -22,10 +22,14 @@ class About2 extends Component {
                                 </strong>
                             </h1>
                         </div>
-                        <h5>
-                            Digital Marketer | Web Developer | Creative Designer
+                        <hr className="thickHR"/>
+                        <br/>
+                        <div className="mb-3">
+                        <h5><strong>
+                            Digital Marketer . Web Developer . Creative Designer
+                            </strong>
                             </h5>
-                        <hr />
+                            </div>
                         <p id="personalBio">
                             Born in Medellin Colombia, then raised in Central
                             Florida, David Villegas pulls inspiration from the
@@ -41,6 +45,7 @@ class About2 extends Component {
                             marketing.Never stop learning, because life never
                             stops teaching.
                         </p>
+   
                     </Col>
 
                 </Row>

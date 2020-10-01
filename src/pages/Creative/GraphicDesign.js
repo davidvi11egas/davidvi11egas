@@ -7,13 +7,15 @@ import Col from "react-bootstrap/Col";
 const GraphicDesign = () => (
     
     <Container className="pt-4 p-0">
-    <h2><strong>Graphic Design</strong></h2>
+    {/* <h3>Graphic Design</h3> */}
       
         <div className="bodyText pb-2 justify-text" id="graphics">
+        <br/>
           <p>
             Graphic Designs begin as hand drawn sketches. From there, they are converted to vector images using Adobe Illustrator.
             From there, designs are then brought into Adobe Photoshop for any additional editing. 
           </p>
+          <br/>
           <hr />
         </div>
 

@@ -6,13 +6,13 @@
 }
 
 .contactHeader h1 {
-    font-family: 'Open Sans';
+    font-family: poppins, sans-serif;
     font-weight: 800;
   
 }
 
 #contactBox {
-    font-family: 'Bebas Neue';
+    font-family: poppins, sans-serif;
     font-size: 7vh;
     list-style-type:none;
     color: #343A40;
@@ -20,12 +20,6 @@
    
 }
 
-.wavePic {
-    position: absolute;
-    bottom: 0;
-    margin-bottom:0;
-    height: 100%;
-}
 
 .contactBox img {
     padding: 4px;
@@ -33,7 +27,7 @@
 }
 
 .linkBox {
-    text-align: center;
+    text-align: left;
 }
 
 .linkBox a:hover {

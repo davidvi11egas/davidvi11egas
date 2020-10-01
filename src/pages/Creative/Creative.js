@@ -31,11 +31,11 @@ class Creative extends Component {
           <Container>
             <Navbar/>
             <div className="marketingHeader pt-5">
-              <h1>Creative</h1>
+              <h1>Creative Content</h1>
               {/* <h5>
                 With over 5 year 
               </h5> */}
-              <hr />
+              <hr className="thickHR"  />
             </div>
             <div  className="marketingComponent">
               <Creative_NavTabs

@@ -9,11 +9,12 @@ class Videos extends Component {
     render() {
         return (
                 <Container className="pt-4 p-0">
-    <h2><strong>Video Production</strong></h2>
       <div className="bodyText pb-2 text-justify" id="graphics">
+      <br/>
         <p>
-            David has over 10 years of experience in capturing, editing, and implementing videos. With video marketing becoming ever more dominant in digital marketing, it is crucial to have someone on your marketing team with these skills.
+            David has over 8 years of experience in capturing, editing, and implementing videos. With video marketing becoming ever more dominant in digital marketing, it is crucial to have someone on your marketing team with these skills.
         </p>
+        <br/>
         <hr />
       </div>               
                     <Row className="d-flex justify-content-center mt-5">

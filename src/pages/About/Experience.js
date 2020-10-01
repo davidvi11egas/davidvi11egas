@@ -11,7 +11,8 @@ class Experience extends Component {
                     <Row className="d-inline-flex">
                             <h2 className="sectionHeader">Experience</h2>
                     </Row>
-                    <hr/>
+                    <hr className="thickHR"/>
+                    <br/>
                     <div className="jobSection">
                         <div className="sectionContentTitle">
                             <h5>
@@ -25,7 +26,7 @@ class Experience extends Component {
                                     </a>
                                 </strong>
                             </h5>
-                            <h5>Digital Marketing Manager</h5>
+                            <h6><strong>Digital Marketing Manager</strong></h6>
                         </div>
                         <p class="sectionContent">
                             Lead in planning, design, and rollout of company
@@ -40,6 +41,7 @@ class Experience extends Component {
                             pandemic.
                         </p>
                     </div>
+                    <br/>
                     <div className="jobSection">
                         <div className="sectionContentTitle">
                             <h5>
@@ -53,7 +55,7 @@ class Experience extends Component {
                                     </a>
                                 </strong>
                             </h5>
-                            <h5>Digital Marketing Manager</h5>
+                            <h6><strong>Digital Marketing Manager</strong></h6>
                         </div>
                         <p class="sectionContent">
                             During his time as Digital Marketing Manager at the
@@ -80,6 +82,7 @@ class Experience extends Component {
                             Sustainable Touris m campaign.
                         </p>
                     </div>
+                    <br/>
                     <div className="jobSection">
                         <section>
                             <div className="sectionContentTitle">
@@ -94,7 +97,7 @@ class Experience extends Component {
                                         </a>
                                     </strong>
                                 </h5>
-                                <h5>Social Media Marketing Manager</h5>
+                                <h6><strong>Social Media Marketing Manager</strong></h6>
                             </div>
                             <p class="sectionContent">
                                 Utilized Instagram, Facebook, and Twitter to
@@ -107,7 +110,8 @@ class Experience extends Component {
                                 providing high-quality service.
                             </p>
                         </section>
-                    </div>                    
+                    </div>  
+                    <br/>                  
                     <div className="jobSection">
                         <section>
                             <div className="sectionContentTitle">
@@ -122,7 +126,7 @@ class Experience extends Component {
                                         </a>
                                     </strong>
                                 </h5>
-                                <h5>Marketing Manager</h5>
+                                <h6><strong>Marketing Manager</strong></h6>
                             </div>
                             <p class="sectionContent">
                                 Developed content for all social media channels

@@ -5,12 +5,12 @@
 
 
 .profileHeader h1 {
-	font-family: minion-std-black, sans-serif;
+	font-family: poppins, sans-serif;
 	font-weight: 200;
 }
 
 .profileHeader h2 {
-	font-family: minion-pro-display, serif;
+	font-family: poppins, sans-serif;
 	font-style: normal;
 }
 
@@ -37,8 +37,8 @@
 } */
 
 .profileBioText {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.4em;
+	font-family: poppins, sans-serif;
+	/* font-size: 1.4em; */
 	text-align: justify;
 }
 
@@ -102,8 +102,8 @@
 }
 
 #personalBio {
-	font-size: 1.1em;
-	font-weight: 400;
+	/* font-size: 1.1em; */
+	/* font-weight: 400; */
 	text-align: justify;
 }
 #resume h3 {

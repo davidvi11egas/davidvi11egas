@@ -23,7 +23,7 @@ const NavTabs = props => (
         Email Marketing
       </a>
     </li>
-    {/* <li className="nav-item">
+  {/* <li className="nav-item">
       <a
         onClick={() => props.handlePageChange("Blog")}
         className={
@@ -32,8 +32,8 @@ const NavTabs = props => (
       >
         Social Media
       </a>
-    </li>
-    <li className="nav-item">
+    </li> */}
+      {/* <li className="nav-item">
       <a
         onClick={() => props.handlePageChange("Contact")}
         className={
