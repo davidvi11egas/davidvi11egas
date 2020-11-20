@@ -10,7 +10,6 @@ class Home2 extends Component {
                     <span className="nameLine3 a3">Web Development</span>
                     <span className="nameLine4 a4">Creative Content</span>
                 </div>
-    
             </div>
         );
     }
