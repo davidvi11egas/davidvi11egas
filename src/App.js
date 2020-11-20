@@ -13,10 +13,10 @@ import Contact from "./pages/Contact";
 import Photography from "./pages/Photography";
 import Videos from "./pages/Videos";
 import WpLogin from "./pages/WpLogin";
-
+import Navbar from "./components/Navbar";
 const App = () => (
   <Router>   
-
+        <Navbar/>
         {/* <Route exact path="/" component={Home} /> */}
         <Route exact path="/" component={Home2} />
         {/* <Route path="/about" component={About} /> */}

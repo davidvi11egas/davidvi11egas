@@ -35,8 +35,8 @@ class Skills extends Component {
                                 <strong>Marketing</strong>
                             </h5>
                             <ul>
-                                <li>Consultation</li>
-                                <li>Campaign Design</li>
+                                <li>Campaign Management</li>
+                                <li>E-Commerce Management</li>
                                 <li>Google Ads</li>
                                 <li>PPC</li>
                                 <li>Email Marketing</li>
@@ -66,10 +66,10 @@ class Skills extends Component {
 
                         <Col md={3}>
                             <h5>
-                                <strong>Extra</strong>
+                                <strong>Continued</strong>
                             </h5>
                             <ul>
-                                <li>Management</li>                            
+                                <li>Over 5 Years of Management</li>                            
                                 <li>Bilingual (Spanish)</li>
                                 <li>CRMs (HubSpot)</li>
                                 <li>MS Office</li>

@@ -1,18 +1,8 @@
 import React from "react";
-
+import './Marketing.css';
 
 const NavTabs = props => (
   <ul className="nav nav-tabs">
-    {/* <li className="nav-item">
-      <a
-        onClick={() => props.handlePageChange("Home")}
-        className={
-          props.currentPage === "Home" ? "nav-link active" : "nav-link"
-        }
-      >
-        SEO & PPC
-      </a>
-    </li> */}
     <li className="nav-item">
       <a
         onClick={() => props.handlePageChange("About")}
@@ -23,7 +13,7 @@ const NavTabs = props => (
         Email Marketing
       </a>
     </li>
-  {/* <li className="nav-item">
+    <li className="nav-item">
       <a
         onClick={() => props.handlePageChange("Blog")}
         className={
@@ -32,8 +22,8 @@ const NavTabs = props => (
       >
         Social Media
       </a>
-    </li> */}
-      {/* <li className="nav-item">
+    </li>
+    {/* <li className="nav-item">
       <a
         onClick={() => props.handlePageChange("Contact")}
         className={
