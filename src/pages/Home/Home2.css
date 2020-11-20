@@ -121,7 +121,7 @@
     .videoHolder {
         margin-bottom: 0%;
         padding: 0%;
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .cover {
@@ -137,6 +137,6 @@
         color: #fff;
         font-size: 9.5rem;
         font-family: Bebas Neue;
-        height: 100vh;
+        /* height: 100vh; */
     }
 }

@@ -17,15 +17,7 @@ const NavBar = (props) => (
         </button>
         <div className="collapse navbar-collapse" id="navbarContent">
             <Container className="justify-content-lg-center bg-white p-0">
-                {/* <NavbarBrand href="/">
-      <img
-        src={"https://dvdvllgsbuck201803-dvdeng.s3.us-east-2.amazonaws.com/dvLogo.png"}
-        width="25px"
-        height="25px"
-        className="d-inline-block align-top"
-        alt="David_Villegas_icon"
-      />
-    </NavbarBrand> */}
+
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <a className="nav-link" href="/">
@@ -59,7 +51,7 @@ const NavBar = (props) => (
                         <a
                             className="nav-link"
                             // href="/contact"
-                            href={`mailto:${'davidvillegas627@gmail.com'}`}
+                            href={`mailto:${'david.v.resume@gmail.com'}`}
                            
                         >
                             Send Me an Email

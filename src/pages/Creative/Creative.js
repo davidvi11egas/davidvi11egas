@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import "./Creative.css";
 import { Container, Card, CardColumns, Col } from "react-bootstrap";
-import Navbar from '../../components/Navbar';
 import GraphicDesign from "./GraphicDesign";
 import VideoProduction from "./VideoProduction";
 import Photography from "./Photography";
 import Creative_NavTabs from "./Creative_NavTabs";
-import Footer from "../../components/Footer";
 
 class Creative extends Component {
 
@@ -35,9 +33,6 @@ class Creative extends Component {
             {/* <Navbar/> */}
             <div className="marketingHeader pt-5">
               <h1>Creative Content</h1>
-              {/* <h5>
-                With over 5 year 
-              </h5> */}
               <hr className="thickHR"  />
             </div>
             <div  className="marketingComponent">
@@ -46,6 +41,11 @@ class Creative extends Component {
                 handlePageChange={this.handlePageChange}
               />
               {this.renderPage()}
+            </div>
+            <div>
+              <br/>
+              <br/>
+              <br/>
             </div>
           </Container>
         

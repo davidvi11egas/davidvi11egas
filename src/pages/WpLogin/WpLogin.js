@@ -17,5 +17,4 @@ class WpLogin extends Component {
     );
   }
 }
-
 export default WpLogin;
