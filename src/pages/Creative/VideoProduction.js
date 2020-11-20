@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Navbar from "../../components/Navbar";
 
+
 class Videos extends Component {
     render() {
         return (
@@ -17,7 +18,7 @@ class Videos extends Component {
         <br/>
         <hr />
       </div>               
-                    <Row className="d-flex justify-content-center mt-5">
+                    <Row className="d-flex  mt-5">
                         <Col sm={8}>
                             <ReactPlayer
                                 url="https://youtu.be/N3YUDcv4ctY"
@@ -25,7 +26,34 @@ class Videos extends Component {
                                 width="100%"
                             />
                         </Col>
-                        <Col md="auto" className="pt-3">
+                        <Col>
+                            <p className="justify-text-justify">
+                                <h5 id="movaGlobeText">
+                                    This clip was filmed in collaboration with{" "}
+                                    <a href="https://www.instagram.com/enjillneer" target="_blank">
+                                        {" "}
+                                        Enjillneer{" "}
+                                    </a>
+                                    for{" "}
+                                    <a href="https://www.movaglobes.com/stayhomesciencefair" target="_blank">
+                                        {" "}
+                                        Mova Globe's Stay Home Science Fair.
+                                    </a>
+                                    This video was filmed on an iPhone and Dji Phantom Drone. 
+                                    Post production was completed in Adobe Premiere Pro
+                                </h5>
+                            </p>
+                        </Col>
+                    </Row>
+                    <Row className="d-flex  mt-5">
+                        <Col sm={8}>
+                            <ReactPlayer
+                                url="https://youtu.be/V1fE_iiI4bo"
+                                controls
+                                width="100%"
+                            />
+                        </Col>
+                        {/* <Col md="auto" className="pt-3">
                             <p>
                                 <h5 id="movaGlobeText">
                                     This clip was filmed in collaboration with{" "}
@@ -40,8 +68,8 @@ class Videos extends Component {
                                     </a>
                                 </h5>
                             </p>
-                        </Col>
-                    </Row>
+                        </Col> */}
+                    </Row>                    
             </Container>
         );
     }

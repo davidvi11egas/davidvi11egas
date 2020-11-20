@@ -40,7 +40,7 @@ class Marketing extends Component {
   render() {
     return (
       <Container id="marketing">
-        <Navbar/>
+        {/* <Navbar/> */}
         <div className="marketingHeader pt-5">
           <h1> Marketing </h1>
           <hr className="thickHR" />

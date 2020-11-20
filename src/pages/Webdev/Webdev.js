@@ -8,7 +8,7 @@ class Webdev extends Component {
     render() {
         return (
             <Container>
-                <Navbar />
+                {/* <Navbar /> */}
                 <div className="webDevHeader pt-5">
                     <h1> Web Development </h1>
                     <hr className="thickHR" />

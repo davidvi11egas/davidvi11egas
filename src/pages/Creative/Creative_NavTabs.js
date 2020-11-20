@@ -22,6 +22,16 @@ const Creative_NavTabs = props => (
         Video Production
       </a>
     </li>
+    <li className="nav-item">
+      <a
+        onClick={() => props.handlePageChange("Photography")}
+        className={
+          props.currentPage === "Photography" ? "nav-link active" : "nav-link"
+        }
+      >
+        Photography
+      </a>
+    </li>
    
   </ul>
 );

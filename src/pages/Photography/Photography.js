@@ -9,20 +9,20 @@ class Photography extends Component {
   render() {
     return (
       <Container>
-        <Navbar />
-        <div className="photographyHeader pt-5">
+        {/* <div className="photographyHeader pt-5">
           <h1>Photography</h1>
-          <h6>
-            <a href="/creative">
-              Back to the creative page
-            </a>
-          </h6>
         </div>
-        <hr />
+        <hr /> */}
         <div>
-        <h5 id="photoPageBlurb">
-            The following photos were modified with Photoshop and Lightroom
-          </h5>
+
+          <div className="bodyText pb-2 justify-text" id="graphics">
+        <br/>
+          <p>
+          The following photos were modified with Photoshop and Lightroom
+          </p>
+          <br/>
+          <hr />
+        </div>
         <Card style={{ width: "inherit" }} border="light">
             <Card.Img
               variant="top"
@@ -67,12 +67,8 @@ class Photography extends Component {
           </Card>
         </div>
         <hr />
-        <div className="text-center backToCreativeLink" >
-          <a href="/creative">
-            Back to the creative page
-          </a>
-        </div>
-        <Footer />
+
+        {/* <Footer /> */}
       </Container>
     );
   }

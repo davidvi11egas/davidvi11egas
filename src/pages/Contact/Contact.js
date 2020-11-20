@@ -8,7 +8,7 @@ class Contact extends Component {
     render() {
         return (
             <Container>
-                <Navbar />
+                {/* <Navbar /> */}
                 <div className="contactHeader pt-5">
                     <h1>Contact Me</h1>
                     <hr className="thickHR" />

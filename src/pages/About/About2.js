@@ -10,7 +10,7 @@ class About2 extends Component {
     render() {
         return (
             <Container>
-                <Navbar />
+                {/* <Navbar /> */}
     
                 <Row>
                     {/* <div id="resume"></div> */}

@@ -4,6 +4,7 @@ import { Container, Card, CardColumns, Col } from "react-bootstrap";
 import Navbar from '../../components/Navbar';
 import GraphicDesign from "./GraphicDesign";
 import VideoProduction from "./VideoProduction";
+import Photography from "./Photography";
 import Creative_NavTabs from "./Creative_NavTabs";
 import Footer from "../../components/Footer";
 
@@ -20,8 +21,10 @@ class Creative extends Component {
       renderPage = () => {
         if (this.state.currentPage === "GraphicDesign") {
           return <GraphicDesign />;
-        } else if (this.state.currentPage === "VideoProduction") {
+        } else if  (this.state.currentPage === "VideoProduction") {
           return <VideoProduction />;
+        } else if (this.state.currentPage === "Photography") {
+          return <Photography />;
         } else {
           return <GraphicDesign />;
         }
@@ -29,7 +32,7 @@ class Creative extends Component {
       render() {
         return (
           <Container>
-            <Navbar/>
+            {/* <Navbar/> */}
             <div className="marketingHeader pt-5">
               <h1>Creative Content</h1>
               {/* <h5>
@@ -44,7 +47,6 @@ class Creative extends Component {
               />
               {this.renderPage()}
             </div>
-            <Footer/>
           </Container>
         
         );

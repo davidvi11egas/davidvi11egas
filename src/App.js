@@ -14,6 +14,7 @@ import Photography from "./pages/Photography";
 import Videos from "./pages/Videos";
 import WpLogin from "./pages/WpLogin";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 const App = () => (
   <Router>   
         <Navbar/>
@@ -29,6 +30,7 @@ const App = () => (
         <Route path="/marketing" component={Marketing} />
         <Route path="/contact" component={Contact} />
         <Route path="/wp-admin" component={WpLogin}/>
+        <Footer/>
   </Router>
  
 );

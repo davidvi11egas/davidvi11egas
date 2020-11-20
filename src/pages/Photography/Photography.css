@@ -1,9 +1,7 @@
 .photographyHeader {
     font-family: 'Open Sans', sans-serif;
 }
-.photographyHeader h1 {
-    font-weight: 800;
-}
+
 
 .photographyHeader a:hover {
     text-decoration: none;
