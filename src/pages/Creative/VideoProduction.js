@@ -28,7 +28,7 @@ class Videos extends Component {
                         </Col>
                         <Col>
                             <p className="justify-text-justify">
-                                <h5 id="movaGlobeText">
+                            
                                     This clip was filmed in collaboration with{" "}
                                     <a href="https://www.instagram.com/enjillneer" target="_blank">
                                         {" "}
@@ -41,7 +41,7 @@ class Videos extends Component {
                                     </a>
                                     This video was filmed on an iPhone and Dji Phantom Drone. 
                                     Post production was completed in Adobe Premiere Pro
-                                </h5>
+                              
                             </p>
                         </Col>
                     </Row>
@@ -52,6 +52,13 @@ class Videos extends Component {
                                 controls
                                 width="100%"
                             />
+                        </Col>
+                        <Col>
+                            <div>
+                                <p>
+                                    This video was made for <a href="https://www.laserphotonics.com" target="_blank">Laser Photonics Corporation</a> in Orlando Florida
+                                </p>
+                            </div>
                         </Col>
                         {/* <Col md="auto" className="pt-3">
                             <p>
