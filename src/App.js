@@ -15,7 +15,7 @@ const App = () => (
   <Router>   
         <Navbar/>
         <Route exact path="/" component={Home2} />
-        <Route path="/about" component={About2} />
+        <Route path="/resume" component={About2} />
         <Route path="/creative" component={Creative} />
         <Route path="/webDev" component={Webdev} />
         <Route path="/marketing" component={Marketing} />
