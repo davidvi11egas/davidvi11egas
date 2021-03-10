@@ -2,16 +2,48 @@ import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
 import "./Experience.css";
 
-
 class Experience extends Component {
     render() {
         return (
             <section className="experience" id="resume">
                 <div className="mainContent">
                     <Row className="d-inline-flex">
-                            <h2 className="sectionHeader">Experience</h2>
+                        <h2 className="sectionHeader">Experience</h2>
                     </Row>
-                    <hr className="thickHR"/>
+                    <hr className="thickHR" />
+                    <br />
+                    <div className="jobSection">
+                        <div className="sectionContentTitle">
+                            <h5>
+                                <strong>
+                                    <a
+                                        href="https://laserphotonics.com/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Laser Photonics Corp.
+                                    </a>
+                                </strong>
+                            </h5>
+                            <h6>
+                                <strong>
+                                    SEO Expert & Full Stack Developer
+                                </strong>
+                            </h6>
+                        </div>
+                        <p class="sectionContent">
+                            as a freelance SEO specialist with Laser Photonics
+                            Corporation. In addition to updating our website, I
+                            also edit and optimize older pages to boost SEO
+                            scores and create a better user experience. In
+                            addition to web development and SEO, I also take and
+                            edit product images and videos to be used on our
+                            website, YouTube, and social media channels. I also
+                            film and photograph samples sent in by clients to
+                            help the sales team close deals. I also created our
+                            marketing plan and budget for the 2021 fiscal year.
+                        </p>
+                    </div>
                     <br/>
                     <div className="jobSection">
                         <div className="sectionContentTitle">
@@ -26,7 +58,9 @@ class Experience extends Component {
                                     </a>
                                 </strong>
                             </h5>
-                            <h6><strong>Digital Marketing Manager</strong></h6>
+                            <h6>
+                                <strong>Digital Marketing Manager</strong>
+                            </h6>
                         </div>
                         <p class="sectionContent">
                             Lead in planning, design, and rollout of company
@@ -41,7 +75,7 @@ class Experience extends Component {
                             pandemic.
                         </p>
                     </div>
-                    <br/>
+                    <br />
                     <div className="jobSection">
                         <div className="sectionContentTitle">
                             <h5>
@@ -55,7 +89,9 @@ class Experience extends Component {
                                     </a>
                                 </strong>
                             </h5>
-                            <h6><strong>Digital Marketing Manager</strong></h6>
+                            <h6>
+                                <strong>Digital Marketing Manager</strong>
+                            </h6>
                         </div>
                         <p class="sectionContent">
                             During his time as Digital Marketing Manager at the
@@ -82,7 +118,7 @@ class Experience extends Component {
                             Sustainable Touris m campaign.
                         </p>
                     </div>
-                    <br/>
+                    <br />
                     <div className="jobSection">
                         <section>
                             <div className="sectionContentTitle">
@@ -97,7 +133,11 @@ class Experience extends Component {
                                         </a>
                                     </strong>
                                 </h5>
-                                <h6><strong>Social Media Marketing Manager</strong></h6>
+                                <h6>
+                                    <strong>
+                                        Social Media Marketing Manager
+                                    </strong>
+                                </h6>
                             </div>
                             <p class="sectionContent">
                                 Utilized Instagram, Facebook, and Twitter to
@@ -110,8 +150,8 @@ class Experience extends Component {
                                 providing high-quality service.
                             </p>
                         </section>
-                    </div>  
-                    <br/>                  
+                    </div>
+                    <br />
                     <div className="jobSection">
                         <section>
                             <div className="sectionContentTitle">
@@ -126,7 +166,9 @@ class Experience extends Component {
                                         </a>
                                     </strong>
                                 </h5>
-                                <h6><strong>Marketing Manager</strong></h6>
+                                <h6>
+                                    <strong>Marketing Manager</strong>
+                                </h6>
                             </div>
                             <p class="sectionContent">
                                 Developed content for all social media channels

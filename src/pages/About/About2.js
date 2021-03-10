@@ -23,11 +23,12 @@ class About2 extends Component {
                         </div>
                         <hr className="thickHR"/>
                         <br/>
-                        <div className="mb-3">
-                        <h5><strong>
+                        <div className="">
+                        {/* <h5><strong>
                             Digital Marketer . Web Developer . Creative Designer
                             </strong>
-                            </h5>
+                            </h5> */}
+                           
                             </div>
                         <p id="personalBio">
                             Born in Medellin Colombia, then raised in Central

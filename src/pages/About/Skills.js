@@ -19,7 +19,7 @@ class Skills extends Component {
                                 <strong>Web Development</strong>
                             </h5>
                             <ul>
-                                <li>HTML5, CSS, & Bootstrap</li>
+                                <li>HTML, CSS, & Bootstrap</li>
                                 <li>Javascript</li>
                                 <li>WordPress</li>
                                 <li>Node.js</li>
